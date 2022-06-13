@@ -1,0 +1,1013 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/*HEADER GENERAL*/
+#header{
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#header .log-in-flex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-decoration: none;
+}
+#header .log-in-flex a{
+    text-decoration: none;
+}
+#header-videos .log-in-flex-videos{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.log-in{
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Poppins', sans-serif;
+    transition:  0.5s;
+}
+.log-in:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+.nav-header ul li a:hover{
+    background-color: transparent;
+    box-shadow: 1px 1px 5px 1px white;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.shop-logos-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.logo-linkin-header{
+    width: 100px;
+    padding: 5px;
+    filter: invert(100%);
+}
+.nav-header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logos-header a{
+    margin: 5px;
+}
+.logos-header-videos a{
+    margin: 5px;
+}
+.logos-header-videos{
+   position: absolute;
+   top: 550px;
+   left: 1150px;
+}
+.nav-header ul li a{
+    padding: 5px 15px 5px 20px;
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 3px black;
+    transition: 0.6s;
+}
+.nav-header ul{
+    margin-top: 20px;
+}
+#title .shop-div:hover{
+    background-color: rgba(0, 33, 104, 0.438);
+}
+#title-shop .shop-div:hover{
+    background-color: rgba(0, 33, 104, 0.438);
+}
+#title .shop-div a{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px;
+}
+#title .shop-div a h6{
+    margin-top: 10px;
+}
+#title .shop-div {
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 12px;
+}
+#title .shop-div a h6{
+    font-size: 25px;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: white;
+}
+#title .shop-logos-flex{
+    position: absolute;
+    width: 97%;
+    top: 75%;
+}
+#title .shop-div a img{
+    width: 35px;
+    filter: invert(100%);
+}
+
+#title h1{
+    text-align: center;
+    margin-top: 110px;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/*HEADER GENERAL*/
+/*MAIN INDEX*/
+#background-header-index{
+    background-image: url(../Imagenes/linkin-park-fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -180px;
+    height: 100vh; 
+}
+
+#background-header-members .logos-header{
+    position: absolute;
+    left: 1150px;
+    top: 550px;
+}
+#background-header-history .logos-header{
+    position: absolute;
+    left: 1150px;
+    top: 550px;
+}
+#background-header-discography .logos-header{
+    position: absolute;
+    left: 1150px;
+    top: 550px;
+}
+
+#main-index{
+    background: radial-gradient(rgb(56, 56, 56), rgb(3, 3, 3));
+    text-align: center;
+    overflow-x: hidden;
+}
+#main-index .biography{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#main-index h2{
+    text-align: center;
+    color: rgb(228, 228, 228);
+    padding: 60px;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+}
+#main-index article{
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    background:linear-gradient(90deg, rgb(209, 208, 208), rgb(190, 190, 190));
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 5px 5px 5px black;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px 20px 20px;
+}
+#main-index h2{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.biography img{
+    width: 540px;
+    box-shadow: 5px 5px 5px black;
+}
+.img-biography{
+    text-align: center;
+    padding: 50px;
+}
+.img-biography img{
+    width: 500px;
+    filter: invert(70%);
+}
+
+/*MAIN INDEX*/
+/*MAIN HISTORY*/
+#background-header-history{
+    background-image: url(../Imagenes/fondo-history.png);
+    background-blend-mode: darken;
+    background-color: rgba(24, 24, 24, 0.35);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;  
+} 
+#main-history{
+    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    text-align: center;
+    padding: 100px 100px 20px 100px;
+    overflow-x: hidden;
+
+}
+#main-history article{
+    text-align: center;
+}
+#main-history article{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(230, 230, 230);
+    line-height: 35px;
+    font-weight: 300;
+    font-size: 18px;
+
+    
+}
+#main-history article img{
+    max-width: 80%;
+}
+#main-history article .light{
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+}
+#main-history article .darker{
+    width: 500px;
+    padding: 25px;
+}
+#main-history article .xero1{
+    width: 500px;
+
+}
+#main-history article .xero-cover{
+    width: 450px;
+
+    
+}
+#main-history article .chester{
+    width: 100vh;
+
+    
+}
+#main-history article .chester2{
+    width: 700px;
+    
+
+    
+}
+#main-history article .flex-history-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+}
+
+/*MAIN HISTORY*/
+/*MAIN MEMBERS*/
+#main-members{
+    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+}
+#main-members .article-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+    padding-top: 100px;
+}
+.article-flex article{
+    width: 500px;
+    text-align: left;
+}
+#background-header-members{
+    background-image: url(../Imagenes/linkin-park-biography.jpg);
+    background-color: rgba(0, 0, 0, 0.281);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;  
+} 
+#main-members{
+    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(214, 214, 214);
+}
+#main-members .nav-main{
+    width: 100%;
+    margin-bottom: 150px;
+}
+#main-members .nav-main ul li{
+    display: inline-block;
+}
+#main-members .nav-main ul li a{
+    padding: 30px;
+    color: rgb(231, 231, 231);
+    font-family: 'Koulen', cursive;
+    letter-spacing: 2px;
+}
+.arrow{
+    filter: invert(100%);
+    width: 10px;
+}
+.table{
+    color: rgb(214, 214, 214);
+    text-align: left;
+    margin-left: 90px;
+}
+.table tr th{
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+
+#chester h2{
+    font-size: 50px;
+    margin: 200px 0px 40px 0px;
+}
+#mike h2{
+    font-size: 50px;
+    margin: 200px 0px 40px 0px;
+}
+#rob h2{
+    font-size: 50px;
+    margin: 200px 0px 40px 0px;
+}
+#dave h2{
+    font-size: 50px;
+    margin: 200px 0px 40px 0px;
+}
+#joe h2{
+    font-size: 50px;
+    margin: 200px 0px 40px 0px;
+}
+#brad h2{
+    font-size: 50px;
+    margin: 200px 0px 40px 0px;
+}
+/*MAIN MEMBERS*/
+/*MAIN DISCOGRAPHY*/
+#main-discography{
+    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+#background-header-discography{
+    background-image: url(../Imagenes/linkinpark-meteora.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;  
+} 
+#main-discography{
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-discography h2{
+    font-size: 50px;
+    padding: 20px;
+}
+#main-discography{
+    color: rgb(231, 230, 230);
+}
+#main-discography p{
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.albums-flex{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+    margin: 50px;
+}
+#main-discography .albums p a{
+    color: rgb(134, 134, 134);
+}
+#table a{
+    color: rgb(134, 134, 134);
+}
+.albums{
+    margin: 50px;
+}
+/*MAIN DISCOGRAPHY*/
+/*MAIN VIDEOS*/
+#title-shop div a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#title-shop div a h6{
+    font-size: 25px;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+#title-shop div a img{
+    width: 35px;
+    filter: invert(100%);
+
+}
+#title-shop div{
+    background-color: rgba(0, 0, 0, 0.548);
+    position: relative;
+    bottom: 95px;
+    left: 60px;
+    width: 150px;
+    padding: 10px;
+    
+}
+video{
+    position: relative;
+    z-index: -1;
+    bottom: 60px;
+}
+#header-videos{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    bottom: 750px;
+}
+
+
+#title-videos h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+}
+
+
+
+#main-videos{
+    background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
+    text-align: center;
+    position: relative;
+    padding: 100px;
+}
+#main-videos h2{
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+}
+#main-videos iframe{
+    margin-bottom: 100px;
+
+}
+#background-header-videos{
+    height: 100vh; 
+}
+video{
+    width: 100%;
+}
+
+
+
+/*MAIN VIDEOS*/
+/*FOOTER GENERAL*/
+#footer{
+    background-color: black;
+    height: 400px;
+}
+#footer p{
+    text-align: center;
+    color: #888;
+}
+.gif-footer{
+    text-align: center;
+}
+.gif-footer img{
+    width: 100px;
+    margin: 50px;
+}
+
+.icon-facebook-footer, .icon-twitter-footer, .icon-instagram-footer, .icon-youtube-footer{
+    filter: invert(100%);
+    width: 30px;
+}
+.nav-footer-top{
+    text-align: center;
+}
+.nav-footer-top ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-footer-top ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-footer-bottom{
+    text-align: center;
+}
+.nav-footer-bottom ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.nav-footer-bottom ul li{
+    color: rgb(105, 105, 105);
+    font-family: 'Koulen', cursive;
+
+}
+.nav-footer-bottom ul li a{
+    color: rgb(201, 198, 198);
+    text-decoration: none;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.nav-footer-bottom p{
+    font-family: 'Koulen', cursive;
+    margin-top: 50px;
+}
+/*FOOTER GENERAL*/
+
+/*MEDIAS QUERYS
+
+@media screen and (max-width:1255px){
+    .container-img{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
+#main-discography .albums .albums-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#main-discography .albums p{
+    font-size: 25px;
+    text-align: left;
+}
+#title h1{
+    width: 100%;
+    font-size: 50px;
+}
+    #main-members .nav-main ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    #main-members .nav-main ul li a{
+        font-size: 30px;
+    }
+    #main-history article .flex-history-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+        align-items: center;
+        align-content: center;
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container-img .box-img img{
+        height: 100%;
+        max-width: 300px;
+    }
+    #header .nav-header {
+        display: none;
+    }
+    #background-header-index{
+        background-image: url(../Imagenes/shop/3530527.jpg);
+        background-size: 135%;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.493);
+        background-position-y: -200px;
+    }
+    #title .logos-header{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 85%;
+        left: 70%;
+    }
+    #title .shop-div {
+        position: absolute;
+        top: 83%;
+        left: 7%;
+        width: 150px;
+        padding: 10px;
+    }
+    #footer .nav-footer-bottom ul li a{
+        display: none;
+    }
+    .log-in-flex{
+        position: absolute;
+        left: 60%;
+        top: 5%;
+    }
+    #title .shop-div {
+        position: absolute;
+        top: 85%;
+        left: 7%;
+        width: 150px;
+        padding: 10px;
+    }
+    .logo-linkin-header{
+        position: absolute;
+        right: 60%;
+    }
+    #main-index .biography img{
+        width: 500px;
+        margin: 30px;
+    }
+    #main-index .biography article{
+        width: 500px;
+        margin: 30px;
+    }
+    #main-history{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #main-history article .chester{
+        width: 100%;
+    }
+    #main-history article img{
+        width: 100%;
+    }
+    .logos-header-videos{
+        position: absolute;
+        left: 250px;
+        top: 400px;
+        z-index: 1000;
+    }
+    #background-header-videos video{
+        display: none;
+    }
+    #background-header-videos{
+        background-image: url(../Imagenes/shop/3530527.jpg);
+    }
+    #main-videos iframe{
+        width: 200px;
+        height: 100px;
+    }
+    #main-videos h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    #title-videos h1{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .container-img{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #main-index h2{
+        font-size: 30px;
+    }
+    #main-discography .albums .albums-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #main-discography .albums p{
+        font-size: 25px;
+        text-align: left;
+    }
+    #title h1{
+        width: 100%;
+        font-size: 50px;
+    }
+    #main-members .nav-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-img .box-img img{
+        height: 350px;
+        max-width: 350px;
+    }
+    #header .nav-header {
+        display: none;
+    }
+    #background-header-index{
+        background-image: url(/Imagenes/shop/3530527.jpg);
+        background-size: 135%;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.493);
+        background-position-y: -200px;
+    }
+    #title .shop-div {
+        position: absolute;
+        top: 95%;
+        left: 7%;
+        width: 150px;
+        padding: 10px;
+    }
+    .img-biography img{
+        width: 200px;
+    }
+
+    #footer .nav-footer-bottom ul li a{
+        display: none;
+    }
+    .logo-linkin-header{
+        position: absolute;
+        right: 70%;
+    }
+    #main-index .biography img{
+        width: 300px;
+    }
+    #main-history article img{
+        width: 100%;
+    }
+    #main-discography .albums .albums-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #main-discography .albums .albums-flex img{
+        width: 290px;
+    }
+    #main-discography .albums .albums-flex iframe{
+        width: 290px; 
+    }
+    #main-discography .albums p{
+        font-size: 15px;
+        text-align: left;
+    }
+    #main-discography .albums h2{
+        font-size: 30px;
+        text-align: left;
+    }
+    #title h1{
+        width: 100%;
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .logo-linkin-header{
+        position: relative;
+        left: 1%;
+    }
+    .logo-linkin-header{
+        position: absolute;
+        right: 60%;
+    }
+    #title .logos-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 85%;
+        bottom: 20%;
+        left: 70%;
+    }
+ .log-in-flex{
+        position: absolute;
+        left: 35%;
+        top: 5%;
+    }
+    .logos-header-videos{
+        position: absolute;
+        left: 250px;
+        top: 400px;
+        z-index: 1000;   
+    }
+    #background-header-videos video{
+        display: none;
+    }
+    #background-header-videos{
+        background-image: url(../Imagenes/shop/3530527.jpg);
+    }
+    #main-videos iframe{
+        width: 200px;
+        height: 100px;
+    }
+    #main-videos h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    #title-videos h1{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+}
+@media screen and (max-width:320px){
+    .container-img{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #main-discography .albums .albums-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #main-discography .albums .albums-flex img{
+        width: 290px;
+    }
+    #main-discography .albums .albums-flex iframe{
+        width: 290px; 
+    }
+    #main-discography .albums p{
+        font-size: 15px;
+        text-align: left;
+    }
+    #main-discography .albums h2{
+        font-size: 30px;
+        text-align: left;
+    }
+    #title h1{
+        width: 100%;
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    #main-members .nav-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-img .box-img img{
+        height: 350px;
+        max-width: 350px;
+    }
+    #header .nav-header {
+        display: none;
+    }
+    #background-header-index{
+        background-size: 135%;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.493);
+        background-position-y: -200px;
+    }
+    #title .shop-div {
+        position: absolute;
+        top: 95%;
+        left: 7%;
+        width: 150px;
+        padding: 10px;
+    }
+    #footer .nav-footer-bottom ul li a{
+        display: none;
+    }
+    .logo-linkin-header{
+        position: relative;
+        left: 5%;
+    }
+   
+    #main-index 
+    #main-history article img{
+        width: 100%;
+    }
+    .container-img{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
+    #main-members .nav-main ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    #main-members .nav-main ul li a{
+        font-size: 30px;
+    }
+    #main-history article .flex-history-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+        align-items: center;
+        align-content: center;
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container-img .box-img img{
+        height: 100%;
+        max-width: 300px;
+    }
+    #header .nav-header {
+        display: none;
+    }
+    #background-header-index{
+        background-image: url(../Imagenes/shop/3530527.jpg);
+        background-size: 135%;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.493);
+        background-position-y: -200px;
+    }
+    #title .logos-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 85%;
+        bottom: 20%;
+        left: 70%;
+    }
+    #title .shop-div {
+        position: absolute;
+        top: 83%;
+        left: 7%;
+        width: 150px;
+        padding: 10px;
+    }
+    #footer .nav-footer-bottom ul li a{
+        display: none;
+    }
+    .log-in-flex{
+        position: absolute;
+        left: 35%;
+        top: 5%;
+    }
+    #title .shop-div {
+        position: absolute;
+        top: 85%;
+        left: 7%;
+        width: 150px;
+        padding: 10px;
+    }
+    .logo-linkin-header{
+        position: absolute;
+        right: 60%;
+    }
+    #main-index .biography img{
+        width: 200px;
+        margin: 30px;
+    }
+    #main-index .biography article{
+        width: 500px;
+        margin: 30px;
+    }
+    #main-history{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #main-history article .chester{
+        width: 100%;
+    }
+    #main-history article img{
+        width: 100%;
+    }
+    .logos-header-videos{
+        position: absolute;
+        left: 250px;
+        top: 400px;
+        z-index: 1000;
+    }
+    #background-header-videos video{
+        display: none;
+    }
+    #background-header-videos{
+        background-image: url(../Imagenes/shop/3530527.jpg);
+    }
+    #main-videos iframe{
+        width: 200px;
+        height: 100px;
+    }
+    #main-videos h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    #title-videos h1{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+}
+/*MEDIAS QUERYS*/
