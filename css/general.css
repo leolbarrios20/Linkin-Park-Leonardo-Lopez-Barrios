@@ -83,9 +83,6 @@
     text-shadow: 2px 2px 3px black;
     transition: 0.6s;
 }
-.nav-header ul{
-    margin-top: 20px;
-}
 #title .shop-div:hover{
     background-color: rgba(0, 33, 104, 0.438);
 }
@@ -99,6 +96,9 @@
     justify-content: space-around;
     text-decoration: none;
     padding: 10px;
+}
+#title h1{
+    margin-bottom: 265px;
 }
 #title .shop-div a h6{
     margin-top: 10px;
@@ -145,21 +145,9 @@
     height: 100vh; 
 }
 
-#background-header-members .logos-header{
-    position: absolute;
-    left: 1150px;
-    top: 550px;
-}
-#background-header-history .logos-header{
-    position: absolute;
-    left: 1150px;
-    top: 550px;
-}
-#background-header-discography .logos-header{
-    position: absolute;
-    left: 1150px;
-    top: 550px;
-}
+
+
+
 
 #main-index{
     background: radial-gradient(rgb(56, 56, 56), rgb(3, 3, 3));
@@ -221,7 +209,7 @@
 #main-history{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
-    padding: 100px 100px 20px 100px;
+    padding: 100px 50px 20px 50px;
     overflow-x: hidden;
 
 }
@@ -291,6 +279,7 @@
     align-items: center;
     align-content: flex-end;
     padding-top: 100px;
+    gap: 25px;
 }
 .article-flex article{
     width: 500px;
@@ -316,14 +305,21 @@
     width: 100%;
     margin-bottom: 150px;
 }
+#main-members .nav-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 #main-members .nav-main ul li{
-    display: inline-block;
+    text-align: center;
 }
 #main-members .nav-main ul li a{
     padding: 30px;
     color: rgb(231, 231, 231);
     font-family: 'Koulen', cursive;
     letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
 }
 .arrow{
     filter: invert(100%);
@@ -332,7 +328,6 @@
 .table{
     color: rgb(214, 214, 214);
     text-align: left;
-    margin-left: 90px;
 }
 .table tr th{
     font-size: 17px;
@@ -370,17 +365,16 @@
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
     padding: 10px 20px 10px 20px;
+    font-family: 'Poppins', sans-serif;
 }
 #background-header-discography{
     background-image: url(../Imagenes/linkinpark-meteora.jpg);
+    background-blend-mode: darken;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;  
+    height: 100vh;
 } 
-#main-discography{
-    font-family: 'Poppins', sans-serif;
-}
 
 #main-discography h2{
     font-size: 50px;
@@ -393,8 +387,6 @@
     text-align: center;
     padding: 15px;
 }
-
-
 
 .albums-flex{
     justify-content: space-evenly;
@@ -595,6 +587,10 @@ video{
         align-items: center;
         align-content: center;
     }
+    #main-history article .flex-history-img img{
+        width: 100%;
+     
+    }
     #header {
         display: flex;
         flex-direction: column;
@@ -730,13 +726,7 @@ video{
         background-color: rgba(0, 0, 0, 0.493);
         background-position-y: -200px;
     }
-    #title .shop-div {
-        position: absolute;
-        top: 95%;
-        left: 7%;
-        width: 150px;
-        padding: 10px;
-    }
+
     .img-biography img{
         width: 200px;
     }
@@ -744,10 +734,7 @@ video{
     #footer .nav-footer-bottom ul li a{
         display: none;
     }
-    .logo-linkin-header{
-        position: absolute;
-        right: 70%;
-    }
+
     #main-index .biography img{
         width: 300px;
     }
@@ -778,34 +765,11 @@ video{
         font-size: 40px;
         letter-spacing: 5px;
     }
-    .logo-linkin-header{
-        position: relative;
-        left: 1%;
-    }
-    .logo-linkin-header{
-        position: absolute;
-        right: 60%;
-    }
-    #title .logos-header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        top: 85%;
-        bottom: 20%;
-        left: 70%;
-    }
- .log-in-flex{
-        position: absolute;
-        left: 35%;
-        top: 5%;
-    }
-    .logos-header-videos{
-        position: absolute;
-        left: 250px;
-        top: 400px;
-        z-index: 1000;   
-    }
+  
+
+
+ 
+    
     #background-header-videos video{
         display: none;
     }
@@ -862,31 +826,14 @@ video{
         height: 350px;
         max-width: 350px;
     }
-    #header .nav-header {
-        display: none;
-    }
-    #background-header-index{
-        background-size: 135%;
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.493);
-        background-position-y: -200px;
-    }
-    #title .shop-div {
-        position: absolute;
-        top: 95%;
-        left: 7%;
-        width: 150px;
-        padding: 10px;
-    }
+
+
+
     #footer .nav-footer-bottom ul li a{
         display: none;
     }
-    .logo-linkin-header{
-        position: relative;
-        left: 5%;
-    }
+
    
-    #main-index 
     #main-history article img{
         width: 100%;
     }
@@ -912,64 +859,20 @@ video{
         align-items: center;
         align-content: center;
     }
-    #header {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+
     .container-img .box-img img{
         height: 100%;
         max-width: 300px;
     }
-    #header .nav-header {
-        display: none;
-    }
-    #background-header-index{
-        background-image: url(../Imagenes/shop/3530527.jpg);
-        background-size: 135%;
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.493);
-        background-position-y: -200px;
-    }
-    #title .logos-header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        top: 85%;
-        bottom: 20%;
-        left: 70%;
-    }
-    #title .shop-div {
-        position: absolute;
-        top: 83%;
-        left: 7%;
-        width: 150px;
-        padding: 10px;
-    }
+
+
+
     #footer .nav-footer-bottom ul li a{
         display: none;
     }
-    .log-in-flex{
-        position: absolute;
-        left: 35%;
-        top: 5%;
-    }
-    #title .shop-div {
-        position: absolute;
-        top: 85%;
-        left: 7%;
-        width: 150px;
-        padding: 10px;
-    }
-    .logo-linkin-header{
-        position: absolute;
-        right: 60%;
-    }
-    #main-index .biography img{
-        width: 200px;
-        margin: 30px;
-    }
+
+
+
     #main-index .biography article{
         width: 500px;
         margin: 30px;
@@ -984,12 +887,6 @@ video{
     }
     #main-history article img{
         width: 100%;
-    }
-    .logos-header-videos{
-        position: absolute;
-        left: 250px;
-        top: 400px;
-        z-index: 1000;
     }
     #background-header-videos video{
         display: none;

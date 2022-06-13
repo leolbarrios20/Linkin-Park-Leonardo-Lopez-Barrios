@@ -140,6 +140,7 @@
     object-fit: cover;
 }
 
+
 @media screen and (max-width:1255px){
     .container-img{
         width: 95%;
@@ -182,6 +183,7 @@
     #footer .nav-footer-bottom ul li a{
         display: none;
     }
+
     
 }
 @media screen and (max-width:500px){
