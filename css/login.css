@@ -6,12 +6,9 @@
     text-decoration: none;
 }
 body{
-    background-color: black;
-    background-image: url(../Imagenes/fondo-alternativo.jpg);
-    background-size: 100%;
+    background-color: rgb(68, 68, 68);
 }
 #form{
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -26,9 +23,6 @@ body{
     position: absolute;
     bottom: 60px;
     left: 30%;
-    
-
-    
 }
 #form form label ::placeholder{
     font-size: 17px;
