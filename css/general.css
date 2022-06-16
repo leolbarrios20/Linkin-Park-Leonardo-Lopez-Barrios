@@ -378,6 +378,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow-x: hidden;
 } 
 
 #main-discography h2{
@@ -572,11 +573,6 @@ video{
     }*/
 
 @media screen and (max-width:1255px){
-    .container-img{
-        width: 95%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 50px;
-    }
             /*INDEX*/
             #background-header-index{
                 background-image: none;
@@ -650,10 +646,6 @@ video{
     
 }
 @media screen and (max-width:500px){
-    .container-img{
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-    }
         /*INDEX*/
         #background-header-index{
             background-color: black;
@@ -681,7 +673,7 @@ video{
             font-size: 50px;
         }
         #title h1{
-            font-size: 80px;
+            font-size: 30px;
             text-align: center;
         }
         /*INDEX*/
@@ -717,7 +709,7 @@ video{
      
     }
     #title h1{
-        font-size: 100px;
+        font-size: 40px;
         letter-spacing: 5px;
     }
 
@@ -801,7 +793,7 @@ video{
         width: 400px;
     }
     #title h1{
-        font-size: 50px;
+        font-size: 40px;
         letter-spacing: 5px;
     }
     /*DISCOGRAPHY*/
