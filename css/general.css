@@ -204,12 +204,18 @@
 #main-history{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
-    padding: 100px 50px 20px 50px;
+    padding: 100px 30px 20px 30px;
     overflow-x: hidden;
 
 }
+
 #main-history article{
-    text-align: center;
+    text-align: justify;
+    
+}
+#main-history article div img{
+    max-width: 600px;
+    
 }
 #main-history article{
     font-family: 'Poppins', sans-serif;
@@ -217,12 +223,9 @@
     line-height: 35px;
     font-weight: 300;
     font-size: 18px;
+    margin-top: 50px;
+}
 
-    
-}
-#main-history article img{
-    max-width: 80%;
-}
 #main-history article .light{
     width: 500px;
     padding: 25px;
@@ -233,18 +236,20 @@
     padding: 25px;
 }
 #main-history article .xero1{
-    width: 500px;
+    width: 700px;
 
 }
 #main-history article .xero-cover{
-    width: 450px;
-
-    
+    max-width: 450px;
+    margin-bottom: 50px;
+    height: 450px;
+}
+#main-history article .center{
+    text-align: center;
+    margin: 50px;
 }
 #main-history article .chester{
     width: 100vh;
-
-    
 }
 #main-history article .chester2{
     width: 700px;
@@ -257,7 +262,10 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    padding: 50px;
+    margin: 50px;
+}
+#main-history article .flex-history-img img{
+    width: 500px;
 }
 
 /*MAIN HISTORY*/
@@ -506,32 +514,31 @@ video{
     width: 100px;
     margin: 50px;
 }
-
 .icon-facebook-footer, .icon-twitter-footer, .icon-instagram-footer, .icon-youtube-footer{
     filter: invert(100%);
-    width: 28px;
+    width: 25px;
+    height: 20px;
 }
 .nav-footer-top{
-    text-align: center;
+    padding-right: 25px;
 }
 .nav-footer-top ul li a{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 .nav-footer-top ul{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    justify-content: space-between;
+
 }
 .nav-footer-bottom{
     text-align: center;
 }
 .nav-footer-bottom ul{
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
     align-content: center;
     gap: 15px;
 }
@@ -593,7 +600,7 @@ video{
                 
             }
             #main-index h2{
-                font-size: 50px;
+                font-size: 60px;
             }
             #title h1{
                 font-size: 80px;
@@ -617,6 +624,9 @@ video{
     .nav-footer-bottom{
         text-align: center;
     }
+    #main-history article .flex-history-img img{
+        width: 400px;
+    }
     /*HISTORY*/
         /*DISCOGRAPHY*/
         .albums .albums-flex{
@@ -632,7 +642,7 @@ video{
          
         }
         #title h1{
-            font-size: 40px;
+            font-size: 80px;
             letter-spacing: 5px;
         }
     
@@ -668,7 +678,7 @@ video{
             text-align: center;
         }
         #main-index h2{
-            font-size: 28px;
+            font-size: 50px;
         }
         #title h1{
             font-size: 80px;
@@ -680,12 +690,10 @@ video{
         display: flex;
         flex-direction: column;
         gap: 25px;
-        height: 400px;
+        height: auto;
         justify-content: center;
     }
-    #main-history .flex-history-img img{
-        width: 100%;
-    }
+
     #main-history article .chester{
         margin: 20px;
     }
@@ -703,14 +711,13 @@ video{
     }
     .albums .albums-flex img{
         width: 400px;
-     
     }
     .albums .albums-flex iframe{
         width: 400px;
      
     }
     #title h1{
-        font-size: 40px;
+        font-size: 100px;
         letter-spacing: 5px;
     }
 
@@ -733,6 +740,7 @@ video{
         background-color: black;
         background-size: cover;
     }
+ 
 
     #title .logos-header{
         padding: 10px;
@@ -752,10 +760,10 @@ video{
         
     }
     #main-index h2{
-        font-size: 28px;
+        font-size: 40px;
     }
     #title h1{
-        font-size: 60px;
+        font-size: 100px;
         text-align: center;
     }
     /*INDEX*/
@@ -791,13 +799,11 @@ video{
     }
     .albums .albums-flex iframe{
         width: 400px;
-     
     }
     #title h1{
-        font-size: 40px;
+        font-size: 50px;
         letter-spacing: 5px;
     }
-
     /*DISCOGRAPHY*/
 }
 /*MEDIAS QUERYS*/
