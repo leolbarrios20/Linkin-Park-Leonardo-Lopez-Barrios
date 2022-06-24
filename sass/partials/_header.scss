@@ -1,0 +1,112 @@
+/*HEADER*/
+
+#background-header-index{
+    background-image: url(../Imagenes/linkin-park-fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -180px;
+    height: 100vh; 
+    
+    #header{
+        padding: 15px 5px 15px 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .log-in-flex{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+            text-decoration: none;
+
+            a{
+                text-decoration: none;
+            }
+            .log-in{
+                color: white;
+                border-style: solid;
+                border-width: 2px;
+                border-color: white;
+                padding: 5px 15px 5px 15px;
+                font-family: 'Poppins', sans-serif;
+                transition:  0.5s;
+
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .nav-header {
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+
+                li{
+                    a{
+                        padding: 5px 15px 5px 20px;
+                        margin: 20px;
+                        color: white;
+                        font-size: 18px;
+                        text-decoration: none;
+                        font-family: 'Koulen', cursive;
+                        letter-spacing: 5px;
+                        text-shadow: 2px 2px 3px black;
+                        transition: 0.6s;
+
+                        &:hover{
+                            box-shadow: 1px 1px 5px 1px white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo-linkin-header{
+        width: 100px;
+        padding: 5px;
+        filter: invert(100%);
+    }
+    #title{
+        h1{
+            margin-bottom: 265px;
+            text-align: center;
+            margin-top: 110px;
+            color: var(--text-color);
+            font-size: 100px;
+            text-shadow: 5px 5px 5px black;
+            font-family: 'Koulen', cursive;
+            letter-spacing: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        .shop-div {
+            background-color: rgba(0, 0, 0, 0.548);
+            padding: 12px;
+
+            a {
+                h6{
+                    margin-top: 10px;
+                    font-size: 25px;
+                    font-family: 'Koulen', cursive;
+                    letter-spacing: 3px;
+                    font-weight: 300;
+                    color: white;
+                }
+                img{
+                    width: 35px;
+                    filter: invert(100%);
+                }
+            }
+        }
+        .shop-logos-flex{
+            position: absolute;
+            width: 97%;
+            top: 75%;
+
+        }
+    }
+}
+/*HEADER*/

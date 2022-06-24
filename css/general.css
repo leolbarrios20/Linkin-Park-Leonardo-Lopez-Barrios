@@ -4,6 +4,10 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+
+
+
 /*HEADER GENERAL*/
 #header{
     padding: 15px 5px 15px 5px;
@@ -42,7 +46,6 @@
     transform: scale(1.05);
 }
 .nav-header ul li a:hover{
-    background-color: transparent;
     box-shadow: 1px 1px 5px 1px white;
     background-color: rgb(0, 0, 0, 0.6);
 }
