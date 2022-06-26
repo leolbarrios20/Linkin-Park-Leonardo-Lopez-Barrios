@@ -101,7 +101,7 @@
     padding-right: 25px; }
     #footer .nav-footer-top ul {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-evenly; }
       #footer .nav-footer-top ul li a {
         font-size: 25px;
         text-decoration: none;
@@ -111,7 +111,7 @@
     text-align: center; }
     #footer .nav-footer-bottom ul {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-content: center;
       gap: 15px; }
       #footer .nav-footer-bottom ul li {
@@ -128,7 +128,6 @@
       margin-top: 50px; }
 
 /*FOOTER*/
-
 /*VIEWS*/
 #main-index {
   background: radial-gradient(#383838, #030303);

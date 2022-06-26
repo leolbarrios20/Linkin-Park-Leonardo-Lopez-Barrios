@@ -27,11 +27,7 @@
 #header .log-in-flex a{
     text-decoration: none;
 }
-#header-videos .log-in-flex-videos{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-}
+
 .log-in{
     color: white;
     border-style: solid;
@@ -66,15 +62,9 @@
 }
 .logos-header a{
     margin: 5px;
+    filter: drop-shadow(5px 5px 5px black);
 }
-.logos-header-videos a{
-    margin: 5px;
-}
-.logos-header-videos{
-   position: absolute;
-   top: 550px;
-   left: 1150px;
-}
+
 .nav-header ul li a{
     padding: 5px 15px 5px 20px;
     margin: 20px;
@@ -86,13 +76,13 @@
     text-shadow: 2px 2px 3px black;
     transition: 0.6s;
 }
-#title .shop-div:hover{
+.shop-div:hover{
     background-color: rgba(0, 33, 104, 0.438);
 }
 #title-shop .shop-div:hover{
     background-color: rgba(0, 33, 104, 0.438);
 }
-#title .shop-div a{
+.shop-div a{
     display: flex;
     align-content: center;
     align-items: center;
@@ -100,36 +90,30 @@
     text-decoration: none;
     padding: 10px;
 }
-#title h1{
-    margin-bottom: 265px;
-}
-#title .shop-div a h6{
+.shop-div a h6{
     margin-top: 10px;
 }
-#title .shop-div {
+.shop-div {
     background-color: rgba(0, 0, 0, 0.548);
     padding: 12px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
-#title .shop-div a h6{
+.shop-div a h6{
     font-size: 25px;
     font-family: 'Koulen', cursive;
     letter-spacing: 3px;
     font-weight: 300;
     color: white;
 }
-#title .shop-logos-flex{
-    position: absolute;
-    width: 97%;
-    top: 75%;
-}
-#title .shop-div a img{
+
+.shop-div a img{
     width: 35px;
     filter: invert(100%);
 }
-
 #title h1{
     text-align: center;
-    margin-top: 110px;
     color: white;
     font-size: 100px;
     text-shadow: 5px 5px 5px black;
@@ -139,16 +123,19 @@
 }
 /*HEADER GENERAL*/
 /*MAIN INDEX*/
-#background-header-index{
+body #background-header-index{
     background-image: url(../Imagenes/linkin-park-fondo.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-position-y: -180px;
-    height: 100vh; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 }
 #main-index{
-    background: radial-gradient(rgb(56, 56, 56), rgb(3, 3, 3));
+    background: radial-gradient(rgb(24, 24, 24), rgb(3, 3, 3));
     text-align: center;
     overflow-x: hidden;
 }
@@ -165,12 +152,10 @@
     text-shadow: 3px 3px 3px black;
 }
 #main-index article{
-    color: rgb(2, 2, 2);
+    color: rgb(228, 228, 228);
     font-size: 20px;
-    background:linear-gradient(90deg, rgb(209, 208, 208), rgb(190, 190, 190));
-    text-align: center;
-    font-weight: 500;
-    box-shadow: 5px 5px 5px black;
+    text-align: left;
+    font-weight: 300;
     width: 500px;
     font-family: 'Poppins', sans-serif;
     padding: 20px 20px 20px 20px;
@@ -200,16 +185,18 @@
     background-blend-mode: darken;
     background-color: rgba(24, 24, 24, 0.35);
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;  
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 } 
 #main-history{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
     padding: 100px 30px 20px 30px;
     overflow-x: hidden;
-
 }
 
 #main-history article{
@@ -252,23 +239,22 @@
     margin: 50px;
 }
 #main-history article .chester{
-    width: 100vh;
+
 }
 #main-history article .chester2{
-    width: 700px;
-    
-
-    
+    max-width: 700px;
 }
 #main-history article .flex-history-img{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    margin: 50px;
+
+
+
 }
 #main-history article .flex-history-img img{
     width: 500px;
+    height: 400px;
 }
 
 /*MAIN HISTORY*/
@@ -298,7 +284,11 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;  
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 } 
 #main-members{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
@@ -381,6 +371,10 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 
 } 
 
@@ -445,24 +439,7 @@
     padding: 10px;
     
 }
-video{
-    position: relative;
-    z-index: -1;
-    bottom: 60px;
-}
-#header-videos{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    position: relative;
-    bottom: 750px;
-}
-
-
-#title-videos h1{
+#title h1{
     text-align: center;
     color: white;
     font-size: 100px;
@@ -474,9 +451,6 @@ video{
     bottom: 200px;
     width: 100%;
 }
-
-
-
 #main-videos{
     background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
     text-align: center;
@@ -494,9 +468,15 @@ video{
 }
 #background-header-videos{
     height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 video{
     width: 100%;
+    position: absolute;
+    top: -62px;
+    z-index: -10;
 }
 
 
@@ -534,17 +514,16 @@ video{
 }
 .nav-footer-top ul{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
 }
 .nav-footer-bottom{
     text-align: center;
 }
 .nav-footer-bottom ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
-    gap: 15px;
+    
 }
 .nav-footer-bottom ul li{
     color: rgb(105, 105, 105);
@@ -558,10 +537,12 @@ video{
     font-family: 'Koulen', cursive;
     letter-spacing: 3px;
     font-weight: 100;
+    
 }
 .nav-footer-bottom p{
     font-family: 'Koulen', cursive;
     margin-top: 50px;
+    letter-spacing: 3px;
 }
 
 /*FOOTER GENERAL*/

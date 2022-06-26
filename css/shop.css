@@ -67,7 +67,9 @@
     overflow-x: hidden;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.247);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #title .shop-div{
     border-style: solid;
@@ -91,8 +93,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-
 }
 #title .shop-div-2 a h6{
     font-size: 25px;
@@ -111,14 +111,18 @@
     padding: 10px;
 }
 
-
 /*MAIN*/
-
 .container-fluid .row{
     justify-content: center;
     text-align: center;
     cursor: pointer;
 }
+.container-fluid .row .p2{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
 .container-fluid .p-2:hover{
     transform: scale(1.05);
 }
@@ -126,10 +130,10 @@
     transition: 0.5s;
 }
 .container-fluid{
-    margin-top: 50px;
+    padding-top: 50px;
 }
 .container-fluid .row img{
-    max-width: 400px;
+    max-width: 320px;
 }
 .container-fluid .row p{
     font-size: 20px;
@@ -160,6 +164,12 @@
     }
     #background-header-shop{
         background-color: black;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
     }
     #title .logos-header{
         display: flex;
