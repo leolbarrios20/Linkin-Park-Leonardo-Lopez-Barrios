@@ -14,18 +14,20 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 #header .log-in-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 20px;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 #header .log-in-flex a{
     text-decoration: none;
+    font-size: auto;
 }
 
 .log-in{
@@ -52,13 +54,14 @@
     margin: 15px;
 }
 .logo-linkin-header{
-    width: 100px;
+    max-width: 100px;
     padding: 5px;
     filter: invert(100%);
 }
 .nav-header ul{
     display: flex;
     flex-wrap: wrap;
+    margin-right: 30px;
 }
 .logos-header a{
     margin: 5px;
@@ -66,15 +69,16 @@
 }
 
 .nav-header ul li a{
-    padding: 5px 15px 5px 20px;
+    padding: 5px 10px 5px 15px;
     margin: 20px;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     font-family: 'Koulen', cursive;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     text-shadow: 2px 2px 3px black;
     transition: 0.6s;
+    font-weight: 300;
 }
 .shop-div:hover{
     background-color: rgba(0, 33, 104, 0.438);
@@ -126,7 +130,6 @@
 body #background-header-index{
     background-image: url(../Imagenes/linkin-park-fondo.jpg);
     background-size: cover;
-    background-position-y: -180px;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -559,8 +562,7 @@ video{
 @media screen and (max-width:1255px){
             /*INDEX*/
             #background-header-index{
-                background-image: none;
-                background-color: black;
+
             }
             #title .logos-header{
                 padding: 10px;
@@ -704,12 +706,10 @@ video{
 
 
 @media screen and (max-width:400px){
-    /*SHOP*/
-    .container-img{
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
+    #header .nav-header {
+        display: none;
     }
-    /*SHOP*/
+
     
     /*INDEX*/
     #background-header-index{
@@ -727,7 +727,6 @@ video{
     }
     #main-index .biography img{
         width: 80%;
-       
     }
     #main-index .biography article{
         width: 80%;
@@ -782,4 +781,86 @@ video{
     }
     /*DISCOGRAPHY*/
 }
+
+@media screen and (max-width: 1165px){
+    #header .nav-header {
+        display: none;
+    }
 /*MEDIAS QUERYS*/
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+nav ul li a{
+    padding: 5px 10px 5px 15px;
+    margin: 20px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 3px black;
+    transition: 0.6s;
+    font-weight: 300;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    line-height: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1165px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        top: 150px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 20000;
+        
+        
+    }
+    nav ul li{
+        display: flex;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
