@@ -856,7 +856,7 @@ li a.active, li a:hover{
     font-size: 30px;
     color: #fff;
     line-height: 20px;
-    margin-right: 40px;
+    margin-right: 10px;
     margin-bottom: 20px;
     cursor: pointer;
     display: none;
