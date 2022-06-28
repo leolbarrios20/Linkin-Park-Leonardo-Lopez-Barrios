@@ -908,11 +908,10 @@ video{
 .nav-principal ul{
     display: flex;
     flex-wrap: wrap;
-    
 }
 .nav-principal ul li a{
     padding: 5px 10px 5px 15px;
-    margin: 20px;
+    margin: 12px;
     color: white;
     font-size: 15px;
     text-decoration: none;
@@ -988,13 +987,10 @@ li a.active, li a:hover{
         padding-top: 10px;
         display: flex;
         flex-direction: column;
-        gap: 5%;
-        
-        
+        justify-content: stretch;
         position: fixed;
         width: 100%;
         height: 100vh;
-        top: 150px;
         left: -100%;
         text-align: center;
         transition: all .5s;
