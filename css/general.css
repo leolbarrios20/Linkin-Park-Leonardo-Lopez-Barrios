@@ -876,6 +876,11 @@ li a.active, li a:hover{
     #background-header-index{
         background-position-x: 40%;
     }
+    #title h1{
+        position: absolute;
+        bottom: 300px;
+        font-size: 250%;
+    }
 }
 
 @media (max-width: 1165px){
