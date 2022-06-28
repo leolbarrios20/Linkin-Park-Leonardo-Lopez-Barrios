@@ -84,7 +84,7 @@
     background-color: rgba(0, 33, 104, 0.438);
 }
 #title-shop .shop-div:hover{
-    background-color: rgba(0, 33, 104, 0.438);
+    background-color: rgba(0, 0, 0, 0.438);
 }
 .shop-div a{
     display: flex;
@@ -217,16 +217,16 @@ body #background-header-index{
     font-weight: 300;
     font-size: 18px;
     margin-top: 50px;
+    overflow-x: hidden;
 }
 
 #main-history article .light{
     width: 500px;
     padding: 25px;
-    margin: auto;
+    
 }
-#main-history article .darker{
-    width: 500px;
-    padding: 25px;
+#main-history article img{
+    width: 100%;
 }
 #main-history article .xero1{
     width: 700px;
@@ -242,6 +242,7 @@ body #background-header-index{
     margin: 50px;
 }
 #main-history article .chester{
+    width: 100%;
 
 }
 #main-history article .chester2{
@@ -266,6 +267,7 @@ body #background-header-index{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
     padding: 0px 100px 0px 100px;
+    overflow-x: hidden;
 }
 #main-members .article-flex{
     display: flex;
@@ -295,19 +297,20 @@ body #background-header-index{
 } 
 #main-members{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
-    padding: 0px 100px 0px 100px;
+    padding: 0px 50px 0px 50px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(214, 214, 214);
 }
 #main-members .nav-main{
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 #main-members .nav-main ul{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 100%;
 }
 #main-members .nav-main ul li{
     text-align: center;
@@ -327,6 +330,7 @@ body #background-header-index{
 .table{
     color: rgb(255, 255, 255);
     text-align: left;
+    padding-left: 20%;
 }
 .table tr th{
     font-size: 17px;
@@ -336,7 +340,7 @@ body #background-header-index{
 
 #chester h2{
     font-size: 50px;
-    margin: 200px 0px 40px 0px;
+    margin: 100px 0px 40px 0px;
 }
 #mike h2{
     font-size: 50px;
@@ -389,8 +393,8 @@ body #background-header-index{
     color: rgb(231, 230, 230);
 }
 #main-discography p{
-    text-align: center;
-    padding: 15px;
+    text-align: justify;
+    padding: 5px;
 }
 
 .albums-flex{
@@ -562,8 +566,14 @@ video{
 @media screen and (max-width:1255px){
             /*INDEX*/
             #background-header-index{
-
+                background-position-x: 40%;
+                background-size:auto;
             }
+            #background-header-history{
+                background-position-x: 40%;
+                background-size:auto;
+            }
+        
             #title .logos-header{
                 padding: 10px;
             }
@@ -576,9 +586,9 @@ video{
                
             }
             #main-index .biography article{
-                width: 80%;
-                margin: 20px;
-                text-align: center;
+                width: 90%;
+                margin: 10px;
+                text-align: justify;
                 
             }
             #main-index h2{
@@ -601,7 +611,7 @@ video{
         width: 100%;
     }
     #main-history article .chester{
-        margin: 20px;
+        width: 100%;
     }
     .nav-footer-bottom{
         text-align: center;
@@ -634,9 +644,19 @@ video{
 @media screen and (max-width:500px){
         /*INDEX*/
         #background-header-index{
-            background-color: black;
-            background-size: cover;
+            background-size:auto;
+            background-position-x: -100px;
+            background-size: -150%;
         }
+        #background-header-history{
+            background-position-x: 40%;
+            background-size:auto;
+        }
+        #background-header-members{
+            background-position-x: 100%;
+            background-size: -150%;
+        }
+    
         #title .logos-header{
             padding: 10px;
         }
@@ -651,9 +671,9 @@ video{
            
         }
         #main-index .biography article{
-            width: 80%;
-            margin: 20px;
-            text-align: center;
+            width: 90%;
+            margin: 10px;
+            text-align: justify;
         }
         #main-index h2{
             font-size: 50px;
@@ -672,9 +692,6 @@ video{
         justify-content: center;
     }
 
-    #main-history article .chester{
-        margin: 20px;
-    }
     /*HISTORY*/
         /*MEMBERS*/
         .article-flex img{
@@ -709,12 +726,19 @@ video{
     #header .nav-header {
         display: none;
     }
+    #background-header-history{
+        background-position-x: 40%;
+        background-size:auto;
+    }
+
 
     
     /*INDEX*/
     #background-header-index{
         background-color: black;
         background-size: cover;
+        background-position-x: 40%;
+        
     }
  
 
@@ -729,9 +753,9 @@ video{
         width: 80%;
     }
     #main-index .biography article{
-        width: 80%;
-        margin: 20px;
-        text-align: center;
+        width: 90%;
+        margin: 10px;
+        text-align: justify;
         
     }
     #main-index h2{
@@ -754,7 +778,7 @@ video{
         width: 100%;
     }
     #main-history article .chester{
-        margin: 20px;
+        width: 100%;
     }
     /*HISTORY*/
     /*MEMBERS*/
@@ -786,15 +810,33 @@ video{
     #header .nav-header {
         display: none;
     }
+    #background-header-history{
+        background-position-x: 40%;
+        background-size:auto;
+    }
+    #main-members .nav-main ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #main-members .nav-main ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+    }
+
+
 /*MEDIAS QUERYS*/
 }
 
-nav ul{
+.nav-principal ul{
     display: flex;
     flex-wrap: wrap;
     
 }
-nav ul li a{
+.nav-principal ul li a{
     padding: 5px 10px 5px 15px;
     margin: 20px;
     color: white;
@@ -807,8 +849,8 @@ nav ul li a{
     font-weight: 300;
 }
 li a.active, li a:hover{
-    background: #000090;
-    transition: .5s;
+    background: #3d3d3d42;
+    transition: .2s;
 }
 .checkbtn{
     font-size: 30px;
@@ -828,8 +870,11 @@ li a.active, li a:hover{
     .enlace{
         padding-left: 20px;
     }
-    nav ul li a{
+    .nav-principal ul li a{
         font-size: 16px;
+    }
+    #background-header-index{
+        background-position-x: 40%;
     }
 }
 
@@ -837,28 +882,61 @@ li a.active, li a:hover{
     .checkbtn{
         display: block;
     }
-    ul{
+    #background-header-index {
+        background-position-x: 30%;
+        background-size:auto;
+    }
+    #background-header-history {
+        background-position-x: 40%;
+        background-size:cover;
+    }
+    #background-header-members{
+        background-position-x: 50%;
+        
+        
+    }
+    #background-header-discography{
+        background-position-x: 50%;
+        
+        
+    }
+
+    .nav-principal ul{
+        background-image: url(../Imagenes/linkinpark-meteora.jpg);
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.782);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 30%;
+
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
+        
+        
         position: fixed;
         width: 100%;
-        height: 100vh;
-        background: black;
+        height: 100%;
         top: 150px;
         left: -100%;
         text-align: center;
         transition: all .5s;
         z-index: 20000;
-        
-        
+
     }
-    nav ul li{
+    
+    .nav-principal ul li{
         display: flex;
         line-height: 10px;
-        padding-top: 10px;
+        
+        text-align: center;
+        width: 100%;
     }
-    nav ul li a{
+    .nav-principal ul li a{
         font-size: 20px;
+        width: 100%;
+        padding: 20px;
+        
     }
     #check:checked ~ ul{
         left:0;
