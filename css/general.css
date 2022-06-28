@@ -21,7 +21,7 @@
 #header .log-in-flex{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     text-decoration: none;
     flex-wrap: wrap;
 }
@@ -304,7 +304,7 @@ body #background-header-index{
 }
 #main-members .nav-main{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 #main-members .nav-main ul{
     display: flex;
@@ -322,6 +322,9 @@ body #background-header-index{
     letter-spacing: 2px;
     text-decoration: none;
     text-align: center;
+}
+#main-members .article-flex p{
+    text-align: justify;
 }
 .arrow{
     filter: invert(100%);
@@ -411,10 +414,10 @@ body #background-header-index{
 
 .table tr{
     color: rgb(233, 232, 232);
-    line-height: 40px;
+    line-height: 25px;
 }
 .table{
-    margin: 0 auto;
+    
 }
 .albums{
     margin: 50px;
@@ -647,6 +650,7 @@ video{
             background-size:auto;
             background-position-x: -100px;
             background-size: -150%;
+            background-image: none;
         }
         #background-header-history{
             background-position-x: 40%;
@@ -655,6 +659,32 @@ video{
         #background-header-members{
             background-position-x: 100%;
             background-size: -150%;
+        }
+        #header img{
+            width: 60px;
+        }
+        #header .log-in-flex{
+            display: flex;
+        justify-content: center;
+        }
+        #header .log-in-flex a{
+            font-size: 12px;
+        }
+        #header nav .checkbtn{
+            font-size: 30px;
+        }
+        .shop-logos-flex .shop-div a h6{
+            font-size: 20px;
+        }
+        .shop-logos-flex .shop-div a img{
+            width: 22px; 
+            margin-right: 10px;
+        }
+        .shop-logos-flex .shop-div{
+            gap: 20px;
+        }
+        .shop-logos-flex .logos-header a img{
+            width: 30px;
         }
     
         #title .logos-header{
@@ -676,7 +706,7 @@ video{
             text-align: justify;
         }
         #main-index h2{
-            font-size: 50px;
+            font-size: 40px;
         }
         #title h1{
             font-size: 30px;
@@ -730,16 +760,59 @@ video{
         background-position-x: 40%;
         background-size:auto;
     }
+    #background-header-index{
+        background-image: none;
+    }
+    #header img{
+        width: 60px;
+    }
+    #header .log-in-flex{
+        display: flex;
+    justify-content: center;
+    }
+    #header .log-in-flex a{
+        font-size: 12px;
+    }
+    #header nav .checkbtn{
+        font-size: 30px;
+    }
+    .shop-logos-flex .shop-div a h6{
+        font-size: 20px;
+    }
+    .shop-logos-flex .shop-div a img{
+        width: 22px; 
+        margin-right: 10px;
+    }
+    .shop-logos-flex .shop-div{
+        gap: 20px;
+    }
+    .shop-logos-flex .logos-header a img{
+        width: 30px;
+    }
+    #main-members .nav-main ul li{
+        margin-right: 15px;
+        padding-top: 20px;
+    }
+    #main-members .nav-main ul li a{
+        
+        text-align: center;
+    }
+    #main-members div h2{
+        font-size: 40px;
+    }
+    div .table table tr th{
+        font-size: 15px;
+        
+    }
+    #main-members .article-flex p{
+        text-align: justify;
+    }
+
 
 
     
     /*INDEX*/
-    #background-header-index{
-        background-color: black;
-        background-size: cover;
-        background-position-x: 40%;
-        
-    }
+
  
 
     #title .logos-header{
@@ -818,13 +891,16 @@ video{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 100%;
+        height: 100%;
     }
     #main-members .nav-main ul li{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: auto;
+    }
+    #main-members .article-flex p{
+        text-align: justify;
     }
 
 
@@ -853,7 +929,7 @@ li a.active, li a:hover{
     transition: .2s;
 }
 .checkbtn{
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     line-height: 20px;
     margin-right: 10px;
@@ -878,7 +954,7 @@ li a.active, li a:hover{
     }
     #title h1{
         position: absolute;
-        bottom: 300px;
+        bottom: 450px;
         font-size: 250%;
     }
 }
@@ -887,16 +963,14 @@ li a.active, li a:hover{
     .checkbtn{
         display: block;
     }
-    #background-header-index {
-        background-position-x: 30%;
-        background-size:auto;
-    }
+
     #background-header-history {
         background-position-x: 40%;
         background-size:cover;
     }
     #background-header-members{
-        background-position-x: 50%;
+        background-position-x: 40%;
+        background-size: -100%;
         
         
     }
@@ -913,15 +987,15 @@ li a.active, li a:hover{
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 30%;
-
         padding-top: 10px;
         display: flex;
         flex-direction: column;
+        gap: 5%;
         
         
         position: fixed;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         top: 150px;
         left: -100%;
         text-align: center;
