@@ -165,3 +165,152 @@
     #main-index .img-biography img {
       width: 500px;
       filter: invert(70%); }
+
+#background-header-index {
+  background-image: url(../Imagenes/linkin-park-fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center; }
+  #background-header-index #title h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%; }
+  #background-header-index .shop-logos-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px; }
+    #background-header-index .shop-logos-flex .logos-header a {
+      margin: 5px;
+      filter: drop-shadow(5px 5px 5px black); }
+    #background-header-index .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 12px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-index .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 10px; }
+        #background-header-index .shop-logos-flex .shop-div a img {
+          width: 35px;
+          filter: invert(100%); }
+        #background-header-index .shop-logos-flex .shop-div a h6 {
+          font-size: 25px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+  #background-header-index #header {
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    #background-header-index #header .logo-linkin-header {
+      max-width: 100px;
+      filter: invert(100%); }
+    #background-header-index #header .nav-principal {
+      margin-right: 30px; }
+    #background-header-index #header ul li a {
+      letter-spacing: 8px; }
+    #background-header-index #header .log-in-flex {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      text-decoration: none;
+      flex-wrap: wrap; }
+      #background-header-index #header .log-in-flex a {
+        text-decoration: none;
+        font-size: auto; }
+
+#main-index {
+  background: radial-gradient(#181818, #030303);
+  text-align: center;
+  overflow-x: hidden; }
+  #main-index .biography {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    #main-index .biography article {
+      color: #e4e4e4;
+      font-size: 20px;
+      text-align: left;
+      font-weight: 300;
+      width: 500px;
+      font-family: 'Poppins', sans-serif;
+      padding: 20px 20px 20px 20px; }
+    #main-index .biography img {
+      width: 540px;
+      box-shadow: 5px 5px 5px black; }
+  #main-index h2 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #e4e4e4;
+    padding: 60px;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black; }
+  #main-index .img-biography {
+    text-align: center;
+    padding: 50px; }
+    #main-index .img-biography img {
+      width: 500px;
+      filter: invert(70%); }
+
+#footer {
+  background-color: black;
+  height: 400px; }
+  #footer .nav-footer-top {
+    padding-right: 25px; }
+    #footer .nav-footer-top ul {
+      display: flex;
+      justify-content: space-evenly; }
+      #footer .nav-footer-top ul li a {
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif; }
+  #footer .gif-footer {
+    text-align: center; }
+    #footer .gif-footer img {
+      width: 100px;
+      margin: 50px; }
+  #footer p {
+    text-align: center;
+    color: #888; }
+  #footer .nav-footer-bottom {
+    text-align: center; }
+    #footer .nav-footer-bottom p {
+      font-family: 'Koulen', cursive;
+      margin-top: 50px;
+      letter-spacing: 3px; }
+    #footer .nav-footer-bottom ul {
+      display: flex;
+      justify-content: space-around;
+      align-content: center; }
+      #footer .nav-footer-bottom ul li {
+        color: dimgray;
+        font-family: 'Koulen', cursive; }
+        #footer .nav-footer-bottom ul li a {
+          color: #c9c6c6;
+          text-decoration: none;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 100; }
