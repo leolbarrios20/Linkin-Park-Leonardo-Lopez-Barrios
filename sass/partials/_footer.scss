@@ -1,12 +1,9 @@
 /*FOOTER*/
+
+
 #footer{
     background-color: black;
     height: 400px;
-
-    p{
-        text-align: center;
-        color: #888;
-    }
 
     .gif-footer{
         text-align: center;
@@ -16,6 +13,7 @@
             margin: 50px;
         }
     }
+
     .nav-footer-top{
         padding-right: 25px;
 
@@ -28,37 +26,62 @@
                 text-decoration: none;
                 color: white;
                 font-family: 'Poppins', sans-serif;
+
+                
+                .icon-footer-facebook, .icon-footer-twitter, .icon-footer-instagram, .icon-footer-youtube{
+                    filter: invert(100%);
+                    @include sizes (20px,25px);
+
+
+                $redes: (
+                facebook: 'facebook',
+                twitter: 'twitter',
+                instagram: 'instagram',
+                youtube: 'youtube',
+                );
+
+                @each $key, $val in $redes {
+                    .icon-footer-#{$key} {
+                    filter: invert(100%);
+                    width: 25px;
+                    height: 20px;
+                    }
+                }
+                
+                }
             }
         }
     }
+
     .nav-footer-bottom{
-        text-align: center;
+
+        @extend .nav-footer-top;
+
+        p{
+            font-family: 'Koulen', cursive;
+            margin-top: 50px;
+            letter-spacing: 3px;
+        }
 
         ul{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
             align-content: center;
-            gap: 15px;
 
             li{
-                color: rgb(105, 105, 105);
+                color: var(--footer-text-color);
                 font-family: 'Koulen', cursive;
 
                 a{
-                    color: rgb(201, 198, 198);
+                    color: var(--footer-text-color);
                     text-decoration: none;
                     font-family: 'Koulen', cursive;
                     letter-spacing: 3px;
                     font-weight: 100;
                 }
             }
-        }
-
-        p{
-            font-family: 'Koulen', cursive;
-            margin-top: 50px;
+            
         }
     }
-
 }
 /*FOOTER*/

@@ -1,4 +1,23 @@
-:root {
+
     /* Colors */
-    --text-color: rgb(228, 228, 228);
-}
+
+        
+    $color-principal: white;
+    $text-color: white;
+    $nav-hover-color: black;
+    $footer-text-color: rgb(201, 198, 198);
+
+    $colors:(
+        color-principal: white
+    );
+
+    @each $key, $val in $colors {
+        #{$key} { 
+            color: #{$val};
+        }
+    }
+
+    
+
+    
+

@@ -13,7 +13,7 @@
     "url": "git+https://github.com/leolbarrios20/Linkin-Park-Leonardo-Lopez-Barrios.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leonardo Lopez Barrios",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leolbarrios20/Linkin-Park-Leonardo-Lopez-Barrios/issues"
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/leolbarrios20/Linkin-Park-Leonardo-Lopez-Barrios#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "bootstrap": "^v5.2.0-beta1" 
   }
 }

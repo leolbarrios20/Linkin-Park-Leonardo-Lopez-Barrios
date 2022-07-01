@@ -43,6 +43,37 @@
     background-color: rgb(0, 0, 0, 0.5);
     transform: scale(1.05);
 }
+
+.nav-principal ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-principal ul li a{
+    padding: 5px 10px 5px 15px;
+    margin: 12px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 3px black;
+    transition: 0.6s;
+    font-weight: 300;
+}
+
+.checkbtn{
+    font-size: 40px;
+    color: #fff;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
 #header .nav-principal ul li a{
     letter-spacing: 8px;
 }
@@ -58,7 +89,7 @@
 }
 .logo-linkin-header{
     max-width: 100px;
-    
+
     filter: invert(100%);
 }
 
@@ -71,9 +102,7 @@
 .shop-div:hover{
     background-color: rgba(0, 33, 104, 0.438);
 }
-#title-shop .shop-div:hover{
-    background-color: rgba(0, 0, 0, 0.438);
-}
+
 .shop-div a{
     display: flex;
     align-content: center;
@@ -82,9 +111,7 @@
     text-decoration: none;
     padding: 10px;
 }
-.shop-div a h6{
-    margin-top: 10px;
-}
+
 .shop-div {
     background-color: rgba(0, 0, 0, 0.548);
     padding: 12px;
@@ -105,21 +132,15 @@
     width: 35px;
     filter: invert(100%);
 }
-#title h1{
-    text-align: center;
-    color: white;
-    font-size: 100px;
-    text-shadow: 5px 5px 5px black;
-    font-family: 'Koulen', cursive;
-    letter-spacing: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
-}
+
+
 /*HEADER GENERAL*/
 /*MAIN INDEX*/
 body #background-header-index{
     background-image: url(../Imagenes/linkin-park-fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: 90%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -414,46 +435,35 @@ body #background-header-index{
 }
 /*MAIN DISCOGRAPHY*/
 /*MAIN VIDEOS*/
-#title-shop div a{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-#title-shop div a h6{
-    font-size: 25px;
-    font-family: 'Koulen', cursive;
-    letter-spacing: 3px;
-    font-weight: 300;
-}
-#title-shop div a img{
-    width: 35px;
-    filter: invert(100%);
 
+
+.container-fluid .row{
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
 }
-#title-shop div{
-    background-color: rgba(0, 0, 0, 0.548);
-    position: relative;
-    bottom: 95px;
-    left: 60px;
-    width: 150px;
-    padding: 10px;
-    
+
+.container-fluid{
+    padding-top: 50px;
 }
+
+
+
+
+
 #title h1{
     text-align: center;
     color: white;
     font-size: 100px;
     text-shadow: 5px 5px 5px black;
     font-family: 'Koulen', cursive;
-    letter-spacing: 20px;
+    letter-spacing: 25px;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
 }
 #main-videos{
     background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
     text-align: center;
-    position: relative;
-    padding: 100px;
 }
 #main-videos h2{
     font-size: 30px;
@@ -461,8 +471,7 @@ body #background-header-index{
     padding: 40px;
 }
 #main-videos iframe{
-    margin-bottom: 100px;
-
+    width: 90%;
 }
 #background-header-videos{
     height: 100vh; 
@@ -470,6 +479,7 @@ body #background-header-index{
     flex-direction: column;
     justify-content: space-between;
 }
+
 video{
     width: 100%;
     position: absolute;
@@ -496,7 +506,7 @@ video{
     width: 100px;
     margin: 50px;
 }
-.icon-facebook-footer, .icon-twitter-footer, .icon-instagram-footer, .icon-youtube-footer{
+.icon-footer-facebook, .icon-footer-twitter, .icon-footer-instagram, .icon-footer-youtube{
     filter: invert(100%);
     width: 25px;
     height: 20px;
@@ -526,8 +536,6 @@ video{
 .nav-footer-bottom ul li{
     color: rgb(105, 105, 105);
     font-family: 'Koulen', cursive;
-    
-
 }
 .nav-footer-bottom ul li a{
     color: rgb(201, 198, 198);
@@ -588,6 +596,7 @@ video{
             #title h1{
                 font-size: 80px;
                 text-align: center;
+                
             }
  
             /*INDEX*/
@@ -699,6 +708,7 @@ video{
         #title h1{
             font-size: 30px;
             text-align: center;
+            background-color: none;
         }
         #main-discography .albums .albums-flex img{
             width: 300px;
@@ -917,35 +927,6 @@ video{
 /*MEDIAS QUERYS*/
 }
 
-.nav-principal ul{
-    display: flex;
-    flex-wrap: wrap;
-}
-.nav-principal ul li a{
-    padding: 5px 10px 5px 15px;
-    margin: 12px;
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    font-family: 'Koulen', cursive;
-    letter-spacing: 6px;
-    text-shadow: 2px 2px 3px black;
-    transition: 0.6s;
-    font-weight: 300;
-}
-
-.checkbtn{
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
 
 
 @media (max-width: 952px){
@@ -1019,8 +1000,7 @@ video{
         font-size: 20px;
         width: 100%;
         padding: 20px;
-        margin-right: 25px;
-        
+        margin-right: 25px;  
     }
     #check:checked ~ ul{
         left:0;
