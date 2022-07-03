@@ -60,7 +60,7 @@ color-principal {
       background-position-y: 100%; } }
   @media screen and (max-width: 500px) {
     #background-header-index {
-      background-size: 370%;
+      background-size: 320%;
       background-position-x: 37%;
       background-position-y: 100%; } }
   @media screen and (max-width: 450px) {
@@ -750,8 +750,9 @@ color-principal {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
-  #background-header-videos #header {
+  justify-content: space-between;
+  overflow-x: hidden; }
+  #background-header-videos git #header {
     padding: 15px 5px 15px 5px;
     text-align: center;
     display: flex;
@@ -759,17 +760,17 @@ color-principal {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; }
-    #background-header-videos #header .logo-linkin-header {
+    #background-header-videos git #header .logo-linkin-header {
       max-width: 100px;
       filter: invert(100%); }
       @media screen and (max-width: 1165px) {
-        #background-header-videos #header .logo-linkin-header {
+        #background-header-videos git #header .logo-linkin-header {
           width: 70px; } }
       @media screen and (max-width: 500px) {
-        #background-header-videos #header .logo-linkin-header {
+        #background-header-videos git #header .logo-linkin-header {
           width: 70px; } }
       @media screen and (max-width: 400px) {
-        #background-header-videos #header .logo-linkin-header {
+        #background-header-videos git #header .logo-linkin-header {
           width: 70px; } }
   #background-header-videos .log-in-flex {
     display: flex;
@@ -883,12 +884,12 @@ color-principal {
 /*FOOTER*/
 #footer {
   background-color: black;
-  height: 400px; }
+  height: 500px; }
   #footer .gif-footer {
-    text-align: center; }
+    text-align: center;
+    padding: 100px 0 100px 0; }
     #footer .gif-footer img {
-      width: 100px;
-      padding: 50px; }
+      width: 100px; }
   #footer .nav-footer-top ul, #footer .nav-footer-bottom ul {
     display: flex;
     justify-content: space-evenly;
@@ -946,7 +947,8 @@ color-principal {
         text-decoration: none;
         font-family: 'Koulen', cursive;
         letter-spacing: 3px;
-        font-weight: 100; }
+        font-weight: 100;
+        font-size: 18px; }
         @media screen and (max-width: 900px) {
           #footer .nav-footer-bottom ul li a {
             display: none; } }
@@ -1399,9 +1401,6 @@ color-principal {
     @media screen and (max-width: 320px) {
       #main-members #joe h2 {
         font-size: 25px; } }
-
-body {
-  overflow-x: hidden; }
 
 video {
   position: absolute;

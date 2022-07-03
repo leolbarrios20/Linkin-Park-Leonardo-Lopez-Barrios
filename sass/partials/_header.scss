@@ -54,7 +54,7 @@
     }
 
     @media screen and (max-width:500px){
-        background-size: 370%;
+        background-size: 320%;
         background-position-x: 37%;
         background-position-y: 100%;
     }
@@ -1007,6 +1007,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-x: hidden;git
 
     #header{
         padding: 15px 5px 15px 5px;
