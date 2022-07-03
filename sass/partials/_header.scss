@@ -11,12 +11,6 @@
     justify-content: space-between;
     align-content: center;
 
-    @media screen and (max-width:1500px){
-        background-size: 150%;
-        background-position-x: 40%;
-        background-position-y: 80%;
-    }
-
     @media screen and (max-width:1250px){
         background-size: 150%;
         background-position-x: 40%;
