@@ -70,12 +70,12 @@ color-principal {
       background-position-y: 100%; } }
   @media screen and (max-width: 500px) {
     #background-header-index {
-      background-size: 300%;
+      background-size: 320%;
       background-position-x: 40%;
       background-position-y: 100%; } }
   @media screen and (max-width: 400px) {
     #background-header-index {
-      background-size: 320%;
+      background-size: 340%;
       background-position-x: 40%;
       background-position-y: 100%; } }
   @media screen and (max-width: 350px) {
@@ -789,7 +789,7 @@ color-principal {
           flex-direction: column;
           justify-content: space-between;
           align-items: center;
-          gap: 80px;
+          gap: 60px;
           padding-top: 50px; } }
       #main-members .nav-main ul li {
         text-align: center; }
@@ -803,7 +803,7 @@ color-principal {
           letter-spacing: 2px;
           text-decoration: none;
           text-align: center;
-          background-color: #111111;
+          background-color: #0d0d0d;
           border-color: #e7e7e7;
           border-width: 2px;
           border-style: solid;
