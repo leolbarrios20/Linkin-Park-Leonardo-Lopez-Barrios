@@ -373,7 +373,6 @@ body #background-header-index{
 #main-discography{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
-    
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -436,9 +435,6 @@ body #background-header-index{
     text-align: center;
     cursor: pointer;
 }
-
-
-
 
 
 

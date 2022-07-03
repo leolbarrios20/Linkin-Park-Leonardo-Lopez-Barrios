@@ -10,7 +10,7 @@
 
         img{
             width: 100px;
-            margin: 50px;
+            padding: 50px;
         }
     }
 
@@ -22,7 +22,7 @@
             margin-right: 15px;
 
             li a{
-                font-size: 20px;
+                font-size: 25px;
                 text-decoration: none;
                 color: white;
                 font-family: 'Poppins', sans-serif;
@@ -32,12 +32,16 @@
                   filter: invert(100%);
                 }
 
+                .icon-footer-instagram{
+                    @include sizes (20px,25px);
+                }
+
                 
-                .icon-footer-facebook, .icon-footer-twitter, .icon-footer-instagram, .icon-footer-youtube{
+                .icon-footer-facebook, .icon-footer-twitter, .icon-footer-youtube{
 
 
                     filter: invert(100%);
-                    @include sizes (20px,25px);
+                    @include sizes (25px,30px);
 
 
                 $redes: (
@@ -74,6 +78,7 @@
             letter-spacing: 3px;
             width: 100%;
             text-align: center;
+            color: $color-medium;
         }
 
         ul{

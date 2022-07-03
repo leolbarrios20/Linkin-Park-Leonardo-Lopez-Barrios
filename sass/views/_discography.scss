@@ -1,0 +1,103 @@
+#main-discography{
+    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+    .albums{
+
+        p {
+
+        color: $text-color;
+        padding: 20px 20px 20px 20px;
+
+        @media screen and (max-width:700px){
+            text-align: justify;
+        }
+
+            a{
+                color: $color-principal;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+        }
+        
+
+        h2{
+            font-size: 50px;
+            color: $text-color;
+            padding: 50px 20px 50px 20px;
+
+            @media screen and (max-width:550px){
+                font-size: 35px;
+            }
+        }
+
+        .albums-flex{
+            justify-content: space-evenly;
+            display: flex;
+            gap: 20px;
+            align-content: center;
+            align-items: center;
+
+            @media screen and (max-width:800px){
+                display: flex;
+                flex-direction: column;
+            }
+
+            iframe {
+                max-width: 400px;
+
+                @media screen and (max-width:550px){
+                    width: 96%;
+                }
+            }
+
+            img{
+                max-width: 400px;
+
+                @media screen and (max-width:550px){
+                    width: 96%;
+                }
+            }
+        }
+    }
+
+    #table table {
+
+        tr {
+
+            td{
+                a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: $color-principal;
+                }
+            }
+
+            th{
+                color: $text-color;
+                padding: 15px;
+            }
+
+        }
+        
+        
+
+        td{
+            color: $text-color;
+        }
+
+    }
+    
+       
+}
+#title{
+
+    h1{
+        @media screen and (max-width:340px){
+            font-size: 30px;
+        }
+    }
+}

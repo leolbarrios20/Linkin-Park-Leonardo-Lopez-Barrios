@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+}
+video{
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    height: 100vh;
+}
+
+#main-videos{
+    background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
+    text-align: center;
+
+    div{
+
+        padding: 25px 0 50px 0;
+
+        a{
+            color: $color-principal;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+            border-color: $text-color;
+            border-width: 2px;
+            border-style: solid;
+        }
+    }
+        
+    .container{
+
+        background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
+    
+        h2{
+            font-size: 30px;
+            color: $text-color;
+            padding: 40px;
+        }
+    
+    }
+}
