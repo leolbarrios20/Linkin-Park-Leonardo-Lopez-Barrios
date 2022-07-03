@@ -57,7 +57,7 @@ color-principal {
     #background-header-index {
       background-size: 210%;
       background-position-x: 40%;
-      background-position-y: 90%; } }
+      background-position-y: 100%; } }
   @media screen and (max-width: 600px) {
     #background-header-index {
       background-size: 220%;
@@ -255,9 +255,6 @@ color-principal {
     border-style: solid;
     border-color: white;
     border-width: 2px; }
-    @media screen and (max-width: 500px) {
-      .shop-logos-flex .shop-div {
-        gap: 20px; } }
     .shop-logos-flex .shop-div a {
       display: flex;
       align-content: center;
@@ -277,21 +274,13 @@ color-principal {
         margin-top: 10px; }
         @media screen and (max-width: 500px) {
           .shop-logos-flex .shop-div a h6 {
-            font-size: 20px; } }
-        @media screen and (max-width: 400px) {
-          .shop-logos-flex .shop-div a h6 {
             display: none; } }
       .shop-logos-flex .shop-div a img {
         width: 35px;
         filter: invert(100%); }
         @media screen and (max-width: 500px) {
           .shop-logos-flex .shop-div a img {
-            width: 22px;
-            margin-right: 10px; } }
-        @media screen and (max-width: 400px) {
-          .shop-logos-flex .shop-div a img {
-            width: 30px;
-            margin-right: 0; } }
+            width: 30px; } }
   .shop-logos-flex .logos-header {
     margin-right: -10px; }
     .shop-logos-flex .logos-header a {
@@ -462,7 +451,6 @@ color-principal {
   background-color: rgba(0, 0, 0, 0.281);
   background-blend-mode: darken;
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
@@ -475,7 +463,7 @@ color-principal {
       background-size: cover; } }
   @media screen and (max-width: 1165px) {
     #background-header-members {
-      background-position-x: 40%;
+      background-position-x: 50%;
       background-size: cover; } }
   @media (max-width: 320px) {
     #background-header-members {
@@ -785,27 +773,62 @@ color-principal {
 #main-members {
   background: radial-gradient(#1a1a1a, #030303);
   text-align: center;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 20px 0px 20px;
   overflow-x: hidden; }
   #main-members .nav-main {
-    width: 100%; }
+    width: 100%;
+    margin-top: 50px; }
     #main-members .nav-main ul {
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
       width: 100%; }
+      @media screen and (max-width: 1225px) {
+        #main-members .nav-main ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          gap: 80px;
+          padding-top: 50px; } }
       #main-members .nav-main ul li {
         text-align: center; }
+        @media screen and (max-width: 1225px) {
+          #main-members .nav-main ul li {
+            width: 100%; } }
         #main-members .nav-main ul li a {
-          padding: 20px;
           color: #e7e7e7;
           font-family: 'Koulen', cursive;
+          padding: 5px 10px 5px 10px;
           letter-spacing: 2px;
           text-decoration: none;
-          text-align: center; }
+          text-align: center;
+          background-color: #111111;
+          border-color: #e7e7e7;
+          border-width: 2px;
+          border-style: solid;
+          cursor: pointer; }
+          @media screen and (max-width: 1225px) {
+            #main-members .nav-main ul li a {
+              font-size: 25px;
+              letter-spacing: 7px; } }
+          @media screen and (max-width: 540px) {
+            #main-members .nav-main ul li a {
+              font-size: 22px; } }
+          @media screen and (max-width: 440px) {
+            #main-members .nav-main ul li a {
+              font-size: 20px;
+              letter-spacing: 5px; } }
+          @media screen and (max-width: 390px) {
+            #main-members .nav-main ul li a {
+              font-size: 20px;
+              letter-spacing: 2px; } }
           #main-members .nav-main ul li a img {
             filter: invert(100%);
             width: 10px; }
+            @media screen and (max-width: 1225px) {
+              #main-members .nav-main ul li a img {
+                width: 15px; } }
   #main-members #chester .article-flex {
     display: flex;
     flex-wrap: wrap;
@@ -822,12 +845,28 @@ color-principal {
       color: white; }
     #main-members #chester .article-flex img {
       width: 400px; }
+      @media screen and (max-width: 700px) {
+        #main-members #chester .article-flex img {
+          width: 97.5%; } }
     #main-members #chester .article-flex article {
       width: 550px; }
   #main-members #chester h2 {
     font-size: 50px;
-    padding: 100px 0 30px 0;
+    margin-top: 100px;
+    padding: 10px 0 30px 0;
     color: white; }
+    @media screen and (max-width: 600px) {
+      #main-members #chester h2 {
+        font-size: 42px; } }
+    @media screen and (max-width: 500px) {
+      #main-members #chester h2 {
+        font-size: 38px; } }
+    @media screen and (max-width: 400px) {
+      #main-members #chester h2 {
+        font-size: 32px; } }
+    @media screen and (max-width: 320px) {
+      #main-members #chester h2 {
+        font-size: 25px; } }
   #main-members #mike .article-flex {
     display: flex;
     flex-wrap: wrap;
@@ -844,11 +883,15 @@ color-principal {
       color: white; }
     #main-members #mike .article-flex img {
       width: 400px; }
+      @media screen and (max-width: 700px) {
+        #main-members #mike .article-flex img {
+          width: 97.5%; } }
     #main-members #mike .article-flex article {
       width: 570px; }
   #main-members #mike h2 {
     font-size: 50px;
-    padding: 100px 0 30px 0;
+    margin-top: 100px;
+    padding: 10px 0 30px 0;
     color: white; }
   #main-members #brad .article-flex {
     display: flex;
@@ -866,11 +909,15 @@ color-principal {
       color: white; }
     #main-members #brad .article-flex img {
       width: 400px; }
+      @media screen and (max-width: 700px) {
+        #main-members #brad .article-flex img {
+          width: 97.5%; } }
     #main-members #brad .article-flex article {
       width: 500px; }
   #main-members #brad h2 {
     font-size: 50px;
-    padding: 100px 0 30px 0;
+    margin-top: 100px;
+    padding: 10px 0 30px 0;
     color: white; }
   #main-members #dave .article-flex {
     display: flex;
@@ -888,11 +935,15 @@ color-principal {
       color: white; }
     #main-members #dave .article-flex img {
       width: 500px; }
+      @media screen and (max-width: 700px) {
+        #main-members #dave .article-flex img {
+          width: 97.5%; } }
     #main-members #dave .article-flex article {
       width: 500px; }
   #main-members #dave h2 {
     font-size: 50px;
-    padding: 100px 0 30px 0;
+    margin-top: 100px;
+    padding: 10px 0 30px 0;
     color: white; }
   #main-members #rob .article-flex {
     display: flex;
@@ -910,11 +961,15 @@ color-principal {
       color: white; }
     #main-members #rob .article-flex img {
       width: 500px; }
+      @media screen and (max-width: 700px) {
+        #main-members #rob .article-flex img {
+          width: 97.5%; } }
     #main-members #rob .article-flex article {
       width: 550px; }
   #main-members #rob h2 {
     font-size: 50px;
-    padding: 100px 0 30px 0;
+    margin-top: 100px;
+    padding: 10px 0 30px 0;
     color: white; }
   #main-members #joe .article-flex {
     display: flex;
@@ -932,9 +987,13 @@ color-principal {
       color: white; }
     #main-members #joe .article-flex img {
       width: 500px; }
+      @media screen and (max-width: 700px) {
+        #main-members #joe .article-flex img {
+          width: 97.5%; } }
     #main-members #joe .article-flex article {
       width: 500px; }
   #main-members #joe h2 {
     font-size: 50px;
-    padding: 100px 0 30px 0;
+    margin-top: 100px;
+    padding: 10px 0 30px 0;
     color: white; }

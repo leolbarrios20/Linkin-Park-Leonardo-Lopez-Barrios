@@ -1,13 +1,12 @@
-
-
 #main-members{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 20px 0px 20px;
     overflow-x: hidden;
 
     .nav-main{
         width: 100%;
+        margin-top: 50px;
 
         ul{
             display: flex;
@@ -15,20 +14,62 @@
             flex-wrap: wrap;
             width: 100%;
 
+            @media screen and (max-width:1225px){
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                gap: 80px;
+                padding-top: 50px;
+            }
+            
+
             li{
                 text-align: center;
 
+                @media screen and (max-width:1225px){
+                    width: 100%;
+                }
+
                 a{
-                    padding: 20px;
-                    color: rgb(231, 231, 231);
+                    color: $text-color;
                     font-family: 'Koulen', cursive;
+                    padding: 5px 10px 5px 10px;
                     letter-spacing: 2px;
                     text-decoration: none;
                     text-align: center;
+                    background-color: rgb(17, 17, 17);
+                    border-color: $text-color;
+                    border-width: 2px;
+                    border-style: solid;
+                    cursor: pointer;
+
+                    @media screen and (max-width:1225px){
+                        font-size: 25px;
+                        letter-spacing: 7px;
+                    }
+
+                    @media screen and (max-width:540px){
+                        font-size: 22px;
+                    }
+
+                    @media screen and (max-width:440px){
+                        font-size: 20px;
+                        letter-spacing: 5px;
+                    }
+
+                    @media screen and (max-width:390px){
+                        font-size: 20px;
+                        letter-spacing: 2px;
+                    }
 
                     img{
                         filter: invert(100%);
                         width: 10px;
+
+                        @media screen and (max-width:1225px){
+                            width: 15px;
+                        }
                     }
                 }
             }
@@ -56,6 +97,10 @@
 
             img{
                 width: 400px;
+
+                @media screen and (max-width:700px){
+                    width: 97.5%;
+                }
             }
 
             article{
@@ -65,8 +110,25 @@
         
         h2{
             font-size: 50px;
-            padding: 100px 0 30px 0;
+            margin-top: 100px;
+            padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (max-width:600px){
+                font-size: 42px;
+            }
+
+            @media screen and (max-width:500px){
+                font-size: 38px;
+            }
+
+            @media screen and (max-width:400px){
+                font-size: 32px;
+            }
+
+            @media screen and (max-width:320px){
+                font-size: 25px;
+            }
         }
     }
 
@@ -91,6 +153,11 @@
 
             img{
                 width: 400px;
+
+                @media screen and (max-width:700px){
+                    width: 97.5%;
+                }
+            
             }
 
             article{
@@ -100,7 +167,8 @@
         
         h2{
             font-size: 50px;
-            padding: 100px 0 30px 0;
+            margin-top: 100px;
+            padding: 10px 0 30px 0;
             color: $color-principal;
         }
     }
@@ -126,6 +194,10 @@
 
             img{
                 width: 400px;
+
+                @media screen and (max-width:700px){
+                    width: 97.5%;
+                }
             }
 
             article{
@@ -135,7 +207,8 @@
         
         h2{
             font-size: 50px;
-            padding: 100px 0 30px 0;
+            margin-top: 100px;
+            padding: 10px 0 30px 0;
             color: $color-principal;
         }
     }
@@ -161,6 +234,10 @@
 
             img{
                 width: 500px;
+
+                @media screen and (max-width:700px){
+                    width: 97.5%;
+                }
             }
 
             article{
@@ -170,7 +247,8 @@
         
         h2{
             font-size: 50px;
-            padding: 100px 0 30px 0;
+            margin-top: 100px;
+            padding: 10px 0 30px 0;
             color: $color-principal;
         }
     }
@@ -196,6 +274,10 @@
 
             img{
                 width: 500px;
+                
+                @media screen and (max-width:700px){
+                    width: 97.5%;
+                }
             }
 
             article{
@@ -205,7 +287,8 @@
         
         h2{
             font-size: 50px;
-            padding: 100px 0 30px 0;
+            margin-top: 100px;
+            padding: 10px 0 30px 0;
             color: $color-principal;
         }
     }
@@ -231,6 +314,10 @@
 
             img{
                 width: 500px;
+
+                @media screen and (max-width:700px){
+                    width: 97.5%;
+                }
             }
 
             article{
@@ -240,7 +327,8 @@
         
         h2{
             font-size: 50px;
-            padding: 100px 0 30px 0;
+            margin-top: 100px;
+            padding: 10px 0 30px 0;
             color: $color-principal;
         }
     }
