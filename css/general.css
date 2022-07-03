@@ -161,7 +161,7 @@ body #background-header-index{
     text-align: center;
     color: rgb(228, 228, 228);
     padding: 60px;
-    font-size: 40px;
+    font-size: 70px;
     text-shadow: 3px 3px 3px black;
 }
 #main-index article{
@@ -194,7 +194,7 @@ body #background-header-index{
 /*MAIN INDEX*/
 /*MAIN HISTORY*/
 #background-header-history{
-    background-image: url(../Imagenes/fondo-history.png);
+    background-image: url(../Imagenes/fondo-history.webp);
     background-blend-mode: darken;
     background-color: rgba(24, 24, 24, 0.35);
     background-size: cover;
@@ -204,21 +204,18 @@ body #background-header-index{
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-} 
+}
 #main-history{
     background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
     text-align: center;
     padding: 100px 30px 20px 30px;
     overflow-x: hidden;
 }
-
 #main-history article{
     text-align: justify;
-    
 }
 #main-history article div img{
     max-width: 600px;
-    
 }
 #main-history article{
     font-family: 'Poppins', sans-serif;
@@ -261,9 +258,6 @@ body #background-header-index{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
-
 }
 #main-history article .flex-history-img img{
     width: 500px;
@@ -443,9 +437,6 @@ body #background-header-index{
     cursor: pointer;
 }
 
-.container-fluid{
-    padding-top: 50px;
-}
 
 
 
@@ -588,7 +579,6 @@ video{
                 width: 90%;
                 margin: 10px;
                 text-align: justify;
-                
             }
             #main-index h2{
                 font-size: 60px;
@@ -641,122 +631,8 @@ video{
         /*DISCOGRAPHY*/
     
 }
-@media screen and (max-width:500px){
-        /*INDEX*/
-        #background-header-index{
-            background-size:auto;
-            background-position-x: -100px;
-            background-size: -150%;
-            background-image: none;
-        }
-        #background-header-history{
-            background-position-x: 40%;
-            background-size:auto;
-        }
-        #background-header-members{
-            background-position-x: 100%;
-            background-size: -150%;
-        }
-        #header img{
-            width: 70px;
-        }
-        #header .log-in-flex{
-            display: flex;
-        justify-content: center;
-        }
-        #header .log-in-flex a{
-            font-size: 15px;
-        }
-        #header nav .checkbtn{
-            font-size: 40px;
-        }
-        .shop-logos-flex .shop-div a h6{
-            font-size: 20px;
-        }
-        .shop-logos-flex .shop-div a img{
-            width: 22px; 
-            margin-right: 10px;
-        }
-        .shop-logos-flex .shop-div{
-            gap: 20px;
-        }
-        .shop-logos-flex .logos-header a img{
-            width: 30px;
-        }
-    
-        #title .logos-header{
-            padding: 10px;
-        }
-        .nav-footer-bottom{
-            display: none;
-        }
-        #main-index .img-biography img{
-            width: 100%;
-        }
-        #main-index .biography img{
-            width: 80%;
-           
-        }
-        #main-index .biography article{
-            width: 90%;
-            margin: 10px;
-            text-align: justify;
-        }
-        #main-index h2{
-            font-size: 40px;
-        }
-        #title h1{
-            font-size: 30px;
-            text-align: center;
-            background-color: none;
-        }
-        #main-discography .albums .albums-flex img{
-            width: 300px;
-        }
-        #main-discography .albums .albums-flex iframe{
-            width: 300px;
-        }
-        #main-discography .albums h2{
-            text-align: center;
-            font-size: 40px;
-        }
-    
-        /*INDEX*/
-            /*HISTORY*/
-    #main-history .flex-history-img{
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        height: auto;
-        justify-content: center;
-    }
 
-    /*HISTORY*/
-        /*MEMBERS*/
-        .article-flex img{
-            width: 300px;
-        }
-    
-        /*MEMBERS*/
-            /*DISCOGRAPHY*/
-    .albums .albums-flex{
-        display: flex;
-        flex-direction: column;
-    }
-    .albums .albums-flex img{
-        width: 400px;
-    }
-    .albums .albums-flex iframe{
-        width: 400px;
-     
-    }
-    #title h1{
-        font-size: 40px;
-        letter-spacing: 5px;
-    }
 
-    /*DISCOGRAPHY*/
-}
 @media screen and (max-width:400px){
    
     #background-header-history{
@@ -805,7 +681,6 @@ video{
     }
     div .table table tr th{
         font-size: 15px;
-        
     }
     #main-members .article-flex p{
         text-align: justify;
@@ -848,7 +723,6 @@ video{
     }
     #main-index .biography article{
         width: 90%;
-        
         text-align: justify;
         font-size: 18px;
         
@@ -899,6 +773,123 @@ video{
         letter-spacing: 5px;
     }
     /*DISCOGRAPHY*/
+}
+
+@media screen and (max-width:500px){
+    /*INDEX*/
+    #background-header-index{
+        background-size:auto;
+        background-position-x: -100px;
+        background-size: -150%;
+        background-image: none;
+    }
+    #background-header-history{
+        background-position-x: 40%;
+        background-size:auto;
+    }
+    #background-header-members{
+        background-position-x: 100%;
+        background-size: -150%;
+    }
+    #header img{
+        width: 70px;
+    }
+    #header .log-in-flex{
+        display: flex;
+        justify-content: center;
+    }
+    #header .log-in-flex a{
+        font-size: 15px;
+    }
+    #header nav .checkbtn{
+        font-size: 40px;
+    }
+    .shop-logos-flex .shop-div a h6{
+        font-size: 20px;
+    }
+    .shop-logos-flex .shop-div a img{
+        width: 22px; 
+        margin-right: 10px;
+    }
+    .shop-logos-flex .shop-div{
+        gap: 20px;
+    }
+    .shop-logos-flex .logos-header a img{
+        width: 30px;
+    }
+
+    #title .logos-header{
+        padding: 10px;
+    }
+    .nav-footer-bottom{
+        display: none;
+    }
+    #main-index .img-biography img{
+        width: 100%;
+    }
+    #main-index .biography img{
+        width: 80%;
+       
+    }
+    #main-index .biography article{
+        width: 90%;
+        margin: 10px;
+        text-align: justify;
+    }
+    #main-index h2{
+        font-size: 40px;
+    }
+    #title h1{
+        font-size: 30px;
+        text-align: center;
+        background-color: none;
+    }
+    #main-discography .albums .albums-flex img{
+        width: 300px;
+    }
+    #main-discography .albums .albums-flex iframe{
+        width: 300px;
+    }
+    #main-discography .albums h2{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /*INDEX*/
+        /*HISTORY*/
+#main-history .flex-history-img{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    justify-content: center;
+}
+
+/*HISTORY*/
+    /*MEMBERS*/
+    .article-flex img{
+        width: 300px;
+    }
+
+    /*MEMBERS*/
+        /*DISCOGRAPHY*/
+.albums .albums-flex{
+    display: flex;
+    flex-direction: column;
+}
+.albums .albums-flex img{
+    width: 400px;
+}
+.albums .albums-flex iframe{
+    width: 400px;
+ 
+}
+#title h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/*DISCOGRAPHY*/
 }
 
 @media screen and (max-width: 1165px){
@@ -958,8 +949,6 @@ video{
     #background-header-members{
         background-position-x: 40%;
         background-size: -100%;
-        
-        
     }
     #background-header-discography{
         background-position-x: 50%;
@@ -991,7 +980,6 @@ video{
     .nav-principal ul li{
         display: flex;
         line-height: 10px;
-        
         text-align: center;
         width: 100%;
         

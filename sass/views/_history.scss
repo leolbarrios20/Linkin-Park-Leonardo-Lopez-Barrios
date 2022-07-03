@@ -1,0 +1,31 @@
+
+#main-history{
+    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    overflow-x: hidden;
+
+    article{
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(230, 230, 230);
+        font-weight: 300;
+        font-size: 18px;
+        overflow-x: hidden;
+
+        p{
+            line-height: 35px;
+        }
+        }
+
+        
+
+        .center{
+            text-align: center;
+        }
+
+        div img{
+            max-width: 600px;
+            padding: 5% 0 6% 0;
+        }
+    }

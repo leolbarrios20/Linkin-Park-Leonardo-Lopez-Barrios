@@ -15,20 +15,27 @@
     }
 
     .nav-footer-top{
-        padding-right: 25px;
 
         ul{
             display: flex;
             justify-content: space-evenly;
+            margin-right: 15px;
 
             li a{
-                font-size: 25px;
+                font-size: 20px;
                 text-decoration: none;
                 color: white;
                 font-family: 'Poppins', sans-serif;
 
+                img{
+                  width: 50px;
+                  filter: invert(100%);
+                }
+
                 
                 .icon-footer-facebook, .icon-footer-twitter, .icon-footer-instagram, .icon-footer-youtube{
+
+
                     filter: invert(100%);
                     @include sizes (20px,25px);
 
@@ -57,10 +64,16 @@
 
         @extend .nav-footer-top;
 
+        @media screen and (max-width:1255px){
+            text-align: center;
+        }
+
         p{
             font-family: 'Koulen', cursive;
             margin-top: 50px;
             letter-spacing: 3px;
+            width: 100%;
+            text-align: center;
         }
 
         ul{
@@ -69,15 +82,19 @@
             align-content: center;
 
             li{
-                color: var(--footer-text-color);
+                color: $text-color;
                 font-family: 'Koulen', cursive;
 
                 a{
-                    color: var(--footer-text-color);
+                    color: $text-color;
                     text-decoration: none;
                     font-family: 'Koulen', cursive;
                     letter-spacing: 3px;
                     font-weight: 100;
+
+                    @media screen and (max-width:900px){
+                        display: none;
+                    }
                 }
             }
             
