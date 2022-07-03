@@ -752,7 +752,7 @@ color-principal {
   flex-direction: column;
   justify-content: space-between;
   overflow-x: hidden; }
-  #background-header-videos git #header {
+  #background-header-videos #header {
     padding: 15px 5px 15px 5px;
     text-align: center;
     display: flex;
@@ -760,17 +760,17 @@ color-principal {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; }
-    #background-header-videos git #header .logo-linkin-header {
+    #background-header-videos #header .logo-linkin-header {
       max-width: 100px;
       filter: invert(100%); }
       @media screen and (max-width: 1165px) {
-        #background-header-videos git #header .logo-linkin-header {
+        #background-header-videos #header .logo-linkin-header {
           width: 70px; } }
       @media screen and (max-width: 500px) {
-        #background-header-videos git #header .logo-linkin-header {
+        #background-header-videos #header .logo-linkin-header {
           width: 70px; } }
       @media screen and (max-width: 400px) {
-        #background-header-videos git #header .logo-linkin-header {
+        #background-header-videos #header .logo-linkin-header {
           width: 70px; } }
   #background-header-videos .log-in-flex {
     display: flex;
