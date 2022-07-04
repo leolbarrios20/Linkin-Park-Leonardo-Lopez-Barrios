@@ -8,10 +8,11 @@ video{
 
 #main-videos{
     background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
-    text-align: center;
+    overflow-x: hidden;
 
-    div{
+    .more-videos{
 
+        text-align: center;
         padding: 25px 0 50px 0;
 
         a{
@@ -22,6 +23,7 @@ video{
             border-color: $text-color;
             border-width: 2px;
             border-style: solid;
+            text-align: center;
         }
     }
         
@@ -33,7 +35,8 @@ video{
             font-size: 30px;
             color: $text-color;
             padding: 40px;
+            text-align: center;
         }
-    
+
     }
 }
