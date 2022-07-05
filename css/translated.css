@@ -431,10 +431,10 @@ color-principal {
         #background-header-members .log-in-flex a {
           font-size: 14px; } }
     #background-header-members .log-in-flex .log-in {
-      color: white;
+      color: #d8d4d4;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
+      border-color: #d8d4d4;
       padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
@@ -443,7 +443,7 @@ color-principal {
         transform: scale(1.05); }
   #background-header-members .nav-principal .checkbtn {
     font-size: 40px;
-    color: #fff;
+    color: #d8d4d4;
     line-height: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -1576,4 +1576,4 @@ video {
   @media (max-aspect-ratio: 16 / 9) {
     video {
       width: auto;
-      height: 100%; } }
+      height: 150%; } }

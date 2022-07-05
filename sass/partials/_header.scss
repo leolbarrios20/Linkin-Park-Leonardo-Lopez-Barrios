@@ -525,18 +525,18 @@
                 .logo-linkin-header{
                     max-width: 100px;
                     filter: invert(100%);
+    
+                    @media screen and (max-width:1165px){
+                        width: 70px;
+                    }
         
-                @media screen and (max-width:1165px){
-                    width: 70px;
-                }
-    
-                @media screen and (max-width:500px){
-                    width: 70px;
-                }
-    
-                @media screen and (max-width:400px) {
-                    width: 70px;
-                }
+                    @media screen and (max-width:500px){
+                        width: 70px;
+                    }
+        
+                    @media screen and (max-width:400px) {
+                        width: 70px;
+                    }
                 }
             }
         
@@ -556,10 +556,10 @@
                         display: flex;
                         justify-content: center;
                     }
-
-                    @media screen and (max-width:340px) {
-                        display: none;
-                    }
+    
+                     @media screen and (max-width:340px) {
+                    display: none;
+                }
         
                     a{
                         text-decoration: none;
@@ -574,10 +574,10 @@
                     }
         
                     .log-in{
-                        color: white;
+                        color: $text-color;
                         border-style: solid;
                         border-width: 2px;
-                        border-color: white;
+                        border-color: $text-color;
                         padding: 5px 15px 5px 15px;
                         font-family: 'Poppins', sans-serif;
                         transition:  0.5s;
@@ -593,7 +593,7 @@
         
                     .checkbtn{
                         font-size: 40px;
-                        color: #fff;
+                        color: $text-color;
                         line-height: 20px;
                         margin-right: 10px;
                         margin-bottom: 20px;
@@ -683,7 +683,7 @@
                 }
                 
             }
-
+        
             @media (max-width: 1165px){
                 #check:checked ~ ul{
                     left:0;
