@@ -8,10 +8,16 @@
     article{
         text-align: justify;
         font-family: 'Poppins', sans-serif;
-        color: rgb(230, 230, 230);
+        color: $color-principal;
         font-weight: 300;
         font-size: 18px;
         overflow-x: hidden;
+
+        @media screen and (min-width:1000px){
+            max-width: 1200px;
+            font-size: 18px;
+            margin: 0 auto;
+        }
 
         p{
             line-height: 35px;
@@ -20,10 +26,14 @@
 
         .center{
             text-align: center;
+
+            .xero{
+                max-width: 500px;
+            }
         }
 
         div img{
-            max-width: 600px;
+            max-width: 650px;
             padding: 5% 0 6% 0;
         }
     }

@@ -32,14 +32,14 @@
                 }
 
                 a{
-                    color: $text-color;
+                    color: $color-principal;
                     font-family: 'Koulen', cursive;
                     padding: 5px 10px 5px 10px;
                     letter-spacing: 2px;
                     text-decoration: none;
                     text-align: center;
                     background-color: rgb(13, 13, 13);
-                    border-color: $text-color;
+                    color: $color-principal;
                     border-width: 2px;
                     border-style: solid;
                     cursor: pointer;
@@ -87,12 +87,22 @@
             padding-top: 20px;
             gap: 25px;
 
+                @media screen and (min-width:1250px){
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+                }
+
             p{
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
                 font-size: 18px;
                 color: $color-principal;
+
+                @media screen and (min-width:1400px){
+                    font-size: 20px;
+                }
             }
 
             img{
@@ -113,6 +123,10 @@
             margin-top: 100px;
             padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (min-width:1400px){
+                font-size: 60px;
+            }
 
             @media screen and (max-width:600px){
                 font-size: 42px;
@@ -143,12 +157,23 @@
             padding-top: 20px;
             gap: 25px;
 
+            @media screen and (min-width:1250px){
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+            
+
             p{
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
                 font-size: 18px;
                 color: $color-principal;
+
+                @media screen and (min-width:1400px){
+                    font-size: 20px;
+                }
             }
 
             img{
@@ -170,6 +195,10 @@
             margin-top: 100px;
             padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (min-width:1400px){
+                font-size: 60px;
+            }
 
             @media screen and (max-width:600px){
                 font-size: 42px;
@@ -200,12 +229,22 @@
             padding-top: 20px;
             gap: 25px;
 
+            @media screen and (min-width:1250px){
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+
             p{
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
                 font-size: 18px;
                 color: $color-principal;
+
+                @media screen and (min-width:1400px){
+                    font-size: 20px;
+                }
             }
 
             img{
@@ -226,6 +265,10 @@
             margin-top: 100px;
             padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (min-width:1400px){
+                font-size: 60px;
+            }
 
             @media screen and (max-width:600px){
                 font-size: 42px;
@@ -256,16 +299,26 @@
             padding-top: 20px;
             gap: 25px;
 
+            @media screen and (min-width:1250px){
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+
             p{
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
                 font-size: 18px;
                 color: $color-principal;
+
+                @media screen and (min-width:1400px){
+                    font-size: 20px;
+                }
             }
 
             img{
-                width: 500px;
+                width: 400px;
 
                 @media screen and (max-width:700px){
                     width: 97.5%;
@@ -273,7 +326,7 @@
             }
 
             article{
-                width: 500px;
+                width: 600px;
             }
         }
         
@@ -282,6 +335,10 @@
             margin-top: 100px;
             padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (min-width:1400px){
+                font-size: 60px;
+            }
 
             @media screen and (max-width:600px){
                 font-size: 42px;
@@ -312,12 +369,22 @@
             padding-top: 20px;
             gap: 25px;
 
+            @media screen and (min-width:1250px){
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+
             p{
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
                 font-size: 18px;
                 color: $color-principal;
+
+                @media screen and (min-width:1400px){
+                    font-size: 20px;
+                }
             }
 
             img{
@@ -338,6 +405,10 @@
             margin-top: 100px;
             padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (min-width:1400px){
+                font-size: 60px;
+            }
 
             @media screen and (max-width:600px){
                 font-size: 42px;
@@ -367,6 +438,13 @@
             align-content: center;
             padding-top: 20px;
             gap: 25px;
+            padding-bottom: 100px;
+
+            @media screen and (min-width:1250px){
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
 
             p{
                 text-align: justify;
@@ -374,6 +452,10 @@
                 font-weight: 300;
                 font-size: 18px;
                 color: $color-principal;
+
+                @media screen and (min-width:1400px){
+                    font-size: 20px;
+                }
             }
 
             img{
@@ -385,7 +467,8 @@
             }
 
             article{
-                width: 500px;
+                width: 600px;
+                
             }
         }
         
@@ -394,6 +477,10 @@
             margin-top: 100px;
             padding: 10px 0 30px 0;
             color: $color-principal;
+
+            @media screen and (min-width:1400px){
+                font-size: 60px;
+            }
 
             @media screen and (max-width:600px){
                 font-size: 42px;
