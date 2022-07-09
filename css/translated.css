@@ -15,7 +15,7 @@ color-principal {
 /*PARTIALS*/
 /*HEADER INDEX*/
 #background-header-index {
-  background-image: url(../Imagenes/linkin-park-fondo-2.jpg);
+  background-image: url(../Imagenes/linkin-park-fondo-4.jpg);
   background-position: center;
   background-color: #2D3140;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.105); }
+    background-color: rgba(0, 0, 0, 0.205); }
     @media screen and (max-width: 1165px) {
       #background-header-index #header {
         display: flex;
@@ -43,18 +43,15 @@ color-principal {
         display: flex;
         justify-content: center; } }
     #background-header-index #header .logo-linkin-header {
-      max-width: 75px;
+      max-width: 65px;
       margin-right: 3%;
       filter: invert(100%); }
       @media screen and (min-width: 1370px) {
         #background-header-index #header .logo-linkin-header {
           margin-right: 3%; } }
-      @media screen and (max-width: 600px) {
-        #background-header-index #header .logo-linkin-header {
-          margin-right: 0; } }
       @media screen and (max-width: 1165px) {
         #background-header-index #header .logo-linkin-header {
-          width: 70px; } }
+          width: 60px; } }
       @media (max-width: 350px) {
         #background-header-index #header .logo-linkin-header {
           width: 60px; } }
@@ -90,94 +87,96 @@ color-principal {
       @media (max-width: 350px) {
         #background-header-index .log-in-flex a {
           font-size: 12px; } }
-    #background-header-index .log-in-flex .log-in {
+    #background-header-index .log-in-flex .log-in, #background-header-index .log-in-flex .register {
       color: white;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
-      padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
+      border-color: white;
+      padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 13px; }
-      #background-header-index .log-in-flex .log-in:hover {
+      font-size: 12px; }
+      #background-header-index .log-in-flex .log-in:hover, #background-header-index .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
-  #background-header-index .nav-principal .checkbtn {
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none; }
-    @media (max-width: 1165px) {
-      #background-header-index .nav-principal .checkbtn {
-        display: block; } }
-    @media screen and (max-width: 1000px) {
-      #background-header-index .nav-principal .checkbtn {
-        margin-left: 3%; } }
-    @media screen and (max-width: 500px) {
-      #background-header-index .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media screen and (max-width: 400px) {
-      #background-header-index .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media (max-width: 350px) {
-      #background-header-index .nav-principal .checkbtn {
-        font-size: 35px; } }
-  #background-header-index .nav-principal #check {
-    display: none; }
-  #background-header-index .nav-principal ul {
-    display: flex;
-    flex-wrap: wrap; }
-    @media (max-width: 1165px) {
-      #background-header-index .nav-principal ul {
-        background-image: url(../Imagenes/linkinpark-meteora.jpg);
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.782);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 20000; } }
-    @media (max-width: 1165px) {
-      #background-header-index .nav-principal ul li {
-        display: flex;
-        line-height: 10px;
-        text-align: center;
-        width: 100%; } }
-    #background-header-index .nav-principal ul li a {
-      padding: 5px 10px 5px 15px;
-      margin: 12px;
+    #background-header-index .log-in-flex .register {
+      padding: 5px 15px 5px 15px; }
+  #background-header-index .nav-principal {
+    margin-bottom: 5px; }
+    #background-header-index .nav-principal .checkbtn {
+      font-size: 40px;
       color: white;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: 'Koulen', cursive;
-      letter-spacing: 8px;
-      text-shadow: 2px 1px 3px black;
-      transition: 0.6s;
-      font-weight: 300; }
-      @media screen and (min-width: 1400px) {
-        #background-header-index .nav-principal ul li a {
-          font-size: 20px; } }
+      line-height: 20px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      display: none; }
       @media (max-width: 1165px) {
-        #background-header-index .nav-principal ul li a {
-          font-size: 20px;
+        #background-header-index .nav-principal .checkbtn {
+          display: block; } }
+      @media screen and (max-width: 1000px) {
+        #background-header-index .nav-principal .checkbtn {
+          margin-left: 3%; } }
+      @media screen and (max-width: 500px) {
+        #background-header-index .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media screen and (max-width: 400px) {
+        #background-header-index .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media (max-width: 350px) {
+        #background-header-index .nav-principal .checkbtn {
+          font-size: 35px; } }
+    #background-header-index .nav-principal #check {
+      display: none; }
+    #background-header-index .nav-principal ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 1165px) {
+        #background-header-index .nav-principal ul {
+          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-blend-mode: darken;
+          background-color: rgba(0, 0, 0, 0.782);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: fixed;
           width: 100%;
-          padding: 20px;
-          margin-right: 25px; } }
-      #background-header-index .nav-principal ul li a:hover {
-        box-shadow: 1px 1px 5px 1px white;
-        background-color: rgba(0, 0, 0, 0.595); }
+          height: 100vh;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+          z-index: 20000; } }
+      @media (max-width: 1165px) {
+        #background-header-index .nav-principal ul li {
+          display: flex;
+          line-height: 10px;
+          text-align: center;
+          width: 100%; } }
+      #background-header-index .nav-principal ul li a {
+        padding: 5px 8px 5px 13px;
+        margin: 12px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 8px;
+        transition: 0.6s;
+        font-weight: 300; }
+        @media screen and (min-width: 1400px) {
+          #background-header-index .nav-principal ul li a {
+            font-size: 20px; } }
+        @media (max-width: 1165px) {
+          #background-header-index .nav-principal ul li a {
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+            margin-right: 25px; } }
+        #background-header-index .nav-principal ul li a:hover {
+          background-color: rgba(0, 0, 0, 0.514); }
 
 #title h1 {
   text-align: center;
@@ -186,7 +185,8 @@ color-principal {
   text-shadow: 3px 3px 12px black;
   font-family: 'Koulen', cursive;
   letter-spacing: 20px;
-  width: 100%; }
+  width: 100%;
+  margin-top: 5%; }
   @media screen and (max-width: 1255px) {
     #title h1 {
       font-size: 80px;
@@ -198,13 +198,17 @@ color-principal {
   @media screen and (max-width: 700px) {
     #title h1 {
       background-color: transparent; } }
+  @media screen and (max-width: 600px) {
+    #title h1 {
+      font-size: 55px;
+      background-color: none; } }
   @media screen and (max-width: 500px) {
     #title h1 {
       font-size: 50px;
       background-color: none; } }
   @media screen and (max-width: 400px) {
     #title h1 {
-      font-size: 40px; } }
+      font-size: 45px; } }
 
 .shop-logos-flex {
   display: flex;
@@ -230,7 +234,7 @@ color-principal {
         display: none; } }
   .shop-logos-flex .shop-div {
     background-color: rgba(0, 0, 0, 0.548);
-    padding: 12px;
+    padding: 2px;
     border-style: solid;
     border-color: white;
     border-width: 2px; }
@@ -246,7 +250,7 @@ color-principal {
         .shop-logos-flex .shop-div a {
           gap: 10px; } }
       .shop-logos-flex .shop-div a h6 {
-        font-size: 25px;
+        font-size: 22px;
         font-family: 'Koulen', cursive;
         letter-spacing: 3px;
         font-weight: 300;
@@ -266,6 +270,8 @@ color-principal {
     .shop-logos-flex .logos-header a {
       margin: 5px;
       filter: drop-shadow(5px 5px 5px black); }
+      .shop-logos-flex .logos-header a img {
+        width: 30px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -273,7 +279,7 @@ color-principal {
 
 /*HEADER HISTORY*/
 #background-header-history {
-  background-image: url(../Imagenes/fondo-history.png);
+  background-image: url(../Imagenes/fondo-history3.jpg);
   background-color: #1B1415;
   background-position: center;
   background-repeat: no-repeat;
@@ -291,7 +297,7 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.105); }
+    background-color: rgba(0, 0, 0, 0.405); }
     @media screen and (max-width: 1165px) {
       #background-header-history #header {
         display: flex;
@@ -301,18 +307,15 @@ color-principal {
         display: flex;
         justify-content: center; } }
     #background-header-history #header .logo-linkin-header {
-      max-width: 75px;
+      max-width: 65px;
       margin-right: 3%;
       filter: invert(100%); }
       @media screen and (min-width: 1370px) {
         #background-header-history #header .logo-linkin-header {
           margin-right: 3%; } }
-      @media screen and (max-width: 600px) {
-        #background-header-history #header .logo-linkin-header {
-          margin-right: 0; } }
       @media screen and (max-width: 1165px) {
         #background-header-history #header .logo-linkin-header {
-          width: 70px; } }
+          width: 60px; } }
       @media (max-width: 350px) {
         #background-header-history #header .logo-linkin-header {
           width: 60px; } }
@@ -348,94 +351,97 @@ color-principal {
       @media (max-width: 350px) {
         #background-header-history .log-in-flex a {
           font-size: 12px; } }
-    #background-header-history .log-in-flex .log-in {
+    #background-header-history .log-in-flex .log-in, #background-header-history .log-in-flex .register {
       color: white;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
-      padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
+      border-color: white;
+      padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 13px; }
-      #background-header-history .log-in-flex .log-in:hover {
+      font-size: 12px; }
+      #background-header-history .log-in-flex .log-in:hover, #background-header-history .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
-  #background-header-history .nav-principal .checkbtn {
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none; }
-    @media (max-width: 1165px) {
-      #background-header-history .nav-principal .checkbtn {
-        display: block; } }
-    @media screen and (max-width: 1000px) {
-      #background-header-history .nav-principal .checkbtn {
-        margin-left: 3%; } }
-    @media screen and (max-width: 500px) {
-      #background-header-history .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media screen and (max-width: 400px) {
-      #background-header-history .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media (max-width: 350px) {
-      #background-header-history .nav-principal .checkbtn {
-        font-size: 35px; } }
-  #background-header-history .nav-principal #check {
-    display: none; }
-  #background-header-history .nav-principal ul {
-    display: flex;
-    flex-wrap: wrap; }
-    @media (max-width: 1165px) {
-      #background-header-history .nav-principal ul {
-        background-image: url(../Imagenes/linkinpark-meteora.jpg);
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.782);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 20000; } }
-    @media (max-width: 1165px) {
-      #background-header-history .nav-principal ul li {
-        display: flex;
-        line-height: 10px;
-        text-align: center;
-        width: 100%; } }
-    #background-header-history .nav-principal ul li a {
-      padding: 5px 10px 5px 15px;
-      margin: 12px;
+    #background-header-history .log-in-flex .register {
+      padding: 5px 15px 5px 15px; }
+  #background-header-history .nav-principal {
+    margin-bottom: 5px; }
+    #background-header-history .nav-principal .checkbtn {
+      font-size: 40px;
       color: white;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: 'Koulen', cursive;
-      letter-spacing: 8px;
-      text-shadow: 2px 1px 3px black;
-      transition: 0.6s;
-      font-weight: 300; }
-      @media screen and (min-width: 1400px) {
-        #background-header-history .nav-principal ul li a {
-          font-size: 20px; } }
+      line-height: 20px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      display: none; }
       @media (max-width: 1165px) {
-        #background-header-history .nav-principal ul li a {
-          font-size: 20px;
+        #background-header-history .nav-principal .checkbtn {
+          display: block; } }
+      @media screen and (max-width: 1000px) {
+        #background-header-history .nav-principal .checkbtn {
+          margin-left: 3%; } }
+      @media screen and (max-width: 500px) {
+        #background-header-history .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media screen and (max-width: 400px) {
+        #background-header-history .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media (max-width: 350px) {
+        #background-header-history .nav-principal .checkbtn {
+          font-size: 35px; } }
+    #background-header-history .nav-principal #check {
+      display: none; }
+    #background-header-history .nav-principal ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 1165px) {
+        #background-header-history .nav-principal ul {
+          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-blend-mode: darken;
+          background-color: rgba(0, 0, 0, 0.782);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: fixed;
           width: 100%;
-          padding: 20px;
-          margin-right: 25px; } }
-      #background-header-history .nav-principal ul li a:hover {
-        box-shadow: 1px 1px 5px 1px white;
-        background-color: rgba(0, 0, 0, 0.595); }
+          height: 100vh;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+          z-index: 20000; } }
+      @media (max-width: 1165px) {
+        #background-header-history .nav-principal ul li {
+          display: flex;
+          line-height: 10px;
+          text-align: center;
+          width: 100%; } }
+      #background-header-history .nav-principal ul li a {
+        padding: 5px 10px 5px 15px;
+        margin: 12px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 8px;
+        transition: 0.6s;
+        font-weight: 300; }
+        @media screen and (min-width: 1400px) {
+          #background-header-history .nav-principal ul li a {
+            font-size: 20px; } }
+        @media (max-width: 1165px) {
+          #background-header-history .nav-principal ul li a {
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+            margin-right: 25px; } }
+        #background-header-history .nav-principal ul li a:hover {
+          box-shadow: 1px 1px 5px 1px white;
+          background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -443,7 +449,7 @@ color-principal {
 
 /*HEADER MEMBERS*/
 #background-header-members {
-  background-image: url(../Imagenes/ws_The_Linkin_Park_1600x1200.jpg);
+  background-image: url(../Imagenes/ws_The_Linkin_Park_1600x12002.jpg);
   background-color: #BFE9EE;
   background-position: center;
   background-repeat: no-repeat;
@@ -461,7 +467,7 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.105); }
+    background-color: rgba(0, 0, 0, 0.405); }
     @media screen and (max-width: 1165px) {
       #background-header-members #header {
         display: flex;
@@ -471,18 +477,15 @@ color-principal {
         display: flex;
         justify-content: center; } }
     #background-header-members #header .logo-linkin-header {
-      max-width: 75px;
+      max-width: 65px;
       margin-right: 3%;
       filter: invert(100%); }
       @media screen and (min-width: 1370px) {
         #background-header-members #header .logo-linkin-header {
           margin-right: 3%; } }
-      @media screen and (max-width: 600px) {
-        #background-header-members #header .logo-linkin-header {
-          margin-right: 0; } }
       @media screen and (max-width: 1165px) {
         #background-header-members #header .logo-linkin-header {
-          width: 70px; } }
+          width: 60px; } }
       @media (max-width: 350px) {
         #background-header-members #header .logo-linkin-header {
           width: 60px; } }
@@ -518,94 +521,97 @@ color-principal {
       @media (max-width: 350px) {
         #background-header-members .log-in-flex a {
           font-size: 12px; } }
-    #background-header-members .log-in-flex .log-in {
+    #background-header-members .log-in-flex .log-in, #background-header-members .log-in-flex .register {
       color: white;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
-      padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
+      border-color: white;
+      padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 13px; }
-      #background-header-members .log-in-flex .log-in:hover {
+      font-size: 12px; }
+      #background-header-members .log-in-flex .log-in:hover, #background-header-members .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
-  #background-header-members .nav-principal .checkbtn {
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none; }
-    @media (max-width: 1165px) {
-      #background-header-members .nav-principal .checkbtn {
-        display: block; } }
-    @media screen and (max-width: 1000px) {
-      #background-header-members .nav-principal .checkbtn {
-        margin-left: 3%; } }
-    @media screen and (max-width: 500px) {
-      #background-header-members .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media screen and (max-width: 400px) {
-      #background-header-members .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media (max-width: 350px) {
-      #background-header-members .nav-principal .checkbtn {
-        font-size: 35px; } }
-  #background-header-members .nav-principal #check {
-    display: none; }
-  #background-header-members .nav-principal ul {
-    display: flex;
-    flex-wrap: wrap; }
-    @media (max-width: 1165px) {
-      #background-header-members .nav-principal ul {
-        background-image: url(../Imagenes/linkinpark-meteora.jpg);
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.782);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 20000; } }
-    @media (max-width: 1165px) {
-      #background-header-members .nav-principal ul li {
-        display: flex;
-        line-height: 10px;
-        text-align: center;
-        width: 100%; } }
-    #background-header-members .nav-principal ul li a {
-      padding: 5px 10px 5px 15px;
-      margin: 12px;
+    #background-header-members .log-in-flex .register {
+      padding: 5px 15px 5px 15px; }
+  #background-header-members .nav-principal {
+    margin-bottom: 5px; }
+    #background-header-members .nav-principal .checkbtn {
+      font-size: 40px;
       color: white;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: 'Koulen', cursive;
-      letter-spacing: 8px;
-      text-shadow: 2px 1px 3px black;
-      transition: 0.6s;
-      font-weight: 300; }
-      @media screen and (min-width: 1400px) {
-        #background-header-members .nav-principal ul li a {
-          font-size: 20px; } }
+      line-height: 20px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      display: none; }
       @media (max-width: 1165px) {
-        #background-header-members .nav-principal ul li a {
-          font-size: 20px;
+        #background-header-members .nav-principal .checkbtn {
+          display: block; } }
+      @media screen and (max-width: 1000px) {
+        #background-header-members .nav-principal .checkbtn {
+          margin-left: 3%; } }
+      @media screen and (max-width: 500px) {
+        #background-header-members .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media screen and (max-width: 400px) {
+        #background-header-members .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media (max-width: 350px) {
+        #background-header-members .nav-principal .checkbtn {
+          font-size: 35px; } }
+    #background-header-members .nav-principal #check {
+      display: none; }
+    #background-header-members .nav-principal ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 1165px) {
+        #background-header-members .nav-principal ul {
+          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-blend-mode: darken;
+          background-color: rgba(0, 0, 0, 0.782);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: fixed;
           width: 100%;
-          padding: 20px;
-          margin-right: 25px; } }
-      #background-header-members .nav-principal ul li a:hover {
-        box-shadow: 1px 1px 5px 1px white;
-        background-color: rgba(0, 0, 0, 0.595); }
+          height: 100vh;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+          z-index: 20000; } }
+      @media (max-width: 1165px) {
+        #background-header-members .nav-principal ul li {
+          display: flex;
+          line-height: 10px;
+          text-align: center;
+          width: 100%; } }
+      #background-header-members .nav-principal ul li a {
+        padding: 5px 10px 5px 15px;
+        margin: 12px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 8px;
+        transition: 0.6s;
+        font-weight: 300; }
+        @media screen and (min-width: 1400px) {
+          #background-header-members .nav-principal ul li a {
+            font-size: 20px; } }
+        @media (max-width: 1165px) {
+          #background-header-members .nav-principal ul li a {
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+            margin-right: 25px; } }
+        #background-header-members .nav-principal ul li a:hover {
+          box-shadow: 1px 1px 5px 1px white;
+          background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -613,7 +619,7 @@ color-principal {
 
 /*HEADER DISCOGRAPHY*/
 #background-header-discography {
-  background-image: url(../Imagenes/linkinpark-meteora.jpg);
+  background-image: url(../Imagenes/linkinpark-meteora2.jpg);
   background-color: #B29173;
   background-position: center;
   background-repeat: no-repeat;
@@ -634,7 +640,7 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.105); }
+    background-color: rgba(0, 0, 0, 0.405); }
     @media screen and (max-width: 1165px) {
       #background-header-discography #header {
         display: flex;
@@ -644,18 +650,15 @@ color-principal {
         display: flex;
         justify-content: center; } }
     #background-header-discography #header .logo-linkin-header {
-      max-width: 75px;
+      max-width: 65px;
       margin-right: 3%;
       filter: invert(100%); }
       @media screen and (min-width: 1370px) {
         #background-header-discography #header .logo-linkin-header {
           margin-right: 3%; } }
-      @media screen and (max-width: 600px) {
-        #background-header-discography #header .logo-linkin-header {
-          margin-right: 0; } }
       @media screen and (max-width: 1165px) {
         #background-header-discography #header .logo-linkin-header {
-          width: 70px; } }
+          width: 60px; } }
       @media (max-width: 350px) {
         #background-header-discography #header .logo-linkin-header {
           width: 60px; } }
@@ -691,94 +694,97 @@ color-principal {
       @media (max-width: 350px) {
         #background-header-discography .log-in-flex a {
           font-size: 12px; } }
-    #background-header-discography .log-in-flex .log-in {
+    #background-header-discography .log-in-flex .log-in, #background-header-discography .log-in-flex .register {
       color: white;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
-      padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
+      border-color: white;
+      padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 13px; }
-      #background-header-discography .log-in-flex .log-in:hover {
+      font-size: 12px; }
+      #background-header-discography .log-in-flex .log-in:hover, #background-header-discography .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
-  #background-header-discography .nav-principal .checkbtn {
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none; }
-    @media (max-width: 1165px) {
-      #background-header-discography .nav-principal .checkbtn {
-        display: block; } }
-    @media screen and (max-width: 1000px) {
-      #background-header-discography .nav-principal .checkbtn {
-        margin-left: 3%; } }
-    @media screen and (max-width: 500px) {
-      #background-header-discography .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media screen and (max-width: 400px) {
-      #background-header-discography .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media (max-width: 350px) {
-      #background-header-discography .nav-principal .checkbtn {
-        font-size: 35px; } }
-  #background-header-discography .nav-principal #check {
-    display: none; }
-  #background-header-discography .nav-principal ul {
-    display: flex;
-    flex-wrap: wrap; }
-    @media (max-width: 1165px) {
-      #background-header-discography .nav-principal ul {
-        background-image: url(../Imagenes/linkinpark-meteora.jpg);
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.782);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 20000; } }
-    @media (max-width: 1165px) {
-      #background-header-discography .nav-principal ul li {
-        display: flex;
-        line-height: 10px;
-        text-align: center;
-        width: 100%; } }
-    #background-header-discography .nav-principal ul li a {
-      padding: 5px 10px 5px 15px;
-      margin: 12px;
+    #background-header-discography .log-in-flex .register {
+      padding: 5px 15px 5px 15px; }
+  #background-header-discography .nav-principal {
+    margin-bottom: 5px; }
+    #background-header-discography .nav-principal .checkbtn {
+      font-size: 40px;
       color: white;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: 'Koulen', cursive;
-      letter-spacing: 8px;
-      text-shadow: 2px 1px 3px black;
-      transition: 0.6s;
-      font-weight: 300; }
-      @media screen and (min-width: 1400px) {
-        #background-header-discography .nav-principal ul li a {
-          font-size: 20px; } }
+      line-height: 20px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      display: none; }
       @media (max-width: 1165px) {
-        #background-header-discography .nav-principal ul li a {
-          font-size: 20px;
+        #background-header-discography .nav-principal .checkbtn {
+          display: block; } }
+      @media screen and (max-width: 1000px) {
+        #background-header-discography .nav-principal .checkbtn {
+          margin-left: 3%; } }
+      @media screen and (max-width: 500px) {
+        #background-header-discography .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media screen and (max-width: 400px) {
+        #background-header-discography .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media (max-width: 350px) {
+        #background-header-discography .nav-principal .checkbtn {
+          font-size: 35px; } }
+    #background-header-discography .nav-principal #check {
+      display: none; }
+    #background-header-discography .nav-principal ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 1165px) {
+        #background-header-discography .nav-principal ul {
+          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-blend-mode: darken;
+          background-color: rgba(0, 0, 0, 0.782);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: fixed;
           width: 100%;
-          padding: 20px;
-          margin-right: 25px; } }
-      #background-header-discography .nav-principal ul li a:hover {
-        box-shadow: 1px 1px 5px 1px white;
-        background-color: rgba(0, 0, 0, 0.595); }
+          height: 100vh;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+          z-index: 20000; } }
+      @media (max-width: 1165px) {
+        #background-header-discography .nav-principal ul li {
+          display: flex;
+          line-height: 10px;
+          text-align: center;
+          width: 100%; } }
+      #background-header-discography .nav-principal ul li a {
+        padding: 5px 10px 5px 15px;
+        margin: 12px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 8px;
+        transition: 0.6s;
+        font-weight: 300; }
+        @media screen and (min-width: 1400px) {
+          #background-header-discography .nav-principal ul li a {
+            font-size: 20px; } }
+        @media (max-width: 1165px) {
+          #background-header-discography .nav-principal ul li a {
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+            margin-right: 25px; } }
+        #background-header-discography .nav-principal ul li a:hover {
+          box-shadow: 1px 1px 5px 1px white;
+          background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -799,7 +805,7 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.105); }
+    background-color: rgba(0, 0, 0, 0.405); }
     @media screen and (max-width: 1165px) {
       #background-header-videos #header {
         display: flex;
@@ -809,18 +815,15 @@ color-principal {
         display: flex;
         justify-content: center; } }
     #background-header-videos #header .logo-linkin-header {
-      max-width: 75px;
+      max-width: 65px;
       margin-right: 3%;
       filter: invert(100%); }
       @media screen and (min-width: 1370px) {
         #background-header-videos #header .logo-linkin-header {
           margin-right: 3%; } }
-      @media screen and (max-width: 600px) {
-        #background-header-videos #header .logo-linkin-header {
-          margin-right: 0; } }
       @media screen and (max-width: 1165px) {
         #background-header-videos #header .logo-linkin-header {
-          width: 70px; } }
+          width: 60px; } }
       @media (max-width: 350px) {
         #background-header-videos #header .logo-linkin-header {
           width: 60px; } }
@@ -856,94 +859,97 @@ color-principal {
       @media (max-width: 350px) {
         #background-header-videos .log-in-flex a {
           font-size: 12px; } }
-    #background-header-videos .log-in-flex .log-in {
+    #background-header-videos .log-in-flex .log-in, #background-header-videos .log-in-flex .register {
       color: white;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
-      padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
+      border-color: white;
+      padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 13px; }
-      #background-header-videos .log-in-flex .log-in:hover {
+      font-size: 12px; }
+      #background-header-videos .log-in-flex .log-in:hover, #background-header-videos .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
-  #background-header-videos .nav-principal .checkbtn {
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none; }
-    @media (max-width: 1165px) {
-      #background-header-videos .nav-principal .checkbtn {
-        display: block; } }
-    @media screen and (max-width: 1000px) {
-      #background-header-videos .nav-principal .checkbtn {
-        margin-left: 3%; } }
-    @media screen and (max-width: 500px) {
-      #background-header-videos .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media screen and (max-width: 400px) {
-      #background-header-videos .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media (max-width: 350px) {
-      #background-header-videos .nav-principal .checkbtn {
-        font-size: 35px; } }
-  #background-header-videos .nav-principal #check {
-    display: none; }
-  #background-header-videos .nav-principal ul {
-    display: flex;
-    flex-wrap: wrap; }
-    @media (max-width: 1165px) {
-      #background-header-videos .nav-principal ul {
-        background-image: url(../Imagenes/linkinpark-meteora.jpg);
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.782);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 20000; } }
-    @media (max-width: 1165px) {
-      #background-header-videos .nav-principal ul li {
-        display: flex;
-        line-height: 10px;
-        text-align: center;
-        width: 100%; } }
-    #background-header-videos .nav-principal ul li a {
-      padding: 5px 10px 5px 15px;
-      margin: 12px;
+    #background-header-videos .log-in-flex .register {
+      padding: 5px 15px 5px 15px; }
+  #background-header-videos .nav-principal {
+    margin-bottom: 5px; }
+    #background-header-videos .nav-principal .checkbtn {
+      font-size: 40px;
       color: white;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: 'Koulen', cursive;
-      letter-spacing: 8px;
-      text-shadow: 2px 1px 3px black;
-      transition: 0.6s;
-      font-weight: 300; }
-      @media screen and (min-width: 1400px) {
-        #background-header-videos .nav-principal ul li a {
-          font-size: 20px; } }
+      line-height: 20px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      display: none; }
       @media (max-width: 1165px) {
-        #background-header-videos .nav-principal ul li a {
-          font-size: 20px;
+        #background-header-videos .nav-principal .checkbtn {
+          display: block; } }
+      @media screen and (max-width: 1000px) {
+        #background-header-videos .nav-principal .checkbtn {
+          margin-left: 3%; } }
+      @media screen and (max-width: 500px) {
+        #background-header-videos .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media screen and (max-width: 400px) {
+        #background-header-videos .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media (max-width: 350px) {
+        #background-header-videos .nav-principal .checkbtn {
+          font-size: 35px; } }
+    #background-header-videos .nav-principal #check {
+      display: none; }
+    #background-header-videos .nav-principal ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 1165px) {
+        #background-header-videos .nav-principal ul {
+          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-blend-mode: darken;
+          background-color: rgba(0, 0, 0, 0.782);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: fixed;
           width: 100%;
-          padding: 20px;
-          margin-right: 25px; } }
-      #background-header-videos .nav-principal ul li a:hover {
-        box-shadow: 1px 1px 5px 1px white;
-        background-color: rgba(0, 0, 0, 0.595); }
+          height: 100vh;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+          z-index: 20000; } }
+      @media (max-width: 1165px) {
+        #background-header-videos .nav-principal ul li {
+          display: flex;
+          line-height: 10px;
+          text-align: center;
+          width: 100%; } }
+      #background-header-videos .nav-principal ul li a {
+        padding: 5px 10px 5px 15px;
+        margin: 12px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 8px;
+        transition: 0.6s;
+        font-weight: 300; }
+        @media screen and (min-width: 1400px) {
+          #background-header-videos .nav-principal ul li a {
+            font-size: 20px; } }
+        @media (max-width: 1165px) {
+          #background-header-videos .nav-principal ul li a {
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+            margin-right: 25px; } }
+        #background-header-videos .nav-principal ul li a:hover {
+          box-shadow: 1px 1px 5px 1px white;
+          background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -969,7 +975,7 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.105); }
+    background-color: rgba(0, 0, 0, 0.405); }
     @media screen and (max-width: 1165px) {
       #background-header-shop #header {
         display: flex;
@@ -979,18 +985,15 @@ color-principal {
         display: flex;
         justify-content: center; } }
     #background-header-shop #header .logo-linkin-header {
-      max-width: 75px;
+      max-width: 65px;
       margin-right: 3%;
       filter: invert(100%); }
       @media screen and (min-width: 1370px) {
         #background-header-shop #header .logo-linkin-header {
           margin-right: 3%; } }
-      @media screen and (max-width: 600px) {
-        #background-header-shop #header .logo-linkin-header {
-          margin-right: 0; } }
       @media screen and (max-width: 1165px) {
         #background-header-shop #header .logo-linkin-header {
-          width: 70px; } }
+          width: 60px; } }
       @media (max-width: 350px) {
         #background-header-shop #header .logo-linkin-header {
           width: 60px; } }
@@ -1026,94 +1029,97 @@ color-principal {
       @media (max-width: 350px) {
         #background-header-shop .log-in-flex a {
           font-size: 12px; } }
-    #background-header-shop .log-in-flex .log-in {
+    #background-header-shop .log-in-flex .log-in, #background-header-shop .log-in-flex .register {
       color: white;
       border-style: solid;
       border-width: 2px;
-      border-color: white;
-      padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
+      border-color: white;
+      padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 13px; }
-      #background-header-shop .log-in-flex .log-in:hover {
+      font-size: 12px; }
+      #background-header-shop .log-in-flex .log-in:hover, #background-header-shop .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
-  #background-header-shop .nav-principal .checkbtn {
-    font-size: 40px;
-    color: #fff;
-    line-height: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    display: none; }
-    @media (max-width: 1165px) {
-      #background-header-shop .nav-principal .checkbtn {
-        display: block; } }
-    @media screen and (max-width: 1000px) {
-      #background-header-shop .nav-principal .checkbtn {
-        margin-left: 3%; } }
-    @media screen and (max-width: 500px) {
-      #background-header-shop .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media screen and (max-width: 400px) {
-      #background-header-shop .nav-principal .checkbtn {
-        font-size: 40px; } }
-    @media (max-width: 350px) {
-      #background-header-shop .nav-principal .checkbtn {
-        font-size: 35px; } }
-  #background-header-shop .nav-principal #check {
-    display: none; }
-  #background-header-shop .nav-principal ul {
-    display: flex;
-    flex-wrap: wrap; }
-    @media (max-width: 1165px) {
-      #background-header-shop .nav-principal ul {
-        background-image: url(../Imagenes/linkinpark-meteora.jpg);
-        background-blend-mode: darken;
-        background-color: rgba(0, 0, 0, 0.782);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 20000; } }
-    @media (max-width: 1165px) {
-      #background-header-shop .nav-principal ul li {
-        display: flex;
-        line-height: 10px;
-        text-align: center;
-        width: 100%; } }
-    #background-header-shop .nav-principal ul li a {
-      padding: 5px 10px 5px 15px;
-      margin: 12px;
+    #background-header-shop .log-in-flex .register {
+      padding: 5px 15px 5px 15px; }
+  #background-header-shop .nav-principal {
+    margin-bottom: 5px; }
+    #background-header-shop .nav-principal .checkbtn {
+      font-size: 40px;
       color: white;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: 'Koulen', cursive;
-      letter-spacing: 8px;
-      text-shadow: 2px 1px 3px black;
-      transition: 0.6s;
-      font-weight: 300; }
-      @media screen and (min-width: 1400px) {
-        #background-header-shop .nav-principal ul li a {
-          font-size: 20px; } }
+      line-height: 20px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      display: none; }
       @media (max-width: 1165px) {
-        #background-header-shop .nav-principal ul li a {
-          font-size: 20px;
+        #background-header-shop .nav-principal .checkbtn {
+          display: block; } }
+      @media screen and (max-width: 1000px) {
+        #background-header-shop .nav-principal .checkbtn {
+          margin-left: 3%; } }
+      @media screen and (max-width: 500px) {
+        #background-header-shop .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media screen and (max-width: 400px) {
+        #background-header-shop .nav-principal .checkbtn {
+          font-size: 40px; } }
+      @media (max-width: 350px) {
+        #background-header-shop .nav-principal .checkbtn {
+          font-size: 35px; } }
+    #background-header-shop .nav-principal #check {
+      display: none; }
+    #background-header-shop .nav-principal ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 1165px) {
+        #background-header-shop .nav-principal ul {
+          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-blend-mode: darken;
+          background-color: rgba(0, 0, 0, 0.782);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: fixed;
           width: 100%;
-          padding: 20px;
-          margin-right: 25px; } }
-      #background-header-shop .nav-principal ul li a:hover {
-        box-shadow: 1px 1px 5px 1px white;
-        background-color: rgba(0, 0, 0, 0.595); }
+          height: 100vh;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+          z-index: 20000; } }
+      @media (max-width: 1165px) {
+        #background-header-shop .nav-principal ul li {
+          display: flex;
+          line-height: 10px;
+          text-align: center;
+          width: 100%; } }
+      #background-header-shop .nav-principal ul li a {
+        padding: 5px 10px 5px 15px;
+        margin: 12px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 8px;
+        transition: 0.6s;
+        font-weight: 300; }
+        @media screen and (min-width: 1400px) {
+          #background-header-shop .nav-principal ul li a {
+            font-size: 20px; } }
+        @media (max-width: 1165px) {
+          #background-header-shop .nav-principal ul li a {
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+            margin-right: 25px; } }
+        #background-header-shop .nav-principal ul li a:hover {
+          box-shadow: 1px 1px 5px 1px white;
+          background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -1858,12 +1864,12 @@ body {
   overflow-x: hidden; }
 
 #main-videos {
-  background: radial-gradient(rgba(8, 8, 8, 0.902), #030303);
+  background: radial-gradient(#080808, #030303);
   overflow: hidden;
   padding-top: 100px; }
   #main-videos .more-videos {
     text-align: center;
-    padding: 20px 0 20px 0; }
+    padding: 40px 60px 40px 60px; }
     #main-videos .more-videos a {
       color: whitesmoke;
       text-decoration: none;
@@ -1871,7 +1877,8 @@ body {
       border-color: white;
       border-width: 2px;
       border-style: solid;
-      text-align: center; }
+      text-align: center;
+      padding: 20px 35px 20px 35px; }
   #main-videos .container div {
     max-width: 600px;
     margin: 0 auto;

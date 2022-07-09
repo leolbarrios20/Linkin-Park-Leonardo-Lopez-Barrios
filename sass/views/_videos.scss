@@ -9,14 +9,14 @@ body{
     }
 
     #main-videos{
-        background: radial-gradient(rgba(8, 8, 8, 0.902), rgb(3, 3, 3));
+        background: radial-gradient(rgb(8, 8, 8), rgb(3, 3, 3));
         overflow: hidden;
         padding-top: 100px;
     
         .more-videos{
     
             text-align: center;
-            padding: 20px 0 20px 0;
+            padding: 40px 60px 40px 60px;
     
             a{
                 color: $text-color;
@@ -26,6 +26,7 @@ body{
                 border-width: 2px;
                 border-style: solid;
                 text-align: center;
+                padding: 20px 35px 20px 35px;
             }
         }
             
