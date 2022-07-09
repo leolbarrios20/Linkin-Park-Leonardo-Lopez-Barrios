@@ -9,8 +9,9 @@ body{
     }
 
     #main-videos{
-        background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
+        background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
         overflow: hidden;
+        padding-top: 100px;
     
         .more-videos{
     
@@ -18,11 +19,11 @@ body{
             padding: 25px 0 50px 0;
     
             a{
-                color: $color-principal;
+                color: $text-color;
                 text-decoration: none;
                 font-size: 20px;
                 padding: 20px;
-                border-color: $text-color;
+                border-color: $color-principal;
                 border-width: 2px;
                 border-style: solid;
                 text-align: center;
@@ -34,14 +35,15 @@ body{
             div{
                 max-width: 600px;
                 margin: 0 auto;
+                margin-bottom: 100px;
             }
     
-            background: radial-gradient(rgb(26, 26, 26), rgb(24, 24, 24));
+            background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
         
             h2{
                 font-size: 30px;
                 color: $text-color;
-                padding: 40px;
+                padding: 20px;
                 text-align: center;
             }
 
@@ -54,11 +56,11 @@ body{
         position: fixed;
 
         @media (min-aspect-ratio: 16/9){
-            width: 100%;
+            width: 130%;
             height: auto;
         }
         @media (max-aspect-ratio: 16/9){
             width: auto;
-            height: 150%;
+            height: 135%;
         }
     }

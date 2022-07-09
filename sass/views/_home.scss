@@ -8,7 +8,7 @@
 
     h2{
         text-align: center;
-        color: $color-principal;
+        color: $text-color;
         padding: 60px;
         font-size: 60px;
         text-shadow: 3px 3px 3px black;
@@ -38,7 +38,7 @@
             width: 540px;
             box-shadow: 5px 5px 5px black;
 
-            @media screen and (max-width:1255px){
+            @media screen and (max-width:1200px){
                 width: 65%;
             }
 
@@ -53,7 +53,7 @@
 
         article{
             color: $color-principal;
-            font-size: 18px;
+            font-size: $font-text-normal;
             text-align: left;
             font-weight: 300;
             line-height: 30px;

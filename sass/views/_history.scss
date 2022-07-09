@@ -8,14 +8,18 @@
     article{
         text-align: justify;
         font-family: 'Poppins', sans-serif;
-        color: $color-principal;
+        color: $text-color;
         font-weight: 300;
-        font-size: 18px;
+        font-size: $font-text-normal;
         overflow-x: hidden;
+
+        @media screen and (min-width:1500px){
+            font-size: $font-text-medium;
+            margin: 0 auto;
+        }
 
         @media screen and (min-width:1000px){
             max-width: 1200px;
-            font-size: 18px;
             margin: 0 auto;
         }
 

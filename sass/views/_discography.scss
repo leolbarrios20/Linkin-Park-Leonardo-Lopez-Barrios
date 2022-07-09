@@ -1,5 +1,5 @@
 #main-discography{
-    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
+    background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
     text-align: center;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -8,23 +8,19 @@
 
         p {
 
-        color: $color-principal;
+        color: $text-color;
         padding: 30px 20px 30px 20px;
         margin: 0 auto;
         max-width: 1000px;
-        font-size: 18px;
+        font-size: $font-text-normal;
 
         @media screen and (min-width:1000px){
             text-align: justify;
         }
 
         
-        @media screen and (min-width:1300px){
-            font-size: 18px;
-        }
-
-        @media screen and (min-width:1450px){
-            font-size: 20px;
+        @media screen and (min-width:1500px){
+            font-size: $font-text-medium;
         }
 
         @media screen and (max-width:700px){
@@ -41,7 +37,7 @@
         
 
         h2{
-            font-size: 50px;
+            font-size: 45px;
             color: $text-color;
             padding: 50px 20px 50px 20px;
 
@@ -49,31 +45,27 @@
                 font-size: 35px;
             }
 
-            @media screen and (min-width:1300px){
-                font-size: 65px;
+            @media screen and (min-width:1500px){
+                font-size: 50px;
             }
         }
 
         .albums-flex{
-            justify-content: space-evenly;
+            justify-content: center;
             display: flex;
-            gap: 20px;
+            gap: 100px;
             align-content: center;
             align-items: center;
 
-            @media screen and (max-width:800px){
+            @media screen and (max-width:930px){
                 display: flex;
                 flex-direction: column;
-            }
-
-            @media screen and (min-width:1300px){
-                display: flex;
-                justify-content: center;
-                gap: 40px;
+                gap: 50px;
             }
 
             iframe {
                 max-width: 400px;
+                border-radius: 12px;
 
                 @media screen and (max-width:550px){
                     width: 96%;
@@ -84,6 +76,7 @@
 
             img{
                 max-width: 400px;
+                border-radius: 12px;
 
                 @media screen and (max-width:550px){
                     width: 96%;
@@ -111,7 +104,7 @@
                 a{
                     font-weight: bold;
                     text-decoration: none;
-                    color: $color-principal;
+                    color: $text-color;
                 }
             }
 

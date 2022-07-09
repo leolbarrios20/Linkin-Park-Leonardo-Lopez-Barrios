@@ -3,11 +3,16 @@
 
         
     $color-principal: white;
-    $text-color: rgb(216, 212, 212);
+    $text-color: rgb(245, 245, 245);
     $color-medium: rgb(182, 182, 182);
-    $nav-hover-color: black;
     $footer-text-color: rgb(201, 198, 198);
     $background-color: rgba(0, 0, 0, 0.26);
+    $background-hover-color: rgba(0, 0, 0, 0.595);
+
+    /*Font Sizes*/
+
+    $font-text-normal: 18px;
+    $font-text-medium: 20px;
 
     $colors:(
         color-principal: white

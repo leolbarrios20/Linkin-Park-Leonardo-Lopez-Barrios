@@ -1,5 +1,6 @@
 /*MISC*/
 /* Colors */
+/*Font Sizes*/
 color-principal {
   color: white; }
 
@@ -71,7 +72,8 @@ color-principal {
       #background-header-index .log-in-flex {
         display: none; } }
     #background-header-index .log-in-flex a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px 5px black; }
       @media screen and (max-width: 500px) {
         #background-header-index .log-in-flex a {
           font-size: 15px; } }
@@ -90,7 +92,7 @@ color-principal {
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
       #background-header-index .log-in-flex .log-in:hover {
-        background-color: var(--background-hover-color);
+        background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
   #background-header-index .nav-principal .checkbtn {
     font-size: 40px;
@@ -122,10 +124,10 @@ color-principal {
         background-image: url(../Imagenes/linkinpark-meteora.jpg);
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.782);
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 30%;
-        padding-top: 10px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -164,7 +166,7 @@ color-principal {
           margin-right: 25px; } }
       #background-header-index .nav-principal ul li a:hover {
         box-shadow: 1px 1px 5px 1px white;
-        background-color: var(--background-hover-color); }
+        background-color: rgba(0, 0, 0, 0.595); }
 
 #title h1 {
   text-align: center;
@@ -313,7 +315,8 @@ color-principal {
       #background-header-history .log-in-flex {
         display: none; } }
     #background-header-history .log-in-flex a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px 5px black; }
       @media screen and (max-width: 500px) {
         #background-header-history .log-in-flex a {
           font-size: 15px; } }
@@ -321,19 +324,19 @@ color-principal {
         #background-header-history .log-in-flex a {
           font-size: 14px; } }
     #background-header-history .log-in-flex .log-in {
-      color: #d8d4d4;
+      color: whitesmoke;
       border-style: solid;
       border-width: 2px;
-      border-color: #d8d4d4;
+      border-color: whitesmoke;
       padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
       #background-header-history .log-in-flex .log-in:hover {
-        background-color: var(--background-hover-color);
+        background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
   #background-header-history .nav-principal .checkbtn {
     font-size: 40px;
-    color: #d8d4d4;
+    color: whitesmoke;
     line-height: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -358,10 +361,10 @@ color-principal {
         background-image: url(../Imagenes/linkinpark-meteora.jpg);
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.782);
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 30%;
-        padding-top: 10px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: stretch;
@@ -400,7 +403,7 @@ color-principal {
           margin-right: 25px; } }
       #background-header-history .nav-principal ul li a:hover {
         box-shadow: 1px 1px 5px 1px white;
-        background-color: var(--background-hover-color); }
+        background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -409,7 +412,7 @@ color-principal {
 /*HEADER MEMBERS*/
 #background-header-members {
   background-image: url(../Imagenes/ws_The_Linkin_Park_1600x1200.jpg);
-  background-color: rgba(0, 0, 0, 0.281);
+  background-color: rgba(0, 0, 0, 0.481);
   background-blend-mode: darken;
   background-position: center;
   background-repeat: no-repeat;
@@ -464,7 +467,8 @@ color-principal {
       #background-header-members .log-in-flex {
         display: none; } }
     #background-header-members .log-in-flex a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px 5px black; }
       @media screen and (max-width: 500px) {
         #background-header-members .log-in-flex a {
           font-size: 15px; } }
@@ -472,19 +476,19 @@ color-principal {
         #background-header-members .log-in-flex a {
           font-size: 14px; } }
     #background-header-members .log-in-flex .log-in {
-      color: #d8d4d4;
+      color: whitesmoke;
       border-style: solid;
       border-width: 2px;
-      border-color: #d8d4d4;
+      border-color: whitesmoke;
       padding: 5px 15px 5px 15px;
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
       #background-header-members .log-in-flex .log-in:hover {
-        background-color: var(--background-hover-color);
+        background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
   #background-header-members .nav-principal .checkbtn {
     font-size: 40px;
-    color: #d8d4d4;
+    color: whitesmoke;
     line-height: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -509,10 +513,10 @@ color-principal {
         background-image: url(../Imagenes/linkinpark-meteora.jpg);
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.782);
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 30%;
-        padding-top: 10px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: stretch;
@@ -551,7 +555,7 @@ color-principal {
           margin-right: 25px; } }
       #background-header-members .nav-principal ul li a:hover {
         box-shadow: 1px 1px 5px 1px white;
-        background-color: var(--background-hover-color); }
+        background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -617,7 +621,8 @@ color-principal {
       #background-header-discography .log-in-flex {
         display: none; } }
     #background-header-discography .log-in-flex a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px 5px black; }
       @media screen and (max-width: 500px) {
         #background-header-discography .log-in-flex a {
           font-size: 15px; } }
@@ -633,7 +638,7 @@ color-principal {
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
       #background-header-discography .log-in-flex .log-in:hover {
-        background-color: var(--background-hover-color);
+        background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
   #background-header-discography .nav-principal .checkbtn {
     font-size: 40px;
@@ -662,10 +667,10 @@ color-principal {
         background-image: url(../Imagenes/linkinpark-meteora.jpg);
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.782);
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 30%;
-        padding-top: 10px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: stretch;
@@ -704,7 +709,7 @@ color-principal {
           margin-right: 25px; } }
       #background-header-discography .nav-principal ul li a:hover {
         box-shadow: 1px 1px 5px 1px white;
-        background-color: var(--background-hover-color); }
+        background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -763,7 +768,8 @@ color-principal {
       #background-header-videos .log-in-flex {
         display: none; } }
     #background-header-videos .log-in-flex a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px 5px black; }
       @media screen and (max-width: 500px) {
         #background-header-videos .log-in-flex a {
           font-size: 15px; } }
@@ -779,7 +785,7 @@ color-principal {
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
       #background-header-videos .log-in-flex .log-in:hover {
-        background-color: var(--background-hover-color);
+        background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
   #background-header-videos .nav-principal .checkbtn {
     font-size: 40px;
@@ -808,10 +814,10 @@ color-principal {
         background-image: url(../Imagenes/linkinpark-meteora.jpg);
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.782);
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 30%;
-        padding-top: 10px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: stretch;
@@ -850,7 +856,7 @@ color-principal {
           margin-right: 25px; } }
       #background-header-videos .nav-principal ul li a:hover {
         box-shadow: 1px 1px 5px 1px white;
-        background-color: var(--background-hover-color); }
+        background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -913,7 +919,8 @@ color-principal {
       #background-header-shop .log-in-flex {
         display: none; } }
     #background-header-shop .log-in-flex a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px 5px black; }
       @media screen and (max-width: 500px) {
         #background-header-shop .log-in-flex a {
           font-size: 15px; } }
@@ -929,7 +936,7 @@ color-principal {
       font-family: 'Poppins', sans-serif;
       transition: 0.5s; }
       #background-header-shop .log-in-flex .log-in:hover {
-        background-color: var(--background-hover-color);
+        background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
   #background-header-shop .nav-principal .checkbtn {
     font-size: 40px;
@@ -958,10 +965,10 @@ color-principal {
         background-image: url(../Imagenes/linkinpark-meteora.jpg);
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.782);
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 30%;
-        padding-top: 10px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: stretch;
@@ -1000,7 +1007,7 @@ color-principal {
           margin-right: 25px; } }
       #background-header-shop .nav-principal ul li a:hover {
         box-shadow: 1px 1px 5px 1px white;
-        background-color: var(--background-hover-color); }
+        background-color: rgba(0, 0, 0, 0.595); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -1073,15 +1080,15 @@ color-principal {
     align-content: center;
     padding-top: 30px; }
     #footer .nav-footer-bottom ul li {
-      color: #d8d4d4;
+      color: whitesmoke;
       font-family: 'Koulen', cursive; }
       #footer .nav-footer-bottom ul li a {
-        color: #d8d4d4;
+        color: whitesmoke;
         text-decoration: none;
         font-family: 'Koulen', cursive;
         letter-spacing: 3px;
         font-weight: 100;
-        font-size: 18px;
+        font-size: 16px;
         text-align: center; }
         @media screen and (min-width: 1400px) {
           #footer .nav-footer-bottom ul li a {
@@ -1099,7 +1106,7 @@ color-principal {
   overflow-x: hidden; }
   #main-index h2 {
     text-align: center;
-    color: white;
+    color: whitesmoke;
     padding: 60px;
     font-size: 60px;
     text-shadow: 3px 3px 3px black; }
@@ -1122,7 +1129,7 @@ color-principal {
     #main-index .biography img {
       width: 540px;
       box-shadow: 5px 5px 5px black; }
-      @media screen and (max-width: 1255px) {
+      @media screen and (max-width: 1200px) {
         #main-index .biography img {
           width: 65%; } }
       @media screen and (max-width: 500px) {
@@ -1177,12 +1184,12 @@ color-principal {
 
 /*VIEWS*/
 #main-discography {
-  background: radial-gradient(#1a1a1a, #030303);
+  background: radial-gradient(#0a0a0a, #0c0c0c);
   text-align: center;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden; }
   #main-discography .albums p {
-    color: white;
+    color: whitesmoke;
     padding: 30px 20px 30px 20px;
     margin: 0 auto;
     max-width: 1000px;
@@ -1190,10 +1197,7 @@ color-principal {
     @media screen and (min-width: 1000px) {
       #main-discography .albums p {
         text-align: justify; } }
-    @media screen and (min-width: 1300px) {
-      #main-discography .albums p {
-        font-size: 18px; } }
-    @media screen and (min-width: 1450px) {
+    @media screen and (min-width: 1500px) {
       #main-discography .albums p {
         font-size: 20px; } }
     @media screen and (max-width: 700px) {
@@ -1204,37 +1208,35 @@ color-principal {
       text-decoration: none;
       font-weight: bold; }
   #main-discography .albums h2 {
-    font-size: 50px;
-    color: #d8d4d4;
+    font-size: 45px;
+    color: whitesmoke;
     padding: 50px 20px 50px 20px; }
     @media screen and (max-width: 550px) {
       #main-discography .albums h2 {
         font-size: 35px; } }
-    @media screen and (min-width: 1300px) {
+    @media screen and (min-width: 1500px) {
       #main-discography .albums h2 {
-        font-size: 65px; } }
+        font-size: 50px; } }
   #main-discography .albums .albums-flex {
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
-    gap: 20px;
+    gap: 100px;
     align-content: center;
     align-items: center; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 930px) {
       #main-discography .albums .albums-flex {
         display: flex;
-        flex-direction: column; } }
-    @media screen and (min-width: 1300px) {
-      #main-discography .albums .albums-flex {
-        display: flex;
-        justify-content: center;
-        gap: 40px; } }
+        flex-direction: column;
+        gap: 50px; } }
     #main-discography .albums .albums-flex iframe {
-      max-width: 400px; }
+      max-width: 400px;
+      border-radius: 12px; }
       @media screen and (max-width: 550px) {
         #main-discography .albums .albums-flex iframe {
           width: 96%; } }
     #main-discography .albums .albums-flex img {
-      max-width: 400px; }
+      max-width: 400px;
+      border-radius: 12px; }
       @media screen and (max-width: 550px) {
         #main-discography .albums .albums-flex img {
           width: 96%; } }
@@ -1247,12 +1249,12 @@ color-principal {
   #main-discography table tr td a {
     font-weight: bold;
     text-decoration: none;
-    color: white; }
+    color: whitesmoke; }
   #main-discography table tr th {
-    color: #d8d4d4;
+    color: whitesmoke;
     padding: 15px; }
   #main-discography table td {
-    color: #d8d4d4; }
+    color: whitesmoke; }
 
 @media screen and (max-width: 340px) {
   #title h1 {
@@ -1266,14 +1268,17 @@ color-principal {
   #main-history article {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: whitesmoke;
     font-weight: 300;
     font-size: 18px;
     overflow-x: hidden; }
+    @media screen and (min-width: 1500px) {
+      #main-history article {
+        font-size: 20px;
+        margin: 0 auto; } }
     @media screen and (min-width: 1000px) {
       #main-history article {
         max-width: 1200px;
-        font-size: 18px;
         margin: 0 auto; } }
     #main-history article p {
       line-height: 35px; }
@@ -1317,8 +1322,7 @@ color-principal {
     cursor: pointer; }
 
 #main-members {
-  background: radial-gradient(#1a1a1a, #030303);
-  text-align: center;
+  background: radial-gradient(#0a0a0a, #0c0c0c);
   padding: 0px 20px 0px 20px;
   overflow-x: hidden; }
   #main-members .nav-main {
@@ -1350,7 +1354,6 @@ color-principal {
           text-decoration: none;
           text-align: center;
           background-color: #0d0d0d;
-          color: white;
           border-width: 2px;
           border-style: solid;
           cursor: pointer; }
@@ -1393,7 +1396,7 @@ color-principal {
       line-height: 25px;
       font-weight: 300;
       font-size: 18px;
-      color: white; }
+      color: whitesmoke; }
       @media screen and (min-width: 1400px) {
         #main-members #chester .article-flex p {
           font-size: 20px; } }
@@ -1408,7 +1411,8 @@ color-principal {
     font-size: 50px;
     margin-top: 100px;
     padding: 10px 0 30px 0;
-    color: white; }
+    text-align: center;
+    color: whitesmoke; }
     @media screen and (min-width: 1400px) {
       #main-members #chester h2 {
         font-size: 60px; } }
@@ -1442,10 +1446,14 @@ color-principal {
       line-height: 25px;
       font-weight: 300;
       font-size: 18px;
-      color: white; }
+      color: whitesmoke; }
       @media screen and (min-width: 1400px) {
         #main-members #mike .article-flex p {
           font-size: 20px; } }
+      #main-members #mike .article-flex p a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold; }
     #main-members #mike .article-flex img {
       width: 400px; }
       @media screen and (max-width: 700px) {
@@ -1457,7 +1465,8 @@ color-principal {
     font-size: 50px;
     margin-top: 100px;
     padding: 10px 0 30px 0;
-    color: white; }
+    text-align: center;
+    color: whitesmoke; }
     @media screen and (min-width: 1400px) {
       #main-members #mike h2 {
         font-size: 60px; } }
@@ -1491,7 +1500,7 @@ color-principal {
       line-height: 25px;
       font-weight: 300;
       font-size: 18px;
-      color: white; }
+      color: whitesmoke; }
       @media screen and (min-width: 1400px) {
         #main-members #brad .article-flex p {
           font-size: 20px; } }
@@ -1506,7 +1515,8 @@ color-principal {
     font-size: 50px;
     margin-top: 100px;
     padding: 10px 0 30px 0;
-    color: white; }
+    text-align: center;
+    color: whitesmoke; }
     @media screen and (min-width: 1400px) {
       #main-members #brad h2 {
         font-size: 60px; } }
@@ -1540,7 +1550,7 @@ color-principal {
       line-height: 25px;
       font-weight: 300;
       font-size: 18px;
-      color: white; }
+      color: whitesmoke; }
       @media screen and (min-width: 1400px) {
         #main-members #dave .article-flex p {
           font-size: 20px; } }
@@ -1555,7 +1565,8 @@ color-principal {
     font-size: 50px;
     margin-top: 100px;
     padding: 10px 0 30px 0;
-    color: white; }
+    text-align: center;
+    color: whitesmoke; }
     @media screen and (min-width: 1400px) {
       #main-members #dave h2 {
         font-size: 60px; } }
@@ -1589,7 +1600,7 @@ color-principal {
       line-height: 25px;
       font-weight: 300;
       font-size: 18px;
-      color: white; }
+      color: whitesmoke; }
       @media screen and (min-width: 1400px) {
         #main-members #rob .article-flex p {
           font-size: 20px; } }
@@ -1604,7 +1615,8 @@ color-principal {
     font-size: 50px;
     margin-top: 100px;
     padding: 10px 0 30px 0;
-    color: white; }
+    text-align: center;
+    color: whitesmoke; }
     @media screen and (min-width: 1400px) {
       #main-members #rob h2 {
         font-size: 60px; } }
@@ -1639,7 +1651,7 @@ color-principal {
       line-height: 25px;
       font-weight: 300;
       font-size: 18px;
-      color: white; }
+      color: whitesmoke; }
       @media screen and (min-width: 1400px) {
         #main-members #joe .article-flex p {
           font-size: 20px; } }
@@ -1654,7 +1666,8 @@ color-principal {
     font-size: 50px;
     margin-top: 100px;
     padding: 10px 0 30px 0;
-    color: white; }
+    text-align: center;
+    color: whitesmoke; }
     @media screen and (min-width: 1400px) {
       #main-members #joe h2 {
         font-size: 60px; } }
@@ -1730,29 +1743,31 @@ body {
   overflow-x: hidden; }
 
 #main-videos {
-  background: radial-gradient(#1a1a1a, #181818);
-  overflow: hidden; }
+  background: radial-gradient(#0a0a0a, #0c0c0c);
+  overflow: hidden;
+  padding-top: 100px; }
   #main-videos .more-videos {
     text-align: center;
     padding: 25px 0 50px 0; }
     #main-videos .more-videos a {
-      color: white;
+      color: whitesmoke;
       text-decoration: none;
       font-size: 20px;
       padding: 20px;
-      border-color: #d8d4d4;
+      border-color: white;
       border-width: 2px;
       border-style: solid;
       text-align: center; }
   #main-videos .container {
-    background: radial-gradient(#1a1a1a, #181818); }
+    background: radial-gradient(#0a0a0a, #0c0c0c); }
     #main-videos .container div {
       max-width: 600px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-bottom: 100px; }
     #main-videos .container h2 {
       font-size: 30px;
-      color: #d8d4d4;
-      padding: 40px;
+      color: whitesmoke;
+      padding: 20px;
       text-align: center; }
 
 video {
@@ -1760,9 +1775,9 @@ video {
   position: fixed; }
   @media (min-aspect-ratio: 16 / 9) {
     video {
-      width: 100%;
+      width: 130%;
       height: auto; } }
   @media (max-aspect-ratio: 16 / 9) {
     video {
       width: auto;
-      height: 150%; } }
+      height: 135%; } }

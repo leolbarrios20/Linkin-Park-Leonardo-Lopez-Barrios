@@ -1,6 +1,5 @@
 #main-members{
-    background: radial-gradient(rgb(26, 26, 26), rgb(3, 3, 3));
-    text-align: center;
+    background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
     padding: 0px 20px 0px 20px;
     overflow-x: hidden;
 
@@ -39,7 +38,6 @@
                     text-decoration: none;
                     text-align: center;
                     background-color: rgb(13, 13, 13);
-                    color: $color-principal;
                     border-width: 2px;
                     border-style: solid;
                     cursor: pointer;
@@ -97,11 +95,11 @@
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
-                font-size: 18px;
-                color: $color-principal;
+                font-size: $font-text-normal;
+                color: $text-color;
 
                 @media screen and (min-width:1400px){
-                    font-size: 20px;
+                    font-size: $font-text-medium;
                 }
             }
 
@@ -122,7 +120,8 @@
             font-size: 50px;
             margin-top: 100px;
             padding: 10px 0 30px 0;
-            color: $color-principal;
+            text-align: center;
+            color: $text-color;
 
             @media screen and (min-width:1400px){
                 font-size: 60px;
@@ -168,11 +167,18 @@
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
-                font-size: 18px;
-                color: $color-principal;
+                font-size: $font-text-normal;
+                color: $text-color;
 
                 @media screen and (min-width:1400px){
-                    font-size: 20px;
+                    font-size: $font-text-medium;
+                }
+
+                a{
+
+                    color: $color-principal;
+                    text-decoration: none;
+                    font-weight: bold;
                 }
             }
 
@@ -194,7 +200,8 @@
             font-size: 50px;
             margin-top: 100px;
             padding: 10px 0 30px 0;
-            color: $color-principal;
+            text-align: center;
+            color: $text-color;
 
             @media screen and (min-width:1400px){
                 font-size: 60px;
@@ -239,11 +246,11 @@
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
-                font-size: 18px;
-                color: $color-principal;
+                font-size: $font-text-normal;
+                color: $text-color;
 
                 @media screen and (min-width:1400px){
-                    font-size: 20px;
+                    font-size: $font-text-medium;
                 }
             }
 
@@ -264,7 +271,8 @@
             font-size: 50px;
             margin-top: 100px;
             padding: 10px 0 30px 0;
-            color: $color-principal;
+            text-align: center;
+            color: $text-color;
 
             @media screen and (min-width:1400px){
                 font-size: 60px;
@@ -309,11 +317,11 @@
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
-                font-size: 18px;
-                color: $color-principal;
+                font-size: $font-text-normal;
+                color: $text-color;
 
                 @media screen and (min-width:1400px){
-                    font-size: 20px;
+                    font-size: $font-text-medium;
                 }
             }
 
@@ -334,7 +342,8 @@
             font-size: 50px;
             margin-top: 100px;
             padding: 10px 0 30px 0;
-            color: $color-principal;
+            text-align: center;
+            color: $text-color;
 
             @media screen and (min-width:1400px){
                 font-size: 60px;
@@ -379,11 +388,11 @@
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
-                font-size: 18px;
-                color: $color-principal;
+                font-size: $font-text-normal;
+                color: $text-color;
 
                 @media screen and (min-width:1400px){
-                    font-size: 20px;
+                    font-size: $font-text-medium;
                 }
             }
 
@@ -404,7 +413,8 @@
             font-size: 50px;
             margin-top: 100px;
             padding: 10px 0 30px 0;
-            color: $color-principal;
+            text-align: center;
+            color: $text-color;
 
             @media screen and (min-width:1400px){
                 font-size: 60px;
@@ -450,11 +460,11 @@
                 text-align: justify;
                 line-height: 25px;
                 font-weight: 300;
-                font-size: 18px;
-                color: $color-principal;
+                font-size: $font-text-normal;
+                color: $text-color;
 
                 @media screen and (min-width:1400px){
-                    font-size: 20px;
+                    font-size: $font-text-medium;
                 }
             }
 
@@ -476,7 +486,8 @@
             font-size: 50px;
             margin-top: 100px;
             padding: 10px 0 30px 0;
-            color: $color-principal;
+            text-align: center;
+            color: $text-color;
 
             @media screen and (min-width:1400px){
                 font-size: 60px;

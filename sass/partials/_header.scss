@@ -76,6 +76,7 @@
 
             a{
                 text-decoration: none;
+                text-shadow: 1px 1px 5px black;
 
                 @media screen and (max-width:500px){
                     font-size: 15px;
@@ -91,16 +92,16 @@
             }
 
             .log-in{
-                color: white;
+                color: $color-principal;
                 border-style: solid;
                 border-width: 2px;
-                border-color: white;
+                border-color: $color-principal;
                 padding: 5px 15px 5px 15px;
                 font-family: 'Poppins', sans-serif;
                 transition:  0.5s;
 
                 &:hover{
-                    background-color: var(--background-hover-color);
+                    background-color:$background-hover-color;
                     transform: scale(1.05);
                 }
             }
@@ -147,10 +148,10 @@
                     background-image: url(../Imagenes/linkinpark-meteora.jpg);
                     background-blend-mode: darken;
                     background-color: rgba(0, 0, 0, 0.782);
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    background-position-x: 30%;
-                    padding-top: 10px;
+                    height: 100vh;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
@@ -198,7 +199,7 @@
         
                         &:hover{
                             box-shadow: 1px 1px 5px 1px white;
-                            background-color:var(--background-hover-color)
+                            background-color:$background-hover-color;
                         }
                     }
                     
@@ -412,6 +413,7 @@
     
                 a{
                     text-decoration: none;
+                    text-shadow: 1px 1px 5px black;
     
                     @media screen and (max-width:500px){
                         font-size: 15px;
@@ -432,7 +434,7 @@
                     transition:  0.5s;
     
                     &:hover{
-                        background-color: var(--background-hover-color);
+                        background-color:$background-hover-color;
                         transform: scale(1.05);
                     }
                 }
@@ -474,10 +476,10 @@
                         background-image: url(../Imagenes/linkinpark-meteora.jpg);
                         background-blend-mode: darken;
                         background-color: rgba(0, 0, 0, 0.782);
+                        background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        background-position-x: 30%;
-                        padding-top: 10px;
+                        height: 100vh;
                         display: flex;
                         flex-direction: column;
                         justify-content: stretch;
@@ -497,6 +499,8 @@
                             line-height: 10px;
                             text-align: center;
                             width: 100%;
+
+                            
                         }
                 
             
@@ -525,7 +529,7 @@
             
                             &:hover{
                                 box-shadow: 1px 1px 5px 1px white;
-                                background-color:var(--background-hover-color)
+                                background-color:$background-hover-color;
                             }
                         }
                         
@@ -548,7 +552,7 @@
 
         #background-header-members{
             background-image: url(../Imagenes/ws_The_Linkin_Park_1600x1200.jpg);
-            background-color: rgba(0, 0, 0, 0.281);
+            background-color: rgba(0, 0, 0, 0.481);
             background-blend-mode: darken;
             background-position: center;
             background-repeat: no-repeat;
@@ -619,6 +623,7 @@
         
                     a{
                         text-decoration: none;
+                        text-shadow: 1px 1px 5px black;
         
                         @media screen and (max-width:500px){
                             font-size: 15px;
@@ -639,7 +644,7 @@
                         transition:  0.5s;
         
                         &:hover{
-                            background-color: var(--background-hover-color);
+                            background-color:$background-hover-color;
                             transform: scale(1.05);
                         }
                     }
@@ -681,10 +686,10 @@
                             background-image: url(../Imagenes/linkinpark-meteora.jpg);
                             background-blend-mode: darken;
                             background-color: rgba(0, 0, 0, 0.782);
+                            background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
-                            background-position-x: 30%;
-                            padding-top: 10px;
+                            height: 100vh;
                             display: flex;
                             flex-direction: column;
                             justify-content: stretch;
@@ -732,7 +737,7 @@
                 
                                 &:hover{
                                     box-shadow: 1px 1px 5px 1px white;
-                                    background-color:var(--background-hover-color)
+                                    background-color:$background-hover-color;
                                 }
                             }
                             
@@ -828,6 +833,7 @@
 
             a{
                 text-decoration: none;
+                text-shadow: 1px 1px 5px black;
 
                 @media screen and (max-width:500px){
                     font-size: 15px;
@@ -848,7 +854,7 @@
                 transition:  0.5s;
 
                 &:hover{
-                    background-color: var(--background-hover-color);
+                    background-color:$background-hover-color;
                     transform: scale(1.05);
                 }
             }
@@ -891,10 +897,10 @@
                     background-image: url(../Imagenes/linkinpark-meteora.jpg);
                     background-blend-mode: darken;
                     background-color: rgba(0, 0, 0, 0.782);
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    background-position-x: 30%;
-                    padding-top: 10px;
+                    height: 100vh;
                     display: flex;
                     flex-direction: column;
                     justify-content: stretch;
@@ -942,7 +948,7 @@
         
                         &:hover{
                             box-shadow: 1px 1px 5px 1px white;
-                            background-color:var(--background-hover-color)
+                            background-color:$background-hover-color;
                         }
                     }
                     
@@ -1030,6 +1036,7 @@
 
             a{
                 text-decoration: none;
+                text-shadow: 1px 1px 5px black;
 
                 @media screen and (max-width:500px){
                     font-size: 15px;
@@ -1050,7 +1057,7 @@
                 transition:  0.5s;
 
                 &:hover{
-                    background-color: var(--background-hover-color);
+                    background-color:$background-hover-color;
                     transform: scale(1.05);
                 }
             }
@@ -1093,10 +1100,10 @@
                     background-image: url(../Imagenes/linkinpark-meteora.jpg);
                     background-blend-mode: darken;
                     background-color: rgba(0, 0, 0, 0.782);
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    background-position-x: 30%;
-                    padding-top: 10px;
+                    height: 100vh;
                     display: flex;
                     flex-direction: column;
                     justify-content: stretch;
@@ -1144,7 +1151,7 @@
         
                         &:hover{
                             box-shadow: 1px 1px 5px 1px white;
-                            background-color:var(--background-hover-color)
+                            background-color:$background-hover-color;
                         }
                     }
                     
@@ -1237,6 +1244,7 @@
     
                 a{
                     text-decoration: none;
+                    text-shadow: 1px 1px 5px black;
     
                     @media screen and (max-width:500px){
                         font-size: 15px;
@@ -1257,7 +1265,7 @@
                     transition:  0.5s;
     
                     &:hover{
-                        background-color: var(--background-hover-color);
+                        background-color:$background-hover-color;
                         transform: scale(1.05);
                     }
                 }
@@ -1300,10 +1308,10 @@
                         background-image: url(../Imagenes/linkinpark-meteora.jpg);
                         background-blend-mode: darken;
                         background-color: rgba(0, 0, 0, 0.782);
+                        background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        background-position-x: 30%;
-                        padding-top: 10px;
+                        height: 100vh;
                         display: flex;
                         flex-direction: column;
                         justify-content: stretch;
@@ -1351,7 +1359,7 @@
             
                             &:hover{
                                 box-shadow: 1px 1px 5px 1px white;
-                                background-color:var(--background-hover-color)
+                                background-color:$background-hover-color;
                             }
                         }
                         
