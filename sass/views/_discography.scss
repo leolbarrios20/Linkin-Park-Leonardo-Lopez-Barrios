@@ -1,5 +1,5 @@
 #main-discography{
-    background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
+    background: radial-gradient(rgb(8, 8, 8), rgb(3, 3, 3));
     text-align: center;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -38,6 +38,7 @@
 
         h2{
             font-size: 45px;
+            font-weight: 400;
             color: $text-color;
             padding: 50px 20px 50px 20px;
 

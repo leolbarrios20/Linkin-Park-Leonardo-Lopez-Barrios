@@ -3,6 +3,7 @@
 #background-header-index{
     background-image: url(../Imagenes/linkin-park-fondo-2.jpg);
     background-position: center;
+    background-color: #2D3140;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -12,38 +13,39 @@
     align-content: center;
 
     #header{
-        padding: 15px 5px 15px 5px;
+        padding: 12px 5px 12px 5px;
         text-align: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-
+        background-color: rgba(0, 0, 0, 0.105);
         
+        @media screen and (max-width:1165px){
+            display: flex;
+            justify-content: space-between;
+        }
+
         @media screen and (min-width:1370px){
             display: flex;
             justify-content: center;
         }
 
-
         .logo-linkin-header{
-            max-width: 100px;
+            max-width: 75px;
+            margin-right: 3%;
             filter: invert(100%);
 
             @media screen and (min-width:1370px){
                 margin-right: 3%;
             }
 
+            @media screen and (max-width:600px){
+                margin-right: 0;
+            }
+
             @media screen and (max-width:1165px){
-                width: 70px;
-            }
-
-            @media screen and (max-width:500px){
-                width: 70px;
-            }
-
-            @media screen and (max-width:400px) {
                 width: 70px;
             }
 
@@ -56,7 +58,7 @@
         .log-in-flex{
             display: flex;
             justify-content: space-between;
-            gap: 10px;
+            gap: 30px;
             text-decoration: none;
             flex-wrap: wrap;
 
@@ -64,6 +66,11 @@
                 display: flex;
                 justify-content: center;
             }
+
+            @media screen and (max-width:1165px){
+                gap: 10px;
+            }
+
 
             @media screen and (max-width:400px) {
                 display: flex;
@@ -99,6 +106,7 @@
                 padding: 5px 15px 5px 15px;
                 font-family: 'Poppins', sans-serif;
                 transition:  0.5s;
+                font-size: 13px;
 
                 &:hover{
                     background-color:$background-hover-color;
@@ -120,6 +128,10 @@
 
                 @media (max-width: 1165px){
                     display: block;
+                }
+
+                @media screen and (max-width:1000px){
+                    margin-left: 3%;
                 }
 
 
@@ -178,11 +190,11 @@
                         padding: 5px 10px 5px 15px;
                         margin: 12px;
                         color: white;
-                        font-size: 15px;
+                        font-size: 16px;
                         text-decoration: none;
                         font-family: 'Koulen', cursive;
                         letter-spacing: 8px;
-                        text-shadow: 2px 2px 3px black;
+                        text-shadow: 2px 1px 3px black;
                         transition: 0.6s;
                         font-weight: 300;
 
@@ -217,11 +229,11 @@
             text-align: center;
             color: $color-principal;
             font-size: 100px;
-            text-shadow: 5px 5px 5px black;
+            text-shadow: 3px 3px 12px black;
             font-family: 'Koulen', cursive;
             letter-spacing: 20px;
             width: 100%;
-            background-color: $background-color;
+            
     
             @media screen and (max-width:1255px){
                 font-size: 80px;
@@ -252,7 +264,7 @@
     
     .shop-logos-flex{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin: 15px;
 
@@ -261,17 +273,23 @@
             justify-content: center;
         }
 
+        @media screen and (max-width:1175px){
+            display: flex;
+            justify-content: space-between;
+        }
+
         .rectangle{
-            width: 810px;
+            width: 780px;
             background-color: transparent;
 
             @media screen and (min-width:1400px){
                 width: 860px;
             }
 
-            @media screen and (max-width:1370px){
+            @media screen and (max-width:1175px){
                 display: none;
             }
+
         }
 
         .shop-div {
@@ -308,7 +326,7 @@
                 }
 
                 img{
-                    width: 35px;
+                    width: 30px;
                     filter: invert(100%);
 
                     @media screen and (max-width:500px) {
@@ -336,14 +354,13 @@
         #check:checked ~ ul{
             left:0;
         }
-        }
+    }
 
 /*HEADER HISTORY*/
 
     #background-header-history{
         background-image: url(../Imagenes/fondo-history.png);
-        background-blend-mode: darken;
-        background-color: rgba(24, 24, 24, 0.35);
+        background-color: #1B1415;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -354,38 +371,44 @@
         align-content: center;
 
         #header{
-            padding: 15px 5px 15px 5px;
+            padding: 12px 5px 12px 5px;
             text-align: center;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-
+            background-color: rgba(0, 0, 0, 0.105);
+    
+            @media screen and (max-width:1165px){
+                display: flex;
+                justify-content: space-between;
+            }
+    
             @media screen and (min-width:1370px){
                 display: flex;
                 justify-content: center;
             }
-        
     
             .logo-linkin-header{
-                max-width: 100px;
+                max-width: 75px;
+                margin-right: 3%;
                 filter: invert(100%);
-
+    
                 @media screen and (min-width:1370px){
                     margin-right: 3%;
                 }
-
+    
+                @media screen and (max-width:600px){
+                    margin-right: 0;
+                }
+    
                 @media screen and (max-width:1165px){
                     width: 70px;
                 }
     
-                @media screen and (max-width:500px){
-                    width: 70px;
-                }
-    
-                @media screen and (max-width:400px) {
-                    width: 70px;
+                @media (max-width: 350px){
+                    width: 60px;
                 }
             }
         }
@@ -393,7 +416,7 @@
             .log-in-flex{
                 display: flex;
                 justify-content: space-between;
-                gap: 10px;
+                gap: 30px;
                 text-decoration: none;
                 flex-wrap: wrap;
     
@@ -402,14 +425,19 @@
                     justify-content: center;
                 }
     
+                @media screen and (max-width:1165px){
+                    gap: 10px;
+                }
+    
+    
                 @media screen and (max-width:400px) {
                     display: flex;
                     justify-content: center;
                 }
-
-                 @media screen and (max-width:340px) {
-                display: none;
-            }
+    
+                @media screen and (max-width:340px) {
+                    display: none;
+                }
     
                 a{
                     text-decoration: none;
@@ -422,16 +450,21 @@
                     @media screen and (max-width:400px) {
                         font-size: 14px;
                     }
+    
+                    @media (max-width: 350px){
+                        font-size: 12px;
+                    }
                 }
     
                 .log-in{
-                    color: $text-color;
+                    color: $color-principal;
                     border-style: solid;
                     border-width: 2px;
-                    border-color: $text-color;
+                    border-color: $color-principal;
                     padding: 5px 15px 5px 15px;
                     font-family: 'Poppins', sans-serif;
                     transition:  0.5s;
+                    font-size: 13px;
     
                     &:hover{
                         background-color:$background-hover-color;
@@ -444,7 +477,7 @@
     
                 .checkbtn{
                     font-size: 40px;
-                    color: $text-color;
+                    color: #fff;
                     line-height: 20px;
                     margin-right: 10px;
                     margin-bottom: 20px;
@@ -455,12 +488,21 @@
                         display: block;
                     }
     
+                    @media screen and (max-width:1000px){
+                        margin-left: 3%;
+                    }
+    
+    
                     @media screen and (max-width:500px) {
                         font-size: 40px;
                     }
     
                     @media screen and (max-width:400px) {
                         font-size: 40px;
+                    }
+    
+                    @media (max-width: 350px){
+                        font-size: 35px;
                     }
                 }
                 #check{
@@ -482,7 +524,7 @@
                         height: 100vh;
                         display: flex;
                         flex-direction: column;
-                        justify-content: stretch;
+                        flex-wrap: wrap;
                         position: fixed;
                         width: 100%;
                         height: 100vh;
@@ -499,8 +541,6 @@
                             line-height: 10px;
                             text-align: center;
                             width: 100%;
-
-                            
                         }
                 
             
@@ -508,14 +548,14 @@
                             padding: 5px 10px 5px 15px;
                             margin: 12px;
                             color: white;
-                            font-size: 15px;
+                            font-size: 16px;
                             text-decoration: none;
                             font-family: 'Koulen', cursive;
                             letter-spacing: 8px;
-                            text-shadow: 2px 2px 3px black;
+                            text-shadow: 2px 1px 3px black;
                             transition: 0.6s;
                             font-weight: 300;
-
+    
                             @media screen and (min-width:1400px){
                                 font-size: 20px;
                             }
@@ -552,8 +592,7 @@
 
         #background-header-members{
             background-image: url(../Imagenes/ws_The_Linkin_Park_1600x1200.jpg);
-            background-color: rgba(0, 0, 0, 0.481);
-            background-blend-mode: darken;
+            background-color: #BFE9EE;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -564,38 +603,44 @@
             align-content: center;
         
             #header{
-                padding: 15px 5px 15px 5px;
+                padding: 12px 5px 12px 5px;
                 text-align: center;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
+                background-color: rgba(0, 0, 0, 0.105);
 
+                @media screen and (max-width:1165px){
+                    display: flex;
+                    justify-content: space-between;
+                }
+        
                 @media screen and (min-width:1370px){
                     display: flex;
                     justify-content: center;
                 }
         
-        
                 .logo-linkin-header{
-                    max-width: 100px;
+                    max-width: 75px;
+                    margin-right: 3%;
                     filter: invert(100%);
-
+        
                     @media screen and (min-width:1370px){
                         margin-right: 3%;
                     }
-    
+        
+                    @media screen and (max-width:600px){
+                        margin-right: 0;
+                    }
+        
                     @media screen and (max-width:1165px){
                         width: 70px;
                     }
         
-                    @media screen and (max-width:500px){
-                        width: 70px;
-                    }
-        
-                    @media screen and (max-width:400px) {
-                        width: 70px;
+                    @media (max-width: 350px){
+                        width: 60px;
                     }
                 }
             }
@@ -603,7 +648,7 @@
                 .log-in-flex{
                     display: flex;
                     justify-content: space-between;
-                    gap: 10px;
+                    gap: 30px;
                     text-decoration: none;
                     flex-wrap: wrap;
         
@@ -612,14 +657,19 @@
                         justify-content: center;
                     }
         
+                    @media screen and (max-width:1165px){
+                        gap: 10px;
+                    }
+        
+        
                     @media screen and (max-width:400px) {
                         display: flex;
                         justify-content: center;
                     }
-    
-                     @media screen and (max-width:340px) {
-                    display: none;
-                }
+        
+                    @media screen and (max-width:340px) {
+                        display: none;
+                    }
         
                     a{
                         text-decoration: none;
@@ -632,16 +682,21 @@
                         @media screen and (max-width:400px) {
                             font-size: 14px;
                         }
+        
+                        @media (max-width: 350px){
+                            font-size: 12px;
+                        }
                     }
         
                     .log-in{
-                        color: $text-color;
+                        color: $color-principal;
                         border-style: solid;
                         border-width: 2px;
-                        border-color: $text-color;
+                        border-color: $color-principal;
                         padding: 5px 15px 5px 15px;
                         font-family: 'Poppins', sans-serif;
                         transition:  0.5s;
+                        font-size: 13px;
         
                         &:hover{
                             background-color:$background-hover-color;
@@ -654,7 +709,7 @@
         
                     .checkbtn{
                         font-size: 40px;
-                        color: $text-color;
+                        color: #fff;
                         line-height: 20px;
                         margin-right: 10px;
                         margin-bottom: 20px;
@@ -665,12 +720,21 @@
                             display: block;
                         }
         
+                        @media screen and (max-width:1000px){
+                            margin-left: 3%;
+                        }
+        
+        
                         @media screen and (max-width:500px) {
                             font-size: 40px;
                         }
         
                         @media screen and (max-width:400px) {
                             font-size: 40px;
+                        }
+        
+                        @media (max-width: 350px){
+                            font-size: 35px;
                         }
                     }
                     #check{
@@ -692,7 +756,7 @@
                             height: 100vh;
                             display: flex;
                             flex-direction: column;
-                            justify-content: stretch;
+                            flex-wrap: wrap;
                             position: fixed;
                             width: 100%;
                             height: 100vh;
@@ -716,14 +780,14 @@
                                 padding: 5px 10px 5px 15px;
                                 margin: 12px;
                                 color: white;
-                                font-size: 15px;
+                                font-size: 16px;
                                 text-decoration: none;
                                 font-family: 'Koulen', cursive;
                                 letter-spacing: 8px;
-                                text-shadow: 2px 2px 3px black;
+                                text-shadow: 2px 1px 3px black;
                                 transition: 0.6s;
                                 font-weight: 300;
-
+        
                                 @media screen and (min-width:1400px){
                                     font-size: 20px;
                                 }
@@ -759,7 +823,7 @@
 
 #background-header-discography{
     background-image: url(../Imagenes/linkinpark-meteora.jpg);
-    background-blend-mode: darken;
+    background-color: #B29173;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -774,46 +838,52 @@
     }
 
     #header{
-        padding: 15px 5px 15px 5px;
+        padding: 12px 5px 12px 5px;
         text-align: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        background-color: rgba(0, 0, 0, 0.105);
+
+        @media screen and (max-width:1165px){
+            display: flex;
+            justify-content: space-between;
+        }
 
         @media screen and (min-width:1370px){
             display: flex;
             justify-content: center;
         }
 
-
         .logo-linkin-header{
-            max-width: 100px;
+            max-width: 75px;
+            margin-right: 3%;
             filter: invert(100%);
 
             @media screen and (min-width:1370px){
                 margin-right: 3%;
             }
 
-        @media screen and (max-width:1165px){
-            width: 70px;
-        }
+            @media screen and (max-width:600px){
+                margin-right: 0;
+            }
 
-        @media screen and (max-width:500px){
-            width: 70px;
-        }
+            @media screen and (max-width:1165px){
+                width: 70px;
+            }
 
-        @media screen and (max-width:400px) {
-            width: 70px;
-        }
+            @media (max-width: 350px){
+                width: 60px;
+            }
         }
     }
 
         .log-in-flex{
             display: flex;
             justify-content: space-between;
-            gap: 10px;
+            gap: 30px;
             text-decoration: none;
             flex-wrap: wrap;
 
@@ -821,6 +891,11 @@
                 display: flex;
                 justify-content: center;
             }
+
+            @media screen and (max-width:1165px){
+                gap: 10px;
+            }
+
 
             @media screen and (max-width:400px) {
                 display: flex;
@@ -842,16 +917,21 @@
                 @media screen and (max-width:400px) {
                     font-size: 14px;
                 }
+
+                @media (max-width: 350px){
+                    font-size: 12px;
+                }
             }
 
             .log-in{
-                color: white;
+                color: $color-principal;
                 border-style: solid;
                 border-width: 2px;
-                border-color: white;
+                border-color: $color-principal;
                 padding: 5px 15px 5px 15px;
                 font-family: 'Poppins', sans-serif;
                 transition:  0.5s;
+                font-size: 13px;
 
                 &:hover{
                     background-color:$background-hover-color;
@@ -875,12 +955,21 @@
                     display: block;
                 }
 
+                @media screen and (max-width:1000px){
+                    margin-left: 3%;
+                }
+
+
                 @media screen and (max-width:500px) {
                     font-size: 40px;
                 }
 
                 @media screen and (max-width:400px) {
                     font-size: 40px;
+                }
+
+                @media (max-width: 350px){
+                    font-size: 35px;
                 }
             }
             #check{
@@ -893,7 +982,6 @@
                 flex-wrap: wrap;
 
                 @media (max-width: 1165px){
-
                     background-image: url(../Imagenes/linkinpark-meteora.jpg);
                     background-blend-mode: darken;
                     background-color: rgba(0, 0, 0, 0.782);
@@ -903,7 +991,7 @@
                     height: 100vh;
                     display: flex;
                     flex-direction: column;
-                    justify-content: stretch;
+                    flex-wrap: wrap;
                     position: fixed;
                     width: 100%;
                     height: 100vh;
@@ -912,7 +1000,7 @@
                     transition: all .5s;
                     z-index: 20000;
                 }
-
+    
                 li{
                     @media (max-width: 1165px){
 
@@ -927,11 +1015,11 @@
                         padding: 5px 10px 5px 15px;
                         margin: 12px;
                         color: white;
-                        font-size: 15px;
+                        font-size: 16px;
                         text-decoration: none;
                         font-family: 'Koulen', cursive;
                         letter-spacing: 8px;
-                        text-shadow: 2px 2px 3px black;
+                        text-shadow: 2px 1px 3px black;
                         transition: 0.6s;
                         font-weight: 300;
 
@@ -976,47 +1064,52 @@
     overflow: hidden;
 
     #header{
-        padding: 15px 5px 15px 5px;
+        padding: 12px 5px 12px 5px;
         text-align: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.105);
+
+        @media screen and (max-width:1165px){
+            display: flex;
+            justify-content: space-between;
+        }
 
         @media screen and (min-width:1370px){
             display: flex;
             justify-content: center;
         }
 
-
         .logo-linkin-header{
-            max-width: 100px;
+            max-width: 75px;
+            margin-right: 3%;
             filter: invert(100%);
 
             @media screen and (min-width:1370px){
                 margin-right: 3%;
             }
 
-        @media screen and (max-width:1165px){
-            width: 70px;
-        }
+            @media screen and (max-width:600px){
+                margin-right: 0;
+            }
 
-        @media screen and (max-width:500px){
-            width: 70px;
-        }
+            @media screen and (max-width:1165px){
+                width: 70px;
+            }
 
-        @media screen and (max-width:400px) {
-            width: 70px;
-        }
+            @media (max-width: 350px){
+                width: 60px;
+            }
         }
     }
 
         .log-in-flex{
             display: flex;
             justify-content: space-between;
-            gap: 10px;
+            gap: 30px;
             text-decoration: none;
             flex-wrap: wrap;
 
@@ -1024,6 +1117,11 @@
                 display: flex;
                 justify-content: center;
             }
+
+            @media screen and (max-width:1165px){
+                gap: 10px;
+            }
+
 
             @media screen and (max-width:400px) {
                 display: flex;
@@ -1045,16 +1143,21 @@
                 @media screen and (max-width:400px) {
                     font-size: 14px;
                 }
+
+                @media (max-width: 350px){
+                    font-size: 12px;
+                }
             }
 
             .log-in{
-                color: white;
+                color: $color-principal;
                 border-style: solid;
                 border-width: 2px;
-                border-color: white;
+                border-color: $color-principal;
                 padding: 5px 15px 5px 15px;
                 font-family: 'Poppins', sans-serif;
                 transition:  0.5s;
+                font-size: 13px;
 
                 &:hover{
                     background-color:$background-hover-color;
@@ -1078,12 +1181,21 @@
                     display: block;
                 }
 
+                @media screen and (max-width:1000px){
+                    margin-left: 3%;
+                }
+
+
                 @media screen and (max-width:500px) {
                     font-size: 40px;
                 }
 
                 @media screen and (max-width:400px) {
                     font-size: 40px;
+                }
+
+                @media (max-width: 350px){
+                    font-size: 35px;
                 }
             }
             #check{
@@ -1096,7 +1208,6 @@
                 flex-wrap: wrap;
 
                 @media (max-width: 1165px){
-
                     background-image: url(../Imagenes/linkinpark-meteora.jpg);
                     background-blend-mode: darken;
                     background-color: rgba(0, 0, 0, 0.782);
@@ -1106,7 +1217,7 @@
                     height: 100vh;
                     display: flex;
                     flex-direction: column;
-                    justify-content: stretch;
+                    flex-wrap: wrap;
                     position: fixed;
                     width: 100%;
                     height: 100vh;
@@ -1115,7 +1226,7 @@
                     transition: all .5s;
                     z-index: 20000;
                 }
-
+    
                 li{
                     @media (max-width: 1165px){
 
@@ -1130,11 +1241,11 @@
                         padding: 5px 10px 5px 15px;
                         margin: 12px;
                         color: white;
-                        font-size: 15px;
+                        font-size: 16px;
                         text-decoration: none;
                         font-family: 'Koulen', cursive;
                         letter-spacing: 8px;
-                        text-shadow: 2px 2px 3px black;
+                        text-shadow: 2px 1px 3px black;
                         transition: 0.6s;
                         font-weight: 300;
 
@@ -1185,46 +1296,52 @@
         justify-content: space-between;
 
         #header{
-            padding: 15px 5px 15px 5px;
+            padding: 12px 5px 12px 5px;
             text-align: center;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+            background-color: rgba(0, 0, 0, 0.105);
+    
+            @media screen and (max-width:1165px){
+                display: flex;
+                justify-content: space-between;
+            }
 
             @media screen and (min-width:1370px){
                 display: flex;
                 justify-content: center;
             }
     
-    
             .logo-linkin-header{
-                max-width: 100px;
+                max-width: 75px;
+                margin-right: 3%;
                 filter: invert(100%);
-
+    
                 @media screen and (min-width:1370px){
                     margin-right: 3%;
                 }
     
-            @media screen and (max-width:1165px){
-                width: 70px;
-            }
+                @media screen and (max-width:600px){
+                    margin-right: 0;
+                }
     
-            @media screen and (max-width:500px){
-                width: 70px;
-            }
+                @media screen and (max-width:1165px){
+                    width: 70px;
+                }
     
-            @media screen and (max-width:400px) {
-                width: 70px;
-            }
+                @media (max-width: 350px){
+                    width: 60px;
+                }
             }
         }
     
             .log-in-flex{
                 display: flex;
                 justify-content: space-between;
-                gap: 10px;
+                gap: 30px;
                 text-decoration: none;
                 flex-wrap: wrap;
     
@@ -1232,6 +1349,11 @@
                     display: flex;
                     justify-content: center;
                 }
+    
+                @media screen and (max-width:1165px){
+                    gap: 10px;
+                }
+    
     
                 @media screen and (max-width:400px) {
                     display: flex;
@@ -1253,16 +1375,21 @@
                     @media screen and (max-width:400px) {
                         font-size: 14px;
                     }
+    
+                    @media (max-width: 350px){
+                        font-size: 12px;
+                    }
                 }
     
                 .log-in{
-                    color: white;
+                    color: $color-principal;
                     border-style: solid;
                     border-width: 2px;
-                    border-color: white;
+                    border-color: $color-principal;
                     padding: 5px 15px 5px 15px;
                     font-family: 'Poppins', sans-serif;
                     transition:  0.5s;
+                    font-size: 13px;
     
                     &:hover{
                         background-color:$background-hover-color;
@@ -1286,12 +1413,21 @@
                         display: block;
                     }
     
+                    @media screen and (max-width:1000px){
+                        margin-left: 3%;
+                    }
+    
+    
                     @media screen and (max-width:500px) {
                         font-size: 40px;
                     }
     
                     @media screen and (max-width:400px) {
                         font-size: 40px;
+                    }
+    
+                    @media (max-width: 350px){
+                        font-size: 35px;
                     }
                 }
                 #check{
@@ -1304,7 +1440,6 @@
                     flex-wrap: wrap;
     
                     @media (max-width: 1165px){
-    
                         background-image: url(../Imagenes/linkinpark-meteora.jpg);
                         background-blend-mode: darken;
                         background-color: rgba(0, 0, 0, 0.782);
@@ -1314,7 +1449,7 @@
                         height: 100vh;
                         display: flex;
                         flex-direction: column;
-                        justify-content: stretch;
+                        flex-wrap: wrap;
                         position: fixed;
                         width: 100%;
                         height: 100vh;
@@ -1323,7 +1458,7 @@
                         transition: all .5s;
                         z-index: 20000;
                     }
-    
+        
                     li{
                         @media (max-width: 1165px){
     
@@ -1338,14 +1473,14 @@
                             padding: 5px 10px 5px 15px;
                             margin: 12px;
                             color: white;
-                            font-size: 15px;
+                            font-size: 16px;
                             text-decoration: none;
                             font-family: 'Koulen', cursive;
                             letter-spacing: 8px;
-                            text-shadow: 2px 2px 3px black;
+                            text-shadow: 2px 1px 3px black;
                             transition: 0.6s;
                             font-weight: 300;
-
+    
                             @media screen and (min-width:1400px){
                                 font-size: 20px;
                             }

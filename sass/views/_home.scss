@@ -2,23 +2,19 @@
 
 
 #main-index{
-    background: radial-gradient(rgb(24, 24, 24), rgb(3, 3, 3));
+    background: radial-gradient(rgb(8, 8, 8), rgb(3, 3, 3));
     text-align: center;
     overflow-x: hidden;
 
     h2{
         text-align: center;
         color: $text-color;
-        padding: 60px;
+        padding: 40px;
         font-size: 60px;
-        text-shadow: 3px 3px 3px black;
-
-        @media screen and (max-width:1255px){
-            font-size: 70px;
-        }
+        font-weight: 400;
 
         @media screen and (max-width:500px) {
-            font-size: 40px;
+            font-size: 45px;
             text-align: center;
         }
 

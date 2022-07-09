@@ -9,20 +9,19 @@ body{
     }
 
     #main-videos{
-        background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
+        background: radial-gradient(rgba(8, 8, 8, 0.902), rgb(3, 3, 3));
         overflow: hidden;
         padding-top: 100px;
     
         .more-videos{
     
             text-align: center;
-            padding: 25px 0 50px 0;
+            padding: 20px 0 20px 0;
     
             a{
                 color: $text-color;
                 text-decoration: none;
                 font-size: 20px;
-                padding: 20px;
                 border-color: $color-principal;
                 border-width: 2px;
                 border-style: solid;
@@ -38,13 +37,19 @@ body{
                 margin-bottom: 100px;
             }
     
-            background: radial-gradient(rgb(10, 10, 10), rgb(12, 12, 12));
+            
         
             h2{
                 font-size: 30px;
                 color: $text-color;
                 padding: 20px;
                 text-align: center;
+                font-weight: 400;
+
+                @media (max-width: 600px){
+                    font-size: 25px;
+
+                }
             }
 
             }
