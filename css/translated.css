@@ -33,11 +33,14 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.205); }
+    background-color: rgba(0, 0, 0, 0.205);
+    -webkit-box-shadow: 0px 0 7px -2px white;
+    box-shadow: 0px 0 7px -2px white; }
     @media screen and (max-width: 1165px) {
       #background-header-index #header {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding: 2px 5px 2px 5px; } }
     @media screen and (min-width: 1370px) {
       #background-header-index #header {
         display: flex;
@@ -65,6 +68,9 @@ color-principal {
       #background-header-index .log-in-flex {
         display: flex;
         justify-content: center; } }
+    @media screen and (max-width: 550px) {
+      #background-header-index .log-in-flex {
+        margin-right: 13px; } }
     @media screen and (max-width: 1165px) {
       #background-header-index .log-in-flex {
         gap: 10px; } }
@@ -72,7 +78,7 @@ color-principal {
       #background-header-index .log-in-flex {
         display: flex;
         justify-content: center; } }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 345px) {
       #background-header-index .log-in-flex {
         display: none; } }
     #background-header-index .log-in-flex a {
@@ -95,7 +101,7 @@ color-principal {
       border-color: white;
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 12px; }
+      font-size: 12.5px; }
       #background-header-index .log-in-flex .log-in:hover, #background-header-index .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -103,12 +109,15 @@ color-principal {
       padding: 5px 15px 5px 15px; }
   #background-header-index .nav-principal {
     margin-bottom: 5px; }
+    @media screen and (max-width: 1165px) {
+      #background-header-index .nav-principal {
+        margin-bottom: 0; } }
     #background-header-index .nav-principal .checkbtn {
-      font-size: 40px;
+      font-size: 35px;
       color: white;
       line-height: 20px;
       margin-right: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       cursor: pointer;
       display: none; }
       @media (max-width: 1165px) {
@@ -117,12 +126,6 @@ color-principal {
       @media screen and (max-width: 1000px) {
         #background-header-index .nav-principal .checkbtn {
           margin-left: 3%; } }
-      @media screen and (max-width: 500px) {
-        #background-header-index .nav-principal .checkbtn {
-          font-size: 40px; } }
-      @media screen and (max-width: 400px) {
-        #background-header-index .nav-principal .checkbtn {
-          font-size: 40px; } }
       @media (max-width: 350px) {
         #background-header-index .nav-principal .checkbtn {
           font-size: 35px; } }
@@ -133,9 +136,9 @@ color-principal {
       flex-wrap: wrap; }
       @media (max-width: 1165px) {
         #background-header-index .nav-principal ul {
-          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-image: url(../Imagenes/fondo-para-responsive.jpg);
           background-blend-mode: darken;
-          background-color: rgba(0, 0, 0, 0.782);
+          background-color: rgba(0, 0, 0, 0.282);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -176,7 +179,8 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-index .nav-principal ul li a:hover {
-          background-color: rgba(0, 0, 0, 0.514); }
+          -webkit-box-shadow: 0px 0 10px -2px white;
+          box-shadow: 0px 0 10px -2px white; }
 
 #title h1 {
   text-align: center;
@@ -297,11 +301,14 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.405); }
+    background-color: rgba(0, 0, 0, 0.205);
+    -webkit-box-shadow: 0px 0 5px -2px white;
+    box-shadow: 0px 0 5px -2px white; }
     @media screen and (max-width: 1165px) {
       #background-header-history #header {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding: 2px 5px 2px 5px; } }
     @media screen and (min-width: 1370px) {
       #background-header-history #header {
         display: flex;
@@ -329,6 +336,9 @@ color-principal {
       #background-header-history .log-in-flex {
         display: flex;
         justify-content: center; } }
+    @media screen and (max-width: 550px) {
+      #background-header-history .log-in-flex {
+        margin-right: 13px; } }
     @media screen and (max-width: 1165px) {
       #background-header-history .log-in-flex {
         gap: 10px; } }
@@ -336,7 +346,7 @@ color-principal {
       #background-header-history .log-in-flex {
         display: flex;
         justify-content: center; } }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 345px) {
       #background-header-history .log-in-flex {
         display: none; } }
     #background-header-history .log-in-flex a {
@@ -359,7 +369,7 @@ color-principal {
       border-color: white;
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 12px; }
+      font-size: 12.5px; }
       #background-header-history .log-in-flex .log-in:hover, #background-header-history .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -367,12 +377,15 @@ color-principal {
       padding: 5px 15px 5px 15px; }
   #background-header-history .nav-principal {
     margin-bottom: 5px; }
+    @media screen and (max-width: 1165px) {
+      #background-header-history .nav-principal {
+        margin-bottom: 0; } }
     #background-header-history .nav-principal .checkbtn {
-      font-size: 40px;
+      font-size: 35px;
       color: white;
       line-height: 20px;
       margin-right: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       cursor: pointer;
       display: none; }
       @media (max-width: 1165px) {
@@ -381,12 +394,6 @@ color-principal {
       @media screen and (max-width: 1000px) {
         #background-header-history .nav-principal .checkbtn {
           margin-left: 3%; } }
-      @media screen and (max-width: 500px) {
-        #background-header-history .nav-principal .checkbtn {
-          font-size: 40px; } }
-      @media screen and (max-width: 400px) {
-        #background-header-history .nav-principal .checkbtn {
-          font-size: 40px; } }
       @media (max-width: 350px) {
         #background-header-history .nav-principal .checkbtn {
           font-size: 35px; } }
@@ -421,7 +428,7 @@ color-principal {
           text-align: center;
           width: 100%; } }
       #background-header-history .nav-principal ul li a {
-        padding: 5px 10px 5px 15px;
+        padding: 5px 8px 5px 13px;
         margin: 12px;
         color: white;
         font-size: 14px;
@@ -440,8 +447,7 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-history .nav-principal ul li a:hover {
-          box-shadow: 1px 1px 5px 1px white;
-          background-color: rgba(0, 0, 0, 0.595); }
+          background-color: rgba(0, 0, 0, 0.514); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -467,11 +473,14 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.405); }
+    background-color: rgba(0, 0, 0, 0.205);
+    -webkit-box-shadow: 0px 0 5px -2px white;
+    box-shadow: 0px 0 5px -2px white; }
     @media screen and (max-width: 1165px) {
       #background-header-members #header {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding: 2px 5px 2px 5px; } }
     @media screen and (min-width: 1370px) {
       #background-header-members #header {
         display: flex;
@@ -499,6 +508,9 @@ color-principal {
       #background-header-members .log-in-flex {
         display: flex;
         justify-content: center; } }
+    @media screen and (max-width: 550px) {
+      #background-header-members .log-in-flex {
+        margin-right: 13px; } }
     @media screen and (max-width: 1165px) {
       #background-header-members .log-in-flex {
         gap: 10px; } }
@@ -506,7 +518,7 @@ color-principal {
       #background-header-members .log-in-flex {
         display: flex;
         justify-content: center; } }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 345px) {
       #background-header-members .log-in-flex {
         display: none; } }
     #background-header-members .log-in-flex a {
@@ -529,7 +541,7 @@ color-principal {
       border-color: white;
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 12px; }
+      font-size: 12.5px; }
       #background-header-members .log-in-flex .log-in:hover, #background-header-members .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -537,12 +549,15 @@ color-principal {
       padding: 5px 15px 5px 15px; }
   #background-header-members .nav-principal {
     margin-bottom: 5px; }
+    @media screen and (max-width: 1165px) {
+      #background-header-members .nav-principal {
+        margin-bottom: 0; } }
     #background-header-members .nav-principal .checkbtn {
-      font-size: 40px;
+      font-size: 35px;
       color: white;
       line-height: 20px;
       margin-right: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       cursor: pointer;
       display: none; }
       @media (max-width: 1165px) {
@@ -551,12 +566,6 @@ color-principal {
       @media screen and (max-width: 1000px) {
         #background-header-members .nav-principal .checkbtn {
           margin-left: 3%; } }
-      @media screen and (max-width: 500px) {
-        #background-header-members .nav-principal .checkbtn {
-          font-size: 40px; } }
-      @media screen and (max-width: 400px) {
-        #background-header-members .nav-principal .checkbtn {
-          font-size: 40px; } }
       @media (max-width: 350px) {
         #background-header-members .nav-principal .checkbtn {
           font-size: 35px; } }
@@ -591,7 +600,7 @@ color-principal {
           text-align: center;
           width: 100%; } }
       #background-header-members .nav-principal ul li a {
-        padding: 5px 10px 5px 15px;
+        padding: 5px 8px 5px 13px;
         margin: 12px;
         color: white;
         font-size: 14px;
@@ -610,8 +619,7 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-members .nav-principal ul li a:hover {
-          box-shadow: 1px 1px 5px 1px white;
-          background-color: rgba(0, 0, 0, 0.595); }
+          background-color: rgba(0, 0, 0, 0.514); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -640,11 +648,14 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.405); }
+    background-color: rgba(0, 0, 0, 0.205);
+    -webkit-box-shadow: 0px 0 5px -2px white;
+    box-shadow: 0px 0 5px -2px white; }
     @media screen and (max-width: 1165px) {
       #background-header-discography #header {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding: 2px 5px 2px 5px; } }
     @media screen and (min-width: 1370px) {
       #background-header-discography #header {
         display: flex;
@@ -672,6 +683,9 @@ color-principal {
       #background-header-discography .log-in-flex {
         display: flex;
         justify-content: center; } }
+    @media screen and (max-width: 550px) {
+      #background-header-discography .log-in-flex {
+        margin-right: 13px; } }
     @media screen and (max-width: 1165px) {
       #background-header-discography .log-in-flex {
         gap: 10px; } }
@@ -679,7 +693,7 @@ color-principal {
       #background-header-discography .log-in-flex {
         display: flex;
         justify-content: center; } }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 345px) {
       #background-header-discography .log-in-flex {
         display: none; } }
     #background-header-discography .log-in-flex a {
@@ -702,7 +716,7 @@ color-principal {
       border-color: white;
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 12px; }
+      font-size: 12.5px; }
       #background-header-discography .log-in-flex .log-in:hover, #background-header-discography .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -710,12 +724,15 @@ color-principal {
       padding: 5px 15px 5px 15px; }
   #background-header-discography .nav-principal {
     margin-bottom: 5px; }
+    @media screen and (max-width: 1165px) {
+      #background-header-discography .nav-principal {
+        margin-bottom: 0; } }
     #background-header-discography .nav-principal .checkbtn {
-      font-size: 40px;
+      font-size: 35px;
       color: white;
       line-height: 20px;
       margin-right: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       cursor: pointer;
       display: none; }
       @media (max-width: 1165px) {
@@ -724,12 +741,6 @@ color-principal {
       @media screen and (max-width: 1000px) {
         #background-header-discography .nav-principal .checkbtn {
           margin-left: 3%; } }
-      @media screen and (max-width: 500px) {
-        #background-header-discography .nav-principal .checkbtn {
-          font-size: 40px; } }
-      @media screen and (max-width: 400px) {
-        #background-header-discography .nav-principal .checkbtn {
-          font-size: 40px; } }
       @media (max-width: 350px) {
         #background-header-discography .nav-principal .checkbtn {
           font-size: 35px; } }
@@ -764,7 +775,7 @@ color-principal {
           text-align: center;
           width: 100%; } }
       #background-header-discography .nav-principal ul li a {
-        padding: 5px 10px 5px 15px;
+        padding: 5px 8px 5px 13px;
         margin: 12px;
         color: white;
         font-size: 14px;
@@ -783,8 +794,7 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-discography .nav-principal ul li a:hover {
-          box-shadow: 1px 1px 5px 1px white;
-          background-color: rgba(0, 0, 0, 0.595); }
+          background-color: rgba(0, 0, 0, 0.514); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -805,11 +815,14 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.405); }
+    background-color: rgba(0, 0, 0, 0.205);
+    -webkit-box-shadow: 0px 0 5px -2px white;
+    box-shadow: 0px 0 5px -2px white; }
     @media screen and (max-width: 1165px) {
       #background-header-videos #header {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding: 2px 5px 2px 5px; } }
     @media screen and (min-width: 1370px) {
       #background-header-videos #header {
         display: flex;
@@ -837,6 +850,9 @@ color-principal {
       #background-header-videos .log-in-flex {
         display: flex;
         justify-content: center; } }
+    @media screen and (max-width: 550px) {
+      #background-header-videos .log-in-flex {
+        margin-right: 13px; } }
     @media screen and (max-width: 1165px) {
       #background-header-videos .log-in-flex {
         gap: 10px; } }
@@ -844,7 +860,7 @@ color-principal {
       #background-header-videos .log-in-flex {
         display: flex;
         justify-content: center; } }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 345px) {
       #background-header-videos .log-in-flex {
         display: none; } }
     #background-header-videos .log-in-flex a {
@@ -867,7 +883,7 @@ color-principal {
       border-color: white;
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 12px; }
+      font-size: 12.5px; }
       #background-header-videos .log-in-flex .log-in:hover, #background-header-videos .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -875,12 +891,15 @@ color-principal {
       padding: 5px 15px 5px 15px; }
   #background-header-videos .nav-principal {
     margin-bottom: 5px; }
+    @media screen and (max-width: 1165px) {
+      #background-header-videos .nav-principal {
+        margin-bottom: 0; } }
     #background-header-videos .nav-principal .checkbtn {
-      font-size: 40px;
+      font-size: 35px;
       color: white;
       line-height: 20px;
       margin-right: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       cursor: pointer;
       display: none; }
       @media (max-width: 1165px) {
@@ -889,12 +908,6 @@ color-principal {
       @media screen and (max-width: 1000px) {
         #background-header-videos .nav-principal .checkbtn {
           margin-left: 3%; } }
-      @media screen and (max-width: 500px) {
-        #background-header-videos .nav-principal .checkbtn {
-          font-size: 40px; } }
-      @media screen and (max-width: 400px) {
-        #background-header-videos .nav-principal .checkbtn {
-          font-size: 40px; } }
       @media (max-width: 350px) {
         #background-header-videos .nav-principal .checkbtn {
           font-size: 35px; } }
@@ -929,7 +942,7 @@ color-principal {
           text-align: center;
           width: 100%; } }
       #background-header-videos .nav-principal ul li a {
-        padding: 5px 10px 5px 15px;
+        padding: 5px 8px 5px 13px;
         margin: 12px;
         color: white;
         font-size: 14px;
@@ -948,8 +961,7 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-videos .nav-principal ul li a:hover {
-          box-shadow: 1px 1px 5px 1px white;
-          background-color: rgba(0, 0, 0, 0.595); }
+          background-color: rgba(0, 0, 0, 0.514); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -957,7 +969,7 @@ color-principal {
 
 /*HEADER SHOP*/
 #background-header-shop {
-  background-image: url(../Imagenes/fondo-shop.jpg);
+  background-image: url(../Imagenes/fondo-shop2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -975,11 +987,14 @@ color-principal {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.405); }
+    background-color: rgba(0, 0, 0, 0.205);
+    -webkit-box-shadow: 0px 0 5px -2px white;
+    box-shadow: 0px 0 5px -2px white; }
     @media screen and (max-width: 1165px) {
       #background-header-shop #header {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding: 2px 5px 2px 5px; } }
     @media screen and (min-width: 1370px) {
       #background-header-shop #header {
         display: flex;
@@ -1007,6 +1022,9 @@ color-principal {
       #background-header-shop .log-in-flex {
         display: flex;
         justify-content: center; } }
+    @media screen and (max-width: 550px) {
+      #background-header-shop .log-in-flex {
+        margin-right: 13px; } }
     @media screen and (max-width: 1165px) {
       #background-header-shop .log-in-flex {
         gap: 10px; } }
@@ -1014,7 +1032,7 @@ color-principal {
       #background-header-shop .log-in-flex {
         display: flex;
         justify-content: center; } }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 345px) {
       #background-header-shop .log-in-flex {
         display: none; } }
     #background-header-shop .log-in-flex a {
@@ -1037,7 +1055,7 @@ color-principal {
       border-color: white;
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
-      font-size: 12px; }
+      font-size: 12.5px; }
       #background-header-shop .log-in-flex .log-in:hover, #background-header-shop .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -1045,12 +1063,15 @@ color-principal {
       padding: 5px 15px 5px 15px; }
   #background-header-shop .nav-principal {
     margin-bottom: 5px; }
+    @media screen and (max-width: 1165px) {
+      #background-header-shop .nav-principal {
+        margin-bottom: 0; } }
     #background-header-shop .nav-principal .checkbtn {
-      font-size: 40px;
+      font-size: 35px;
       color: white;
       line-height: 20px;
       margin-right: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       cursor: pointer;
       display: none; }
       @media (max-width: 1165px) {
@@ -1059,12 +1080,6 @@ color-principal {
       @media screen and (max-width: 1000px) {
         #background-header-shop .nav-principal .checkbtn {
           margin-left: 3%; } }
-      @media screen and (max-width: 500px) {
-        #background-header-shop .nav-principal .checkbtn {
-          font-size: 40px; } }
-      @media screen and (max-width: 400px) {
-        #background-header-shop .nav-principal .checkbtn {
-          font-size: 40px; } }
       @media (max-width: 350px) {
         #background-header-shop .nav-principal .checkbtn {
           font-size: 35px; } }
@@ -1099,7 +1114,7 @@ color-principal {
           text-align: center;
           width: 100%; } }
       #background-header-shop .nav-principal ul li a {
-        padding: 5px 10px 5px 15px;
+        padding: 5px 8px 5px 13px;
         margin: 12px;
         color: white;
         font-size: 14px;
@@ -1118,8 +1133,7 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-shop .nav-principal ul li a:hover {
-          box-shadow: 1px 1px 5px 1px white;
-          background-color: rgba(0, 0, 0, 0.595); }
+          background-color: rgba(0, 0, 0, 0.514); }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -1218,7 +1232,7 @@ color-principal {
 /*VIEWS*/
 /*VIEWS*/
 #main-index {
-  background: radial-gradient(#080808, #030303);
+  background: radial-gradient(#070707, #121212);
   text-align: center;
   overflow-x: hidden; }
   #main-index h2 {
@@ -1298,7 +1312,7 @@ color-principal {
 
 /*VIEWS*/
 #main-discography {
-  background: radial-gradient(#080808, #030303);
+  background: radial-gradient(#070707, #121212);
   text-align: center;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden; }
@@ -1376,7 +1390,7 @@ color-principal {
     font-size: 30px; } }
 
 #main-history {
-  background: radial-gradient(#080808, #030303);
+  background: radial-gradient(#070707, #121212);
   text-align: center;
   padding: 30px 30px 30px 30px;
   overflow-x: hidden; }
@@ -1437,7 +1451,7 @@ color-principal {
     cursor: pointer; }
 
 #main-members {
-  background: radial-gradient(#080808, #030303);
+  background: radial-gradient(#070707, #121212);
   padding: 0px 20px 0px 20px;
   overflow-x: hidden; }
   #main-members .nav-main {
@@ -1864,7 +1878,7 @@ body {
   overflow-x: hidden; }
 
 #main-videos {
-  background: radial-gradient(#080808, #030303);
+  background: radial-gradient(#070707, #121212);
   overflow: hidden;
   padding-top: 100px; }
   #main-videos .more-videos {

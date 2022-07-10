@@ -21,15 +21,21 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.205);
+        -webkit-box-shadow: 0px 0 7px -2px rgb(255, 255, 255); 
+        box-shadow: 0px 0 7px -2px rgb(255, 255, 255);
+
         
         @media screen and (max-width:1165px){
             display: flex;
             justify-content: space-between;
+            padding: 2px 5px 2px 5px;
         }
 
         @media screen and (min-width:1370px){
             display: flex;
             justify-content: center;
+
+            
         }
 
         .logo-linkin-header{
@@ -59,9 +65,14 @@
             text-decoration: none;
             flex-wrap: wrap;
 
+
             @media screen and (max-width:500px){
                 display: flex;
                 justify-content: center;
+            }
+
+            @media screen and (max-width:550px){
+                margin-right: 13px;
             }
 
             @media screen and (max-width:1165px){
@@ -74,7 +85,7 @@
                 justify-content: center;
             }
 
-            @media screen and (max-width:340px) {
+            @media screen and (max-width:345px) {
                 display: none;
             }
 
@@ -103,7 +114,7 @@
                 border-color: $color-principal;
                 padding: 5px 20px 5px 20px;
                 transition:  0.5s;
-                font-size: 12px;
+                font-size: 12.5px;
 
                 &:hover{
                     background-color:$background-hover-color;
@@ -121,12 +132,17 @@
 
             margin-bottom: 5px;
 
+            @media screen and (max-width:1165px){
+                margin-bottom: 0;
+            }
+
+
             .checkbtn{
-                font-size: 40px;
+                font-size: 35px;
                 color: $color-principal;
                 line-height: 20px;
                 margin-right: 10px;
-                margin-bottom: 25px;
+                margin-bottom: 22px;
                 cursor: pointer;
                 display: none;
 
@@ -138,15 +154,6 @@
                     margin-left: 3%;
                 }
 
-
-                @media screen and (max-width:500px) {
-                    font-size: 40px;
-                }
-
-                @media screen and (max-width:400px) {
-                    font-size: 40px;
-                }
-
                 @media (max-width: 350px){
                     font-size: 35px;
                 }
@@ -156,14 +163,13 @@
             }
 
             ul {
-
                 display: flex;
                 flex-wrap: wrap;
 
                 @media (max-width: 1165px){
-                    background-image: url(../Imagenes/linkinpark-meteora.jpg);
+                    background-image: url(../Imagenes/fondo-para-responsive.jpg);
                     background-blend-mode: darken;
-                    background-color: rgba(0, 0, 0, 0.782);
+                    background-color: rgba(0, 0, 0, 0.282);
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -187,7 +193,6 @@
                         line-height: 10px;
                         text-align: center;
                         width: 100%;
-                        
                     }
             
         
@@ -199,7 +204,6 @@
                         text-decoration: none;
                         font-family: 'Koulen', cursive;
                         letter-spacing: 8px;
-
                         transition: 0.6s;
                         font-weight: 300;
 
@@ -215,7 +219,8 @@
                         }
         
                         &:hover{
-                            background-color: rgba(0, 0, 0, 0.514);
+                            -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
+                            box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
                         }
                     }
                     
@@ -391,16 +396,22 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            background-color: rgba(0, 0, 0, 0.405);
+            background-color: rgba(0, 0, 0, 0.205);
+            -webkit-box-shadow: 0px 0 5px -2px rgb(255, 255, 255); 
+            box-shadow: 0px 0 5px -2px rgb(255, 255, 255);
+    
             
             @media screen and (max-width:1165px){
                 display: flex;
                 justify-content: space-between;
+                padding: 2px 5px 2px 5px;
             }
     
             @media screen and (min-width:1370px){
                 display: flex;
                 justify-content: center;
+    
+                
             }
     
             .logo-linkin-header{
@@ -430,9 +441,14 @@
                 text-decoration: none;
                 flex-wrap: wrap;
     
+    
                 @media screen and (max-width:500px){
                     display: flex;
                     justify-content: center;
+                }
+    
+                @media screen and (max-width:550px){
+                    margin-right: 13px;
                 }
     
                 @media screen and (max-width:1165px){
@@ -445,7 +461,7 @@
                     justify-content: center;
                 }
     
-                @media screen and (max-width:340px) {
+                @media screen and (max-width:345px) {
                     display: none;
                 }
     
@@ -474,7 +490,7 @@
                     border-color: $color-principal;
                     padding: 5px 20px 5px 20px;
                     transition:  0.5s;
-                    font-size: 12px;
+                    font-size: 12.5px;
     
                     &:hover{
                         background-color:$background-hover-color;
@@ -492,12 +508,17 @@
     
                 margin-bottom: 5px;
     
+                @media screen and (max-width:1165px){
+                    margin-bottom: 0;
+                }
+    
+    
                 .checkbtn{
-                    font-size: 40px;
+                    font-size: 35px;
                     color: $color-principal;
                     line-height: 20px;
                     margin-right: 10px;
-                    margin-bottom: 25px;
+                    margin-bottom: 22px;
                     cursor: pointer;
                     display: none;
     
@@ -507,15 +528,6 @@
     
                     @media screen and (max-width:1000px){
                         margin-left: 3%;
-                    }
-    
-    
-                    @media screen and (max-width:500px) {
-                        font-size: 40px;
-                    }
-    
-                    @media screen and (max-width:400px) {
-                        font-size: 40px;
                     }
     
                     @media (max-width: 350px){
@@ -558,11 +570,12 @@
                             line-height: 10px;
                             text-align: center;
                             width: 100%;
+                            
                         }
                 
             
                         a{
-                            padding: 5px 10px 5px 15px;
+                            padding: 5px 8px 5px 13px;
                             margin: 12px;
                             color: white;
                             font-size: 14px;
@@ -585,8 +598,7 @@
                             }
             
                             &:hover{
-                                box-shadow: 1px 1px 5px 1px white;
-                                background-color:$background-hover-color;
+                                background-color: rgba(0, 0, 0, 0.514);
                             }
                         }
                         
@@ -628,16 +640,22 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
-                background-color: rgba(0, 0, 0, 0.405);
+                background-color: rgba(0, 0, 0, 0.205);
+                -webkit-box-shadow: 0px 0 5px -2px rgb(255, 255, 255); 
+                box-shadow: 0px 0 5px -2px rgb(255, 255, 255);
+        
                 
                 @media screen and (max-width:1165px){
                     display: flex;
                     justify-content: space-between;
+                    padding: 2px 5px 2px 5px;
                 }
         
                 @media screen and (min-width:1370px){
                     display: flex;
                     justify-content: center;
+        
+                    
                 }
         
                 .logo-linkin-header{
@@ -667,9 +685,14 @@
                     text-decoration: none;
                     flex-wrap: wrap;
         
+        
                     @media screen and (max-width:500px){
                         display: flex;
                         justify-content: center;
+                    }
+        
+                    @media screen and (max-width:550px){
+                        margin-right: 13px;
                     }
         
                     @media screen and (max-width:1165px){
@@ -682,7 +705,7 @@
                         justify-content: center;
                     }
         
-                    @media screen and (max-width:340px) {
+                    @media screen and (max-width:345px) {
                         display: none;
                     }
         
@@ -711,7 +734,7 @@
                         border-color: $color-principal;
                         padding: 5px 20px 5px 20px;
                         transition:  0.5s;
-                        font-size: 12px;
+                        font-size: 12.5px;
         
                         &:hover{
                             background-color:$background-hover-color;
@@ -729,12 +752,17 @@
         
                     margin-bottom: 5px;
         
+                    @media screen and (max-width:1165px){
+                        margin-bottom: 0;
+                    }
+        
+        
                     .checkbtn{
-                        font-size: 40px;
+                        font-size: 35px;
                         color: $color-principal;
                         line-height: 20px;
                         margin-right: 10px;
-                        margin-bottom: 25px;
+                        margin-bottom: 22px;
                         cursor: pointer;
                         display: none;
         
@@ -744,15 +772,6 @@
         
                         @media screen and (max-width:1000px){
                             margin-left: 3%;
-                        }
-        
-        
-                        @media screen and (max-width:500px) {
-                            font-size: 40px;
-                        }
-        
-                        @media screen and (max-width:400px) {
-                            font-size: 40px;
                         }
         
                         @media (max-width: 350px){
@@ -795,11 +814,12 @@
                                 line-height: 10px;
                                 text-align: center;
                                 width: 100%;
+                                
                             }
                     
                 
                             a{
-                                padding: 5px 10px 5px 15px;
+                                padding: 5px 8px 5px 13px;
                                 margin: 12px;
                                 color: white;
                                 font-size: 14px;
@@ -822,8 +842,7 @@
                                 }
                 
                                 &:hover{
-                                    box-shadow: 1px 1px 5px 1px white;
-                                    background-color:$background-hover-color;
+                                    background-color: rgba(0, 0, 0, 0.514);
                                 }
                             }
                             
@@ -867,16 +886,22 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.405);
+        background-color: rgba(0, 0, 0, 0.205);
+        -webkit-box-shadow: 0px 0 5px -2px rgb(255, 255, 255); 
+        box-shadow: 0px 0 5px -2px rgb(255, 255, 255);
+
         
         @media screen and (max-width:1165px){
             display: flex;
             justify-content: space-between;
+            padding: 2px 5px 2px 5px;
         }
 
         @media screen and (min-width:1370px){
             display: flex;
             justify-content: center;
+
+            
         }
 
         .logo-linkin-header{
@@ -906,9 +931,14 @@
             text-decoration: none;
             flex-wrap: wrap;
 
+
             @media screen and (max-width:500px){
                 display: flex;
                 justify-content: center;
+            }
+
+            @media screen and (max-width:550px){
+                margin-right: 13px;
             }
 
             @media screen and (max-width:1165px){
@@ -921,7 +951,7 @@
                 justify-content: center;
             }
 
-            @media screen and (max-width:340px) {
+            @media screen and (max-width:345px) {
                 display: none;
             }
 
@@ -950,7 +980,7 @@
                 border-color: $color-principal;
                 padding: 5px 20px 5px 20px;
                 transition:  0.5s;
-                font-size: 12px;
+                font-size: 12.5px;
 
                 &:hover{
                     background-color:$background-hover-color;
@@ -968,12 +998,17 @@
 
             margin-bottom: 5px;
 
+            @media screen and (max-width:1165px){
+                margin-bottom: 0;
+            }
+
+
             .checkbtn{
-                font-size: 40px;
+                font-size: 35px;
                 color: $color-principal;
                 line-height: 20px;
                 margin-right: 10px;
-                margin-bottom: 25px;
+                margin-bottom: 22px;
                 cursor: pointer;
                 display: none;
 
@@ -983,15 +1018,6 @@
 
                 @media screen and (max-width:1000px){
                     margin-left: 3%;
-                }
-
-
-                @media screen and (max-width:500px) {
-                    font-size: 40px;
-                }
-
-                @media screen and (max-width:400px) {
-                    font-size: 40px;
                 }
 
                 @media (max-width: 350px){
@@ -1034,11 +1060,12 @@
                         line-height: 10px;
                         text-align: center;
                         width: 100%;
+                        
                     }
             
         
                     a{
-                        padding: 5px 10px 5px 15px;
+                        padding: 5px 8px 5px 13px;
                         margin: 12px;
                         color: white;
                         font-size: 14px;
@@ -1061,8 +1088,7 @@
                         }
         
                         &:hover{
-                            box-shadow: 1px 1px 5px 1px white;
-                            background-color:$background-hover-color;
+                            background-color: rgba(0, 0, 0, 0.514);
                         }
                     }
                     
@@ -1096,16 +1122,22 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.405);
+        background-color: rgba(0, 0, 0, 0.205);
+        -webkit-box-shadow: 0px 0 5px -2px rgb(255, 255, 255); 
+        box-shadow: 0px 0 5px -2px rgb(255, 255, 255);
+
         
         @media screen and (max-width:1165px){
             display: flex;
             justify-content: space-between;
+            padding: 2px 5px 2px 5px;
         }
 
         @media screen and (min-width:1370px){
             display: flex;
             justify-content: center;
+
+            
         }
 
         .logo-linkin-header{
@@ -1135,9 +1167,14 @@
             text-decoration: none;
             flex-wrap: wrap;
 
+
             @media screen and (max-width:500px){
                 display: flex;
                 justify-content: center;
+            }
+
+            @media screen and (max-width:550px){
+                margin-right: 13px;
             }
 
             @media screen and (max-width:1165px){
@@ -1150,7 +1187,7 @@
                 justify-content: center;
             }
 
-            @media screen and (max-width:340px) {
+            @media screen and (max-width:345px) {
                 display: none;
             }
 
@@ -1179,7 +1216,7 @@
                 border-color: $color-principal;
                 padding: 5px 20px 5px 20px;
                 transition:  0.5s;
-                font-size: 12px;
+                font-size: 12.5px;
 
                 &:hover{
                     background-color:$background-hover-color;
@@ -1197,12 +1234,17 @@
 
             margin-bottom: 5px;
 
+            @media screen and (max-width:1165px){
+                margin-bottom: 0;
+            }
+
+
             .checkbtn{
-                font-size: 40px;
+                font-size: 35px;
                 color: $color-principal;
                 line-height: 20px;
                 margin-right: 10px;
-                margin-bottom: 25px;
+                margin-bottom: 22px;
                 cursor: pointer;
                 display: none;
 
@@ -1212,15 +1254,6 @@
 
                 @media screen and (max-width:1000px){
                     margin-left: 3%;
-                }
-
-
-                @media screen and (max-width:500px) {
-                    font-size: 40px;
-                }
-
-                @media screen and (max-width:400px) {
-                    font-size: 40px;
                 }
 
                 @media (max-width: 350px){
@@ -1263,11 +1296,12 @@
                         line-height: 10px;
                         text-align: center;
                         width: 100%;
+                        
                     }
             
         
                     a{
-                        padding: 5px 10px 5px 15px;
+                        padding: 5px 8px 5px 13px;
                         margin: 12px;
                         color: white;
                         font-size: 14px;
@@ -1290,8 +1324,7 @@
                         }
         
                         &:hover{
-                            box-shadow: 1px 1px 5px 1px white;
-                            background-color:$background-hover-color;
+                            background-color: rgba(0, 0, 0, 0.514);
                         }
                     }
                     
@@ -1313,7 +1346,7 @@
 /*HEADER SHOP*/
 
     #background-header-shop{
-        background-image: url(../Imagenes/fondo-shop.jpg);
+        background-image: url(../Imagenes/fondo-shop2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1332,16 +1365,22 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            background-color: rgba(0, 0, 0, 0.405);
+            background-color: rgba(0, 0, 0, 0.205);
+            -webkit-box-shadow: 0px 0 5px -2px rgb(255, 255, 255); 
+            box-shadow: 0px 0 5px -2px rgb(255, 255, 255);
+    
             
             @media screen and (max-width:1165px){
                 display: flex;
                 justify-content: space-between;
+                padding: 2px 5px 2px 5px;
             }
     
             @media screen and (min-width:1370px){
                 display: flex;
                 justify-content: center;
+    
+                
             }
     
             .logo-linkin-header{
@@ -1371,9 +1410,14 @@
                 text-decoration: none;
                 flex-wrap: wrap;
     
+    
                 @media screen and (max-width:500px){
                     display: flex;
                     justify-content: center;
+                }
+    
+                @media screen and (max-width:550px){
+                    margin-right: 13px;
                 }
     
                 @media screen and (max-width:1165px){
@@ -1386,7 +1430,7 @@
                     justify-content: center;
                 }
     
-                @media screen and (max-width:340px) {
+                @media screen and (max-width:345px) {
                     display: none;
                 }
     
@@ -1415,7 +1459,7 @@
                     border-color: $color-principal;
                     padding: 5px 20px 5px 20px;
                     transition:  0.5s;
-                    font-size: 12px;
+                    font-size: 12.5px;
     
                     &:hover{
                         background-color:$background-hover-color;
@@ -1433,12 +1477,17 @@
     
                 margin-bottom: 5px;
     
+                @media screen and (max-width:1165px){
+                    margin-bottom: 0;
+                }
+    
+    
                 .checkbtn{
-                    font-size: 40px;
+                    font-size: 35px;
                     color: $color-principal;
                     line-height: 20px;
                     margin-right: 10px;
-                    margin-bottom: 25px;
+                    margin-bottom: 22px;
                     cursor: pointer;
                     display: none;
     
@@ -1448,15 +1497,6 @@
     
                     @media screen and (max-width:1000px){
                         margin-left: 3%;
-                    }
-    
-    
-                    @media screen and (max-width:500px) {
-                        font-size: 40px;
-                    }
-    
-                    @media screen and (max-width:400px) {
-                        font-size: 40px;
                     }
     
                     @media (max-width: 350px){
@@ -1499,11 +1539,12 @@
                             line-height: 10px;
                             text-align: center;
                             width: 100%;
+                            
                         }
                 
             
                         a{
-                            padding: 5px 10px 5px 15px;
+                            padding: 5px 8px 5px 13px;
                             margin: 12px;
                             color: white;
                             font-size: 14px;
@@ -1526,8 +1567,7 @@
                             }
             
                             &:hover{
-                                box-shadow: 1px 1px 5px 1px white;
-                                background-color:$background-hover-color;
+                                background-color: rgba(0, 0, 0, 0.514);
                             }
                         }
                         
