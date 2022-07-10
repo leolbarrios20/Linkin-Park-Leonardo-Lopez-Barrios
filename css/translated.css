@@ -102,6 +102,9 @@ color-principal {
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
       font-size: 12.5px; }
+      @media (max-width: 500px) {
+        #background-header-index .log-in-flex .log-in, #background-header-index .log-in-flex .register {
+          font-size: 13.5px; } }
       #background-header-index .log-in-flex .log-in:hover, #background-header-index .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -370,6 +373,9 @@ color-principal {
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
       font-size: 12.5px; }
+      @media (max-width: 500px) {
+        #background-header-history .log-in-flex .log-in, #background-header-history .log-in-flex .register {
+          font-size: 13.5px; } }
       #background-header-history .log-in-flex .log-in:hover, #background-header-history .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -606,6 +612,9 @@ color-principal {
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
       font-size: 12.5px; }
+      @media (max-width: 500px) {
+        #background-header-members .log-in-flex .log-in, #background-header-members .log-in-flex .register {
+          font-size: 13.5px; } }
       #background-header-members .log-in-flex .log-in:hover, #background-header-members .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -845,6 +854,9 @@ color-principal {
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
       font-size: 12.5px; }
+      @media (max-width: 500px) {
+        #background-header-discography .log-in-flex .log-in, #background-header-discography .log-in-flex .register {
+          font-size: 13.5px; } }
       #background-header-discography .log-in-flex .log-in:hover, #background-header-discography .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -1076,6 +1088,9 @@ color-principal {
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
       font-size: 12.5px; }
+      @media (max-width: 500px) {
+        #background-header-videos .log-in-flex .log-in, #background-header-videos .log-in-flex .register {
+          font-size: 13.5px; } }
       #background-header-videos .log-in-flex .log-in:hover, #background-header-videos .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
@@ -1312,6 +1327,9 @@ color-principal {
       padding: 5px 20px 5px 20px;
       transition: 0.5s;
       font-size: 12.5px; }
+      @media (max-width: 500px) {
+        #background-header-shop .log-in-flex .log-in, #background-header-shop .log-in-flex .register {
+          font-size: 13.5px; } }
       #background-header-shop .log-in-flex .log-in:hover, #background-header-shop .log-in-flex .register:hover {
         background-color: rgba(0, 0, 0, 0.595);
         transform: scale(1.05); }
