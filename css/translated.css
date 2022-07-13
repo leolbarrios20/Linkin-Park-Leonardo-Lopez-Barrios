@@ -24,12 +24,13 @@ color-principal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: center; }
+  align-content: center;
+  overflow-x: hidden; }
   @media screen and (max-width: 500px) {
     #background-header-index {
       background-image: url(../Imagenes/fondopararesponsive2.jpg);
       background-blend-mode: darken;
-      background-color: #14161a70; } }
+      background-color: #191c2049; } }
   #background-header-index #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -192,72 +193,69 @@ color-principal {
         #background-header-index .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
           box-shadow: 0px 0 10px -2px white; }
-
-.shop-logos-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px; }
-  @media screen and (max-width: 500px) {
-    .shop-logos-flex {
-      padding-bottom: 20px; } }
-  @media screen and (min-width: 1370px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: center; } }
-  @media screen and (max-width: 1175px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: space-between; } }
-  .shop-logos-flex .rectangle {
-    width: 780px;
-    background-color: transparent; }
-    @media screen and (min-width: 1400px) {
-      .shop-logos-flex .rectangle {
-        width: 860px; } }
+  #background-header-index .shop-logos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    @media screen and (min-width: 1370px) {
+      #background-header-index .shop-logos-flex {
+        display: flex;
+        justify-content: center; } }
     @media screen and (max-width: 1175px) {
-      .shop-logos-flex .rectangle {
-        display: none; } }
-  .shop-logos-flex .shop-div {
-    background-color: rgba(0, 0, 0, 0.548);
-    padding: 2px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px; }
-    .shop-logos-flex .shop-div a {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: space-around;
-      text-decoration: none;
-      padding: 15px;
-      gap: 10px; }
-      @media screen and (max-width: 1165px) {
-        .shop-logos-flex .shop-div a {
-          gap: 10px; } }
-      .shop-logos-flex .shop-div a h6 {
-        font-size: 22px;
-        font-family: 'Koulen', cursive;
-        letter-spacing: 3px;
-        font-weight: 300;
-        color: white;
-        margin-top: 10px; }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a h6 {
-            display: none; } }
-      .shop-logos-flex .shop-div a img {
-        width: 30px;
-        filter: invert(100%); }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a img {
-            width: 30px; } }
-  .shop-logos-flex .logos-header {
-    margin-right: -10px; }
-    .shop-logos-flex .logos-header a {
-      margin: 5px;
-      filter: drop-shadow(5px 5px 5px black); }
-      .shop-logos-flex .logos-header a img {
-        width: 30px; }
+      #background-header-index .shop-logos-flex {
+        display: flex;
+        justify-content: space-between; } }
+    #background-header-index .shop-logos-flex .rectangle {
+      width: 780px;
+      background-color: transparent; }
+      @media screen and (min-width: 1400px) {
+        #background-header-index .shop-logos-flex .rectangle {
+          width: 860px; } }
+      @media screen and (max-width: 1175px) {
+        #background-header-index .shop-logos-flex .rectangle {
+          display: none; } }
+    #background-header-index .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-index .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 15px;
+        gap: 10px; }
+        @media screen and (max-width: 1165px) {
+          #background-header-index .shop-logos-flex .shop-div a {
+            gap: 10px; } }
+        #background-header-index .shop-logos-flex .shop-div a h6 {
+          font-size: 22px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            #background-header-index .shop-logos-flex .shop-div a h6 {
+              display: none; } }
+        #background-header-index .shop-logos-flex .shop-div a img {
+          width: 30px;
+          filter: invert(100%); }
+          @media screen and (max-width: 500px) {
+            #background-header-index .shop-logos-flex .shop-div a img {
+              width: 30px; } }
+    #background-header-index .shop-logos-flex .logos-header {
+      margin-right: -10px; }
+      #background-header-index .shop-logos-flex .logos-header a {
+        margin: 5px;
+        filter: drop-shadow(5px 5px 5px black); }
+        #background-header-index .shop-logos-flex .logos-header a img {
+          width: 33px;
+          height: 33px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -303,7 +301,8 @@ color-principal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: center; }
+  align-content: center;
+  overflow-x: hidden; }
   @media screen and (max-width: 500px) {
     #background-header-history {
       background-image: url(../Imagenes/fondopararesponsive2.jpg);
@@ -471,69 +470,69 @@ color-principal {
         #background-header-history .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
           box-shadow: 0px 0 10px -2px white; }
-
-.shop-logos-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px; }
-  @media screen and (min-width: 1370px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: center; } }
-  @media screen and (max-width: 1175px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: space-between; } }
-  .shop-logos-flex .rectangle {
-    width: 780px;
-    background-color: transparent; }
-    @media screen and (min-width: 1400px) {
-      .shop-logos-flex .rectangle {
-        width: 860px; } }
+  #background-header-history .shop-logos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    @media screen and (min-width: 1370px) {
+      #background-header-history .shop-logos-flex {
+        display: flex;
+        justify-content: center; } }
     @media screen and (max-width: 1175px) {
-      .shop-logos-flex .rectangle {
-        display: none; } }
-  .shop-logos-flex .shop-div {
-    background-color: rgba(0, 0, 0, 0.548);
-    padding: 2px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px; }
-    .shop-logos-flex .shop-div a {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: space-around;
-      text-decoration: none;
-      padding: 15px;
-      gap: 10px; }
-      @media screen and (max-width: 1165px) {
-        .shop-logos-flex .shop-div a {
-          gap: 10px; } }
-      .shop-logos-flex .shop-div a h6 {
-        font-size: 22px;
-        font-family: 'Koulen', cursive;
-        letter-spacing: 3px;
-        font-weight: 300;
-        color: white;
-        margin-top: 10px; }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a h6 {
-            display: none; } }
-      .shop-logos-flex .shop-div a img {
-        width: 30px;
-        filter: invert(100%); }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a img {
-            width: 30px; } }
-  .shop-logos-flex .logos-header {
-    margin-right: -10px; }
-    .shop-logos-flex .logos-header a {
-      margin: 5px;
-      filter: drop-shadow(5px 5px 5px black); }
-      .shop-logos-flex .logos-header a img {
-        width: 30px; }
+      #background-header-history .shop-logos-flex {
+        display: flex;
+        justify-content: space-between; } }
+    #background-header-history .shop-logos-flex .rectangle {
+      width: 780px;
+      background-color: transparent; }
+      @media screen and (min-width: 1400px) {
+        #background-header-history .shop-logos-flex .rectangle {
+          width: 860px; } }
+      @media screen and (max-width: 1175px) {
+        #background-header-history .shop-logos-flex .rectangle {
+          display: none; } }
+    #background-header-history .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-history .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 15px;
+        gap: 10px; }
+        @media screen and (max-width: 1165px) {
+          #background-header-history .shop-logos-flex .shop-div a {
+            gap: 10px; } }
+        #background-header-history .shop-logos-flex .shop-div a h6 {
+          font-size: 22px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            #background-header-history .shop-logos-flex .shop-div a h6 {
+              display: none; } }
+        #background-header-history .shop-logos-flex .shop-div a img {
+          width: 30px;
+          filter: invert(100%); }
+          @media screen and (max-width: 500px) {
+            #background-header-history .shop-logos-flex .shop-div a img {
+              width: 30px; } }
+    #background-header-history .shop-logos-flex .logos-header {
+      margin-right: -10px; }
+      #background-header-history .shop-logos-flex .logos-header a {
+        margin: 5px;
+        filter: drop-shadow(5px 5px 5px black); }
+        #background-header-history .shop-logos-flex .logos-header a img {
+          width: 33px;
+          height: 33px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -550,7 +549,8 @@ color-principal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: center; }
+  align-content: center;
+  overflow-x: hidden; }
   @media screen and (max-width: 500px) {
     #background-header-members {
       background-image: url(../Imagenes/fondopararesponsive2.jpg);
@@ -718,69 +718,69 @@ color-principal {
         #background-header-members .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
           box-shadow: 0px 0 10px -2px white; }
-
-.shop-logos-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px; }
-  @media screen and (min-width: 1370px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: center; } }
-  @media screen and (max-width: 1175px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: space-between; } }
-  .shop-logos-flex .rectangle {
-    width: 780px;
-    background-color: transparent; }
-    @media screen and (min-width: 1400px) {
-      .shop-logos-flex .rectangle {
-        width: 860px; } }
+  #background-header-members .shop-logos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    @media screen and (min-width: 1370px) {
+      #background-header-members .shop-logos-flex {
+        display: flex;
+        justify-content: center; } }
     @media screen and (max-width: 1175px) {
-      .shop-logos-flex .rectangle {
-        display: none; } }
-  .shop-logos-flex .shop-div {
-    background-color: rgba(0, 0, 0, 0.548);
-    padding: 2px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px; }
-    .shop-logos-flex .shop-div a {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: space-around;
-      text-decoration: none;
-      padding: 15px;
-      gap: 10px; }
-      @media screen and (max-width: 1165px) {
-        .shop-logos-flex .shop-div a {
-          gap: 10px; } }
-      .shop-logos-flex .shop-div a h6 {
-        font-size: 22px;
-        font-family: 'Koulen', cursive;
-        letter-spacing: 3px;
-        font-weight: 300;
-        color: white;
-        margin-top: 10px; }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a h6 {
-            display: none; } }
-      .shop-logos-flex .shop-div a img {
-        width: 30px;
-        filter: invert(100%); }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a img {
-            width: 30px; } }
-  .shop-logos-flex .logos-header {
-    margin-right: -10px; }
-    .shop-logos-flex .logos-header a {
-      margin: 5px;
-      filter: drop-shadow(5px 5px 5px black); }
-      .shop-logos-flex .logos-header a img {
-        width: 30px; }
+      #background-header-members .shop-logos-flex {
+        display: flex;
+        justify-content: space-between; } }
+    #background-header-members .shop-logos-flex .rectangle {
+      width: 780px;
+      background-color: transparent; }
+      @media screen and (min-width: 1400px) {
+        #background-header-members .shop-logos-flex .rectangle {
+          width: 860px; } }
+      @media screen and (max-width: 1175px) {
+        #background-header-members .shop-logos-flex .rectangle {
+          display: none; } }
+    #background-header-members .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-members .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 15px;
+        gap: 10px; }
+        @media screen and (max-width: 1165px) {
+          #background-header-members .shop-logos-flex .shop-div a {
+            gap: 10px; } }
+        #background-header-members .shop-logos-flex .shop-div a h6 {
+          font-size: 22px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            #background-header-members .shop-logos-flex .shop-div a h6 {
+              display: none; } }
+        #background-header-members .shop-logos-flex .shop-div a img {
+          width: 30px;
+          filter: invert(100%); }
+          @media screen and (max-width: 500px) {
+            #background-header-members .shop-logos-flex .shop-div a img {
+              width: 30px; } }
+    #background-header-members .shop-logos-flex .logos-header {
+      margin-right: -10px; }
+      #background-header-members .shop-logos-flex .logos-header a {
+        margin: 5px;
+        filter: drop-shadow(5px 5px 5px black); }
+        #background-header-members .shop-logos-flex .logos-header a img {
+          width: 33px;
+          height: 33px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -797,7 +797,8 @@ color-principal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: center; }
+  align-content: center;
+  overflow-x: hidden; }
   @media screen and (max-width: 1255px) {
     #background-header-discography .discography {
       font-size: 80px;
@@ -983,69 +984,69 @@ color-principal {
         #background-header-discography .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
           box-shadow: 0px 0 10px -2px white; }
-
-.shop-logos-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px; }
-  @media screen and (min-width: 1370px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: center; } }
-  @media screen and (max-width: 1175px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: space-between; } }
-  .shop-logos-flex .rectangle {
-    width: 780px;
-    background-color: transparent; }
-    @media screen and (min-width: 1400px) {
-      .shop-logos-flex .rectangle {
-        width: 860px; } }
+  #background-header-discography .shop-logos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    @media screen and (min-width: 1370px) {
+      #background-header-discography .shop-logos-flex {
+        display: flex;
+        justify-content: center; } }
     @media screen and (max-width: 1175px) {
-      .shop-logos-flex .rectangle {
-        display: none; } }
-  .shop-logos-flex .shop-div {
-    background-color: rgba(0, 0, 0, 0.548);
-    padding: 2px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px; }
-    .shop-logos-flex .shop-div a {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: space-around;
-      text-decoration: none;
-      padding: 15px;
-      gap: 10px; }
-      @media screen and (max-width: 1165px) {
-        .shop-logos-flex .shop-div a {
-          gap: 10px; } }
-      .shop-logos-flex .shop-div a h6 {
-        font-size: 22px;
-        font-family: 'Koulen', cursive;
-        letter-spacing: 3px;
-        font-weight: 300;
-        color: white;
-        margin-top: 10px; }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a h6 {
-            display: none; } }
-      .shop-logos-flex .shop-div a img {
-        width: 30px;
-        filter: invert(100%); }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a img {
-            width: 30px; } }
-  .shop-logos-flex .logos-header {
-    margin-right: -10px; }
-    .shop-logos-flex .logos-header a {
-      margin: 5px;
-      filter: drop-shadow(5px 5px 5px black); }
-      .shop-logos-flex .logos-header a img {
-        width: 30px; }
+      #background-header-discography .shop-logos-flex {
+        display: flex;
+        justify-content: space-between; } }
+    #background-header-discography .shop-logos-flex .rectangle {
+      width: 780px;
+      background-color: transparent; }
+      @media screen and (min-width: 1400px) {
+        #background-header-discography .shop-logos-flex .rectangle {
+          width: 860px; } }
+      @media screen and (max-width: 1175px) {
+        #background-header-discography .shop-logos-flex .rectangle {
+          display: none; } }
+    #background-header-discography .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-discography .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 15px;
+        gap: 10px; }
+        @media screen and (max-width: 1165px) {
+          #background-header-discography .shop-logos-flex .shop-div a {
+            gap: 10px; } }
+        #background-header-discography .shop-logos-flex .shop-div a h6 {
+          font-size: 22px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            #background-header-discography .shop-logos-flex .shop-div a h6 {
+              display: none; } }
+        #background-header-discography .shop-logos-flex .shop-div a img {
+          width: 30px;
+          filter: invert(100%); }
+          @media screen and (max-width: 500px) {
+            #background-header-discography .shop-logos-flex .shop-div a img {
+              width: 30px; } }
+    #background-header-discography .shop-logos-flex .logos-header {
+      margin-right: -10px; }
+      #background-header-discography .shop-logos-flex .logos-header a {
+        margin: 5px;
+        filter: drop-shadow(5px 5px 5px black); }
+        #background-header-discography .shop-logos-flex .logos-header a img {
+          width: 33px;
+          height: 33px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -1217,69 +1218,69 @@ color-principal {
         #background-header-videos .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
           box-shadow: 0px 0 10px -2px white; }
-
-.shop-logos-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px; }
-  @media screen and (min-width: 1370px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: center; } }
-  @media screen and (max-width: 1175px) {
-    .shop-logos-flex {
-      display: flex;
-      justify-content: space-between; } }
-  .shop-logos-flex .rectangle {
-    width: 780px;
-    background-color: transparent; }
-    @media screen and (min-width: 1400px) {
-      .shop-logos-flex .rectangle {
-        width: 860px; } }
+  #background-header-videos .shop-logos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    @media screen and (min-width: 1370px) {
+      #background-header-videos .shop-logos-flex {
+        display: flex;
+        justify-content: center; } }
     @media screen and (max-width: 1175px) {
-      .shop-logos-flex .rectangle {
-        display: none; } }
-  .shop-logos-flex .shop-div {
-    background-color: rgba(0, 0, 0, 0.548);
-    padding: 2px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px; }
-    .shop-logos-flex .shop-div a {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: space-around;
-      text-decoration: none;
-      padding: 15px;
-      gap: 10px; }
-      @media screen and (max-width: 1165px) {
-        .shop-logos-flex .shop-div a {
-          gap: 10px; } }
-      .shop-logos-flex .shop-div a h6 {
-        font-size: 22px;
-        font-family: 'Koulen', cursive;
-        letter-spacing: 3px;
-        font-weight: 300;
-        color: white;
-        margin-top: 10px; }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a h6 {
-            display: none; } }
-      .shop-logos-flex .shop-div a img {
-        width: 30px;
-        filter: invert(100%); }
-        @media screen and (max-width: 500px) {
-          .shop-logos-flex .shop-div a img {
-            width: 30px; } }
-  .shop-logos-flex .logos-header {
-    margin-right: -10px; }
-    .shop-logos-flex .logos-header a {
-      margin: 5px;
-      filter: drop-shadow(5px 5px 5px black); }
-      .shop-logos-flex .logos-header a img {
-        width: 30px; }
+      #background-header-videos .shop-logos-flex {
+        display: flex;
+        justify-content: space-between; } }
+    #background-header-videos .shop-logos-flex .rectangle {
+      width: 780px;
+      background-color: transparent; }
+      @media screen and (min-width: 1400px) {
+        #background-header-videos .shop-logos-flex .rectangle {
+          width: 860px; } }
+      @media screen and (max-width: 1175px) {
+        #background-header-videos .shop-logos-flex .rectangle {
+          display: none; } }
+    #background-header-videos .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-videos .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 15px;
+        gap: 10px; }
+        @media screen and (max-width: 1165px) {
+          #background-header-videos .shop-logos-flex .shop-div a {
+            gap: 10px; } }
+        #background-header-videos .shop-logos-flex .shop-div a h6 {
+          font-size: 22px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            #background-header-videos .shop-logos-flex .shop-div a h6 {
+              display: none; } }
+        #background-header-videos .shop-logos-flex .shop-div a img {
+          width: 30px;
+          filter: invert(100%); }
+          @media screen and (max-width: 500px) {
+            #background-header-videos .shop-logos-flex .shop-div a img {
+              width: 30px; } }
+    #background-header-videos .shop-logos-flex .logos-header {
+      margin-right: -10px; }
+      #background-header-videos .shop-logos-flex .logos-header a {
+        margin: 5px;
+        filter: drop-shadow(5px 5px 5px black); }
+        #background-header-videos .shop-logos-flex .logos-header a img {
+          width: 33px;
+          height: 33px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {
@@ -1296,7 +1297,8 @@ color-principal {
   background-color: rgba(0, 0, 0, 0.247);
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  overflow-x: hidden; }
   @media screen and (max-width: 500px) {
     #background-header-shop {
       background-image: url(../Imagenes/fondopararesponsive2.jpg);
@@ -1419,7 +1421,7 @@ color-principal {
       flex-wrap: wrap; }
       @media (max-width: 1165px) {
         #background-header-shop .nav-principal ul {
-          background-image: url(../Imagenes/linkinpark-meteora.jpg);
+          background-image: url(../Imagenes/fondo-para-responsive.jpg);
           background-blend-mode: darken;
           background-color: rgba(0, 0, 0, 0.782);
           background-position: center;
@@ -1463,6 +1465,69 @@ color-principal {
             margin-right: 25px; } }
         #background-header-shop .nav-principal ul li a:hover {
           background-color: rgba(0, 0, 0, 0.514); }
+  #background-header-shop .shop-logos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    @media screen and (min-width: 1370px) {
+      #background-header-shop .shop-logos-flex {
+        display: flex;
+        justify-content: center; } }
+    @media screen and (max-width: 1175px) {
+      #background-header-shop .shop-logos-flex {
+        display: flex;
+        justify-content: space-between; } }
+    #background-header-shop .shop-logos-flex .rectangle {
+      width: 780px;
+      background-color: transparent; }
+      @media screen and (min-width: 1400px) {
+        #background-header-shop .shop-logos-flex .rectangle {
+          width: 860px; } }
+      @media screen and (max-width: 1175px) {
+        #background-header-shop .shop-logos-flex .rectangle {
+          display: none; } }
+    #background-header-shop .shop-logos-flex .shop-div {
+      background-color: rgba(0, 0, 0, 0.548);
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px; }
+      #background-header-shop .shop-logos-flex .shop-div a {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: 15px;
+        gap: 10px; }
+        @media screen and (max-width: 1165px) {
+          #background-header-shop .shop-logos-flex .shop-div a {
+            gap: 10px; } }
+        #background-header-shop .shop-logos-flex .shop-div a h6 {
+          font-size: 22px;
+          font-family: 'Koulen', cursive;
+          letter-spacing: 3px;
+          font-weight: 300;
+          color: white;
+          margin-top: 10px; }
+          @media screen and (max-width: 500px) {
+            #background-header-shop .shop-logos-flex .shop-div a h6 {
+              display: none; } }
+        #background-header-shop .shop-logos-flex .shop-div a img {
+          width: 30px;
+          filter: invert(100%); }
+          @media screen and (max-width: 500px) {
+            #background-header-shop .shop-logos-flex .shop-div a img {
+              width: 30px; } }
+    #background-header-shop .shop-logos-flex .logos-header {
+      margin-right: -10px; }
+      #background-header-shop .shop-logos-flex .logos-header a {
+        margin: 5px;
+        filter: drop-shadow(5px 5px 5px black); }
+        #background-header-shop .shop-logos-flex .logos-header a img {
+          width: 33px;
+          height: 33px; }
 
 @media (max-width: 1165px) {
   #check:checked ~ ul {

@@ -11,11 +11,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    overflow-x: hidden;
 
     @media screen and (max-width:500px){
         background-image: url(../Imagenes/fondopararesponsive2.jpg);
         background-blend-mode: darken;
-        background-color: #14161a70;
+        background-color: #191c2049;
     }
 
     #header{
@@ -29,6 +30,7 @@
         background-color: rgba(0, 0, 0, 0.255);
         -webkit-box-shadow: 0px 0 20px -2px rgb(0, 0, 0); 
         box-shadow: 0px 0 20px -2px rgb(0, 0, 0);
+        
 
         @media screen and (max-width:500px){
             background-color: rgba(0, 0, 0, 0.495);
@@ -250,104 +252,103 @@
             }
 
         }
+
+        .shop-logos-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+    
+            @media screen and (min-width:1370px){
+                display: flex;
+                justify-content: center;
+            }
+    
+            @media screen and (max-width:1175px){
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .rectangle{
+                width: 780px;
+                background-color: transparent;
+    
+                @media screen and (min-width:1400px){
+                    width: 860px;
+                }
+    
+                @media screen and (max-width:1175px){
+                    display: none;
+                }
+    
+            }
+    
+            .shop-div {
+                background-color: rgba(0, 0, 0, 0.548);
+                padding: 2px;
+                border-style: solid;
+                border-color: white;
+                border-width: 2px;
+    
+                a{
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-decoration: none;
+                    padding: 15px;
+                    gap: 10px;
+    
+                    @media screen and (max-width:1165px) {
+                        gap: 10px;
+                    }
+    
+                    h6{
+                        font-size: 22px;
+                        font-family: 'Koulen', cursive;
+                        letter-spacing: 3px;
+                        font-weight: 300;
+                        color: white;
+                        margin-top: 10px;
+    
+                        @media screen and (max-width:500px) {
+                            display: none;
+                        }
+                    }
+    
+                    img{
+                        width: 30px;
+                        filter: invert(100%);
+    
+                        @media screen and (max-width:500px) {
+                            width: 30px;
+                        }
+    
+                    }
+                }
+            }
+    
+            .logos-header {
+    
+                margin-right: -10px;
+    
+                a{
+                    margin: 5px;         
+                    filter: drop-shadow(5px 5px 5px black);
+    
+                    img{
+                        width: 33px;
+                        height: 33px;
+                    }
+                }
+    
+            }
+          
+        }
         
     }
     
-    .shop-logos-flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px;
 
-        @media screen and (max-width:500px){
-            padding-bottom: 20px;
-        }
-
-        @media screen and (min-width:1370px){
-            display: flex;
-            justify-content: center;
-        }
-
-        @media screen and (max-width:1175px){
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .rectangle{
-            width: 780px;
-            background-color: transparent;
-
-            @media screen and (min-width:1400px){
-                width: 860px;
-            }
-
-            @media screen and (max-width:1175px){
-                display: none;
-            }
-
-        }
-
-        .shop-div {
-            background-color: rgba(0, 0, 0, 0.548);
-            padding: 2px;
-            border-style: solid;
-            border-color: white;
-            border-width: 2px;
-
-            a{
-                display: flex;
-                align-content: center;
-                align-items: center;
-                justify-content: space-around;
-                text-decoration: none;
-                padding: 15px;
-                gap: 10px;
-
-                @media screen and (max-width:1165px) {
-                    gap: 10px;
-                }
-
-                h6{
-                    font-size: 22px;
-                    font-family: 'Koulen', cursive;
-                    letter-spacing: 3px;
-                    font-weight: 300;
-                    color: white;
-                    margin-top: 10px;
-
-                    @media screen and (max-width:500px) {
-                        display: none;
-                    }
-                }
-
-                img{
-                    width: 30px;
-                    filter: invert(100%);
-
-                    @media screen and (max-width:500px) {
-                        width: 30px;
-                    }
-
-                }
-            }
-        }
-
-        .logos-header {
-
-            margin-right: -10px;
-
-            a{
-                margin: 5px;         
-                filter: drop-shadow(5px 5px 5px black);
-
-                img{
-                    width: 30px;
-                }
-            }
-
-        }
-      
-    }
 
         @media (max-width: 1165px){
         #check:checked ~ ul{
@@ -408,6 +409,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-content: center;
+        overflow-x: hidden;
 
         @media screen and (max-width:500px){
             background-image: url(../Imagenes/fondopararesponsive2.jpg);
@@ -646,100 +648,102 @@
                 }
     
             }
+
+            .shop-logos-flex{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 15px;
+        
+                @media screen and (min-width:1370px){
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                @media screen and (max-width:1175px){
+                    display: flex;
+                    justify-content: space-between;
+                }
+        
+                .rectangle{
+                    width: 780px;
+                    background-color: transparent;
+        
+                    @media screen and (min-width:1400px){
+                        width: 860px;
+                    }
+        
+                    @media screen and (max-width:1175px){
+                        display: none;
+                    }
+        
+                }
+        
+                .shop-div {
+                    background-color: rgba(0, 0, 0, 0.548);
+                    padding: 2px;
+                    border-style: solid;
+                    border-color: white;
+                    border-width: 2px;
+        
+                    a{
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        justify-content: space-around;
+                        text-decoration: none;
+                        padding: 15px;
+                        gap: 10px;
+        
+                        @media screen and (max-width:1165px) {
+                            gap: 10px;
+                        }
+        
+                        h6{
+                            font-size: 22px;
+                            font-family: 'Koulen', cursive;
+                            letter-spacing: 3px;
+                            font-weight: 300;
+                            color: white;
+                            margin-top: 10px;
+        
+                            @media screen and (max-width:500px) {
+                                display: none;
+                            }
+                        }
+        
+                        img{
+                            width: 30px;
+                            filter: invert(100%);
+        
+                            @media screen and (max-width:500px) {
+                                width: 30px;
+                            }
+        
+                        }
+                    }
+                }
+        
+                .logos-header {
+        
+                    margin-right: -10px;
+        
+                    a{
+                        margin: 5px;         
+                        filter: drop-shadow(5px 5px 5px black);
+        
+                        img{
+                            width: 33px;
+                            height: 33px;
+                        }
+                    }
+        
+                }
+              
+            }
             
         }
         
-        .shop-logos-flex{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 15px;
-    
-            @media screen and (min-width:1370px){
-                display: flex;
-                justify-content: center;
-            }
-    
-            @media screen and (max-width:1175px){
-                display: flex;
-                justify-content: space-between;
-            }
-    
-            .rectangle{
-                width: 780px;
-                background-color: transparent;
-    
-                @media screen and (min-width:1400px){
-                    width: 860px;
-                }
-    
-                @media screen and (max-width:1175px){
-                    display: none;
-                }
-    
-            }
-    
-            .shop-div {
-                background-color: rgba(0, 0, 0, 0.548);
-                padding: 2px;
-                border-style: solid;
-                border-color: white;
-                border-width: 2px;
-    
-                a{
-                    display: flex;
-                    align-content: center;
-                    align-items: center;
-                    justify-content: space-around;
-                    text-decoration: none;
-                    padding: 15px;
-                    gap: 10px;
-    
-                    @media screen and (max-width:1165px) {
-                        gap: 10px;
-                    }
-    
-                    h6{
-                        font-size: 22px;
-                        font-family: 'Koulen', cursive;
-                        letter-spacing: 3px;
-                        font-weight: 300;
-                        color: white;
-                        margin-top: 10px;
-    
-                        @media screen and (max-width:500px) {
-                            display: none;
-                        }
-                    }
-    
-                    img{
-                        width: 30px;
-                        filter: invert(100%);
-    
-                        @media screen and (max-width:500px) {
-                            width: 30px;
-                        }
-    
-                    }
-                }
-            }
-    
-            .logos-header {
-    
-                margin-right: -10px;
-    
-                a{
-                    margin: 5px;         
-                    filter: drop-shadow(5px 5px 5px black);
-    
-                    img{
-                        width: 30px;
-                    }
-                }
-    
-            }
-          
-        }
     
             @media (max-width: 1165px){
             #check:checked ~ ul{
@@ -761,12 +765,13 @@
             flex-direction: column;
             justify-content: space-between;
             align-content: center;
+            overflow-x: hidden;
 
             @media screen and (max-width:500px){
                 background-image: url(../Imagenes/fondopararesponsive2.jpg);
                 background-blend-mode: darken;
                 background-color: #14161a70;
-            }
+            }   
         
             #header{
                 padding: 12px 5px 12px 5px;
@@ -998,99 +1003,100 @@
                     }
         
                 }
-                
-            }
-            
-            .shop-logos-flex{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 15px;
-        
-                @media screen and (min-width:1370px){
+
+                .shop-logos-flex{
                     display: flex;
                     justify-content: center;
-                }
-        
-                @media screen and (max-width:1175px){
-                    display: flex;
-                    justify-content: space-between;
-                }
-        
-                .rectangle{
-                    width: 780px;
-                    background-color: transparent;
-        
-                    @media screen and (min-width:1400px){
-                        width: 860px;
-                    }
-        
-                    @media screen and (max-width:1175px){
-                        display: none;
-                    }
-        
-                }
-        
-                .shop-div {
-                    background-color: rgba(0, 0, 0, 0.548);
-                    padding: 2px;
-                    border-style: solid;
-                    border-color: white;
-                    border-width: 2px;
-        
-                    a{
+                    align-items: center;
+                    margin: 15px;
+            
+                    @media screen and (min-width:1370px){
                         display: flex;
-                        align-content: center;
-                        align-items: center;
-                        justify-content: space-around;
-                        text-decoration: none;
-                        padding: 15px;
-                        gap: 10px;
-        
-                        @media screen and (max-width:1165px) {
+                        justify-content: center;
+                    }
+            
+                    @media screen and (max-width:1175px){
+                        display: flex;
+                        justify-content: space-between;
+                    }
+            
+                    .rectangle{
+                        width: 780px;
+                        background-color: transparent;
+            
+                        @media screen and (min-width:1400px){
+                            width: 860px;
+                        }
+            
+                        @media screen and (max-width:1175px){
+                            display: none;
+                        }
+            
+                    }
+            
+                    .shop-div {
+                        background-color: rgba(0, 0, 0, 0.548);
+                        padding: 2px;
+                        border-style: solid;
+                        border-color: white;
+                        border-width: 2px;
+            
+                        a{
+                            display: flex;
+                            align-content: center;
+                            align-items: center;
+                            justify-content: space-around;
+                            text-decoration: none;
+                            padding: 15px;
                             gap: 10px;
-                        }
-        
-                        h6{
-                            font-size: 22px;
-                            font-family: 'Koulen', cursive;
-                            letter-spacing: 3px;
-                            font-weight: 300;
-                            color: white;
-                            margin-top: 10px;
-        
-                            @media screen and (max-width:500px) {
-                                display: none;
+            
+                            @media screen and (max-width:1165px) {
+                                gap: 10px;
                             }
-                        }
-        
-                        img{
-                            width: 30px;
-                            filter: invert(100%);
-        
-                            @media screen and (max-width:500px) {
+            
+                            h6{
+                                font-size: 22px;
+                                font-family: 'Koulen', cursive;
+                                letter-spacing: 3px;
+                                font-weight: 300;
+                                color: white;
+                                margin-top: 10px;
+            
+                                @media screen and (max-width:500px) {
+                                    display: none;
+                                }
+                            }
+            
+                            img{
                                 width: 30px;
+                                filter: invert(100%);
+            
+                                @media screen and (max-width:500px) {
+                                    width: 30px;
+                                }
+            
                             }
-        
                         }
                     }
-                }
-        
-                .logos-header {
-        
-                    margin-right: -10px;
-        
-                    a{
-                        margin: 5px;         
-                        filter: drop-shadow(5px 5px 5px black);
-        
-                        img{
-                            width: 30px;
+            
+                    .logos-header {
+            
+                        margin-right: -10px;
+            
+                        a{
+                            margin: 5px;         
+                            filter: drop-shadow(5px 5px 5px black);
+            
+                            img{
+                                width: 33px;
+                                height: 33px;
+                            }
                         }
+            
                     }
-        
+                  
                 }
-              
+                
             }
         
                 @media (max-width: 1165px){
@@ -1112,6 +1118,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    overflow-x: hidden;
 
     .discography{
 
@@ -1377,99 +1384,100 @@
             }
 
         }
-        
-    }
-    
-    .shop-logos-flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px;
 
-        @media screen and (min-width:1370px){
+        .shop-logos-flex{
             display: flex;
             justify-content: center;
-        }
-
-        @media screen and (max-width:1175px){
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .rectangle{
-            width: 780px;
-            background-color: transparent;
-
-            @media screen and (min-width:1400px){
-                width: 860px;
-            }
-
-            @media screen and (max-width:1175px){
-                display: none;
-            }
-
-        }
-
-        .shop-div {
-            background-color: rgba(0, 0, 0, 0.548);
-            padding: 2px;
-            border-style: solid;
-            border-color: white;
-            border-width: 2px;
-
-            a{
+            align-items: center;
+            margin: 15px;
+    
+            @media screen and (min-width:1370px){
                 display: flex;
-                align-content: center;
-                align-items: center;
-                justify-content: space-around;
-                text-decoration: none;
-                padding: 15px;
-                gap: 10px;
-
-                @media screen and (max-width:1165px) {
+                justify-content: center;
+            }
+    
+            @media screen and (max-width:1175px){
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .rectangle{
+                width: 780px;
+                background-color: transparent;
+    
+                @media screen and (min-width:1400px){
+                    width: 860px;
+                }
+    
+                @media screen and (max-width:1175px){
+                    display: none;
+                }
+    
+            }
+    
+            .shop-div {
+                background-color: rgba(0, 0, 0, 0.548);
+                padding: 2px;
+                border-style: solid;
+                border-color: white;
+                border-width: 2px;
+    
+                a{
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-decoration: none;
+                    padding: 15px;
                     gap: 10px;
-                }
-
-                h6{
-                    font-size: 22px;
-                    font-family: 'Koulen', cursive;
-                    letter-spacing: 3px;
-                    font-weight: 300;
-                    color: white;
-                    margin-top: 10px;
-
-                    @media screen and (max-width:500px) {
-                        display: none;
+    
+                    @media screen and (max-width:1165px) {
+                        gap: 10px;
                     }
-                }
-
-                img{
-                    width: 30px;
-                    filter: invert(100%);
-
-                    @media screen and (max-width:500px) {
+    
+                    h6{
+                        font-size: 22px;
+                        font-family: 'Koulen', cursive;
+                        letter-spacing: 3px;
+                        font-weight: 300;
+                        color: white;
+                        margin-top: 10px;
+    
+                        @media screen and (max-width:500px) {
+                            display: none;
+                        }
+                    }
+    
+                    img{
                         width: 30px;
+                        filter: invert(100%);
+    
+                        @media screen and (max-width:500px) {
+                            width: 30px;
+                        }
+    
                     }
-
                 }
             }
-        }
-
-        .logos-header {
-
-            margin-right: -10px;
-
-            a{
-                margin: 5px;         
-                filter: drop-shadow(5px 5px 5px black);
-
-                img{
-                    width: 30px;
+    
+            .logos-header {
+    
+                margin-right: -10px;
+    
+                a{
+                    margin: 5px;         
+                    filter: drop-shadow(5px 5px 5px black);
+    
+                    img{
+                        width: 33px;
+                        height: 33px;
+                    }
                 }
+    
             }
-
+          
         }
-      
+        
     }
 
         @media (max-width: 1165px){
@@ -1714,99 +1722,100 @@
             }
 
         }
-        
-    }
-    
-    .shop-logos-flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px;
 
-        @media screen and (min-width:1370px){
+        .shop-logos-flex{
             display: flex;
             justify-content: center;
-        }
-
-        @media screen and (max-width:1175px){
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .rectangle{
-            width: 780px;
-            background-color: transparent;
-
-            @media screen and (min-width:1400px){
-                width: 860px;
-            }
-
-            @media screen and (max-width:1175px){
-                display: none;
-            }
-
-        }
-
-        .shop-div {
-            background-color: rgba(0, 0, 0, 0.548);
-            padding: 2px;
-            border-style: solid;
-            border-color: white;
-            border-width: 2px;
-
-            a{
+            align-items: center;
+            margin: 15px;
+    
+            @media screen and (min-width:1370px){
                 display: flex;
-                align-content: center;
-                align-items: center;
-                justify-content: space-around;
-                text-decoration: none;
-                padding: 15px;
-                gap: 10px;
-
-                @media screen and (max-width:1165px) {
+                justify-content: center;
+            }
+    
+            @media screen and (max-width:1175px){
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .rectangle{
+                width: 780px;
+                background-color: transparent;
+    
+                @media screen and (min-width:1400px){
+                    width: 860px;
+                }
+    
+                @media screen and (max-width:1175px){
+                    display: none;
+                }
+    
+            }
+    
+            .shop-div {
+                background-color: rgba(0, 0, 0, 0.548);
+                padding: 2px;
+                border-style: solid;
+                border-color: white;
+                border-width: 2px;
+    
+                a{
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-decoration: none;
+                    padding: 15px;
                     gap: 10px;
-                }
-
-                h6{
-                    font-size: 22px;
-                    font-family: 'Koulen', cursive;
-                    letter-spacing: 3px;
-                    font-weight: 300;
-                    color: white;
-                    margin-top: 10px;
-
-                    @media screen and (max-width:500px) {
-                        display: none;
+    
+                    @media screen and (max-width:1165px) {
+                        gap: 10px;
                     }
-                }
-
-                img{
-                    width: 30px;
-                    filter: invert(100%);
-
-                    @media screen and (max-width:500px) {
+    
+                    h6{
+                        font-size: 22px;
+                        font-family: 'Koulen', cursive;
+                        letter-spacing: 3px;
+                        font-weight: 300;
+                        color: white;
+                        margin-top: 10px;
+    
+                        @media screen and (max-width:500px) {
+                            display: none;
+                        }
+                    }
+    
+                    img{
                         width: 30px;
+                        filter: invert(100%);
+    
+                        @media screen and (max-width:500px) {
+                            width: 30px;
+                        }
+    
                     }
-
                 }
             }
-        }
-
-        .logos-header {
-
-            margin-right: -10px;
-
-            a{
-                margin: 5px;         
-                filter: drop-shadow(5px 5px 5px black);
-
-                img{
-                    width: 30px;
+    
+            .logos-header {
+    
+                margin-right: -10px;
+    
+                a{
+                    margin: 5px;         
+                    filter: drop-shadow(5px 5px 5px black);
+    
+                    img{
+                        width: 33px;
+                        height: 33px;
+                    }
                 }
+    
             }
-
+          
         }
-      
+        
     }
 
         @media (max-width: 1165px){
@@ -1829,6 +1838,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        overflow-x: hidden;
 
         @media screen and (max-width:500px){
             background-image: url(../Imagenes/fondopararesponsive2.jpg);
@@ -2005,7 +2015,7 @@
                     flex-wrap: wrap;
     
                     @media (max-width: 1165px){
-                        background-image: url(../Imagenes/linkinpark-meteora.jpg);
+                        background-image: url(../Imagenes/fondo-para-responsive.jpg);
                         background-blend-mode: darken;
                         background-color: rgba(0, 0, 0, 0.782);
                         background-position: center;
@@ -2067,6 +2077,99 @@
         
                 }
     
+            }
+
+            .shop-logos-flex{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 15px;
+        
+                @media screen and (min-width:1370px){
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                @media screen and (max-width:1175px){
+                    display: flex;
+                    justify-content: space-between;
+                }
+        
+                .rectangle{
+                    width: 780px;
+                    background-color: transparent;
+        
+                    @media screen and (min-width:1400px){
+                        width: 860px;
+                    }
+        
+                    @media screen and (max-width:1175px){
+                        display: none;
+                    }
+        
+                }
+        
+                .shop-div {
+                    background-color: rgba(0, 0, 0, 0.548);
+                    padding: 2px;
+                    border-style: solid;
+                    border-color: white;
+                    border-width: 2px;
+        
+                    a{
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        justify-content: space-around;
+                        text-decoration: none;
+                        padding: 15px;
+                        gap: 10px;
+        
+                        @media screen and (max-width:1165px) {
+                            gap: 10px;
+                        }
+        
+                        h6{
+                            font-size: 22px;
+                            font-family: 'Koulen', cursive;
+                            letter-spacing: 3px;
+                            font-weight: 300;
+                            color: white;
+                            margin-top: 10px;
+        
+                            @media screen and (max-width:500px) {
+                                display: none;
+                            }
+                        }
+        
+                        img{
+                            width: 30px;
+                            filter: invert(100%);
+        
+                            @media screen and (max-width:500px) {
+                                width: 30px;
+                            }
+        
+                        }
+                    }
+                }
+        
+                .logos-header {
+        
+                    margin-right: -10px;
+        
+                    a{
+                        margin: 5px;         
+                        filter: drop-shadow(5px 5px 5px black);
+        
+                        img{
+                            width: 33px;
+                            height: 33px;
+                        }
+                    }
+        
+                }
+              
             }
             
         }
