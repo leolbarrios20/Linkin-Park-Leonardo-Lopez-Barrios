@@ -198,6 +198,9 @@ color-principal {
   justify-content: center;
   align-items: center;
   margin: 15px; }
+  @media screen and (max-width: 500px) {
+    .shop-logos-flex {
+      padding-bottom: 20px; } }
   @media screen and (min-width: 1370px) {
     .shop-logos-flex {
       display: flex;
@@ -280,7 +283,8 @@ color-principal {
     #title h1 {
       font-size: 60px;
       margin-left: 1%;
-      text-shadow: 3px 3px 4px black; } }
+      text-shadow: 3px 3px 4px black;
+      margin-bottom: 100px; } }
   @media screen and (max-width: 418px) {
     #title h1 {
       font-size: 55px; } }
