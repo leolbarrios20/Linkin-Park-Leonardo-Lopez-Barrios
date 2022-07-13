@@ -27,10 +27,13 @@ color-principal {
   align-content: center;
   overflow-x: hidden; }
   @media screen and (max-width: 500px) {
+    #background-header-index #title {
+      display: none; } }
+  @media screen and (max-width: 500px) {
     #background-header-index {
-      background-image: url(../Imagenes/fondopararesponsive2.jpg);
-      background-blend-mode: darken;
-      background-color: #191c2049; } }
+      background-image: url(../Imagenes/fondopararesponsive3.jpg);
+      background-color: rgba(0, 0, 0, 0.247);
+      background-blend-mode: darken; } }
   #background-header-index #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -553,9 +556,7 @@ color-principal {
   overflow-x: hidden; }
   @media screen and (max-width: 500px) {
     #background-header-members {
-      background-image: url(../Imagenes/fondopararesponsive2.jpg);
-      background-blend-mode: darken;
-      background-color: #14161a70; } }
+      background-image: url(../Imagenes/membersresp.jpg); } }
   #background-header-members #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -819,7 +820,7 @@ color-principal {
       font-size: 45px; } }
   @media screen and (max-width: 500px) {
     #background-header-discography {
-      background-image: url(../Imagenes/fondopararesponsive2.jpg);
+      background-image: url(../Imagenes/discographyresp.jpg);
       background-blend-mode: darken;
       background-color: #14161a70; } }
   #background-header-discography #header {
@@ -1301,7 +1302,7 @@ color-principal {
   overflow-x: hidden; }
   @media screen and (max-width: 500px) {
     #background-header-shop {
-      background-image: url(../Imagenes/fondopararesponsive2.jpg);
+      background-image: url(../Imagenes/shopresp.jpg);
       background-blend-mode: darken;
       background-color: #14161a70; } }
   #background-header-shop #header {

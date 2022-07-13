@@ -13,10 +13,16 @@
     align-content: center;
     overflow-x: hidden;
 
+    #title{
+        @media screen and (max-width:500px){
+            display: none;
+        }
+    }
+
     @media screen and (max-width:500px){
-        background-image: url(../Imagenes/fondopararesponsive2.jpg);
+        background-image: url(../Imagenes/fondopararesponsive3.jpg);
+        background-color: rgba(0, 0, 0, 0.247);
         background-blend-mode: darken;
-        background-color: #191c2049;
     }
 
     #header{
@@ -768,9 +774,7 @@
             overflow-x: hidden;
 
             @media screen and (max-width:500px){
-                background-image: url(../Imagenes/fondopararesponsive2.jpg);
-                background-blend-mode: darken;
-                background-color: #14161a70;
+                background-image: url(../Imagenes/membersresp.jpg);
             }   
         
             #header{
@@ -1148,7 +1152,7 @@
     }
 
     @media screen and (max-width:500px){
-        background-image: url(../Imagenes/fondopararesponsive2.jpg);
+        background-image: url(../Imagenes/discographyresp.jpg);
         background-blend-mode: darken;
         background-color: #14161a70;
     }
@@ -1841,7 +1845,7 @@
         overflow-x: hidden;
 
         @media screen and (max-width:500px){
-            background-image: url(../Imagenes/fondopararesponsive2.jpg);
+            background-image: url(../Imagenes/shopresp.jpg);
             background-blend-mode: darken;
             background-color: #14161a70;
         }
