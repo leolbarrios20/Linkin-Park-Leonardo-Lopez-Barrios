@@ -25,15 +25,27 @@ color-principal {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #background-header-index #title .logo-index {
+    position: relative;
+    top: 10%; }
+  #background-header-index #title .linkin-index {
+    position: relative;
+    top: 5%; }
+  #background-header-index #title img {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      #background-header-index #title img {
+        display: block;
+        width: 70%;
+        margin: 0 auto; } }
   @media screen and (max-width: 500px) {
-    #background-header-index #title {
+    #background-header-index #title h1 {
       display: none; } }
   @media screen and (max-width: 500px) {
     #background-header-index {
-      background-image: url(../Imagenes/fondoletras.jpg);
-      background-color: rgba(0, 0, 0, 0.247);
-      background-blend-mode: darken; } }
+      background-image: url(../Imagenes/fondorespo.jpg); } }
   #background-header-index #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -167,7 +179,7 @@ color-principal {
           left: -100%;
           text-align: center;
           transition: all .5s;
-          z-index: 20000; } }
+          z-index: 30000; } }
       @media (max-width: 1165px) {
         #background-header-index .nav-principal ul li {
           display: flex;
@@ -305,13 +317,27 @@ color-principal {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #background-header-history #title .logo-index {
+    position: relative;
+    top: 10%; }
+  #background-header-history #title .linkin-index {
+    position: relative;
+    top: 5%; }
+  #background-header-history #title img {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      #background-header-history #title img {
+        display: block;
+        width: 70%;
+        margin: 0 auto; } }
   @media screen and (max-width: 500px) {
-    #background-header-history #title {
+    #background-header-history #title h1 {
       display: none; } }
   @media screen and (max-width: 500px) {
     #background-header-history {
-      background-image: url(../Imagenes/history.jpg); } }
+      background-image: url(../Imagenes/fondorespo.jpg); } }
   #background-header-history #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -554,13 +580,28 @@ color-principal {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #background-header-members #title .logo-index {
+    position: relative;
+    top: 10%; }
+  #background-header-members #title .linkin-index {
+    position: relative;
+    top: 5%;
+    left: 2%; }
+  #background-header-members #title img {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      #background-header-members #title img {
+        display: block;
+        width: 70%;
+        margin: 0 auto; } }
   @media screen and (max-width: 500px) {
-    #background-header-members #title {
+    #background-header-members #title h1 {
       display: none; } }
   @media screen and (max-width: 500px) {
     #background-header-members {
-      background-image: url(../Imagenes/members.jpg); } }
+      background-image: url(../Imagenes/fondorespo.jpg); } }
   #background-header-members #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -803,9 +844,23 @@ color-principal {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #background-header-discography #title .logo-index {
+    position: relative;
+    top: 10%; }
+  #background-header-discography #title .linkin-index {
+    position: relative;
+    top: 5%; }
+  #background-header-discography #title img {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      #background-header-discography #title img {
+        display: block;
+        width: 70%;
+        margin: 0 auto; } }
   @media screen and (max-width: 500px) {
-    #background-header-discography #title {
+    #background-header-discography #title h1 {
       display: none; } }
   @media screen and (max-width: 1255px) {
     #background-header-discography .discography {
@@ -827,7 +882,7 @@ color-principal {
       font-size: 45px; } }
   @media screen and (max-width: 500px) {
     #background-header-discography {
-      background-image: url(../Imagenes/discography.jpg); } }
+      background-image: url(../Imagenes/fondorespo.jpg); } }
   #background-header-discography #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -1304,12 +1359,29 @@ color-principal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #background-header-shop #title .logo-index {
+    position: relative;
+    top: 10%; }
+  #background-header-shop #title .linkin-index {
+    position: relative;
+    top: 5%;
+    left: 1%; }
+  #background-header-shop #title img {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      #background-header-shop #title img {
+        display: block;
+        width: 70%;
+        margin: 0 auto; } }
+  @media screen and (max-width: 500px) {
+    #background-header-shop #title h1 {
+      display: none; } }
   @media screen and (max-width: 500px) {
     #background-header-shop {
-      background-image: url(../Imagenes/shopresp.jpg);
-      background-blend-mode: darken;
-      background-color: #14161a70; } }
+      background-image: url(../Imagenes/fondorespo.jpg);
+      background-color: rgba(0, 0, 0, 0.017); } }
   #background-header-shop #header {
     padding: 12px 5px 12px 5px;
     text-align: center;

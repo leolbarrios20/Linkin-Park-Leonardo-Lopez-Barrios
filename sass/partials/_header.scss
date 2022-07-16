@@ -12,17 +12,42 @@
     justify-content: space-between;
     align-content: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 
     #title{
-        @media screen and (max-width:500px){
+
+        .logo-index{
+            position: relative;
+            top: 10%;
+        }
+
+        .linkin-index{
+            position: relative;
+            top: 5%;
+        }
+
+        img{
+            display: none;
+
+            @media screen and (max-width:500px){
+                display: block;
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+
+        h1{
+
+            @media screen and (max-width:500px){
             display: none;
         }
+
+        }
+        
     }
 
     @media screen and (max-width:500px){
-        background-image: url(../Imagenes/fondoletras.jpg);
-        background-color: rgba(0, 0, 0, 0.247);
-        background-blend-mode: darken;
+        background-image: url(../Imagenes/fondorespo.jpg);
     }
 
     #header{
@@ -212,7 +237,7 @@
                     left: -100%;
                     text-align: center;
                     transition: all .5s;
-                    z-index: 20000;
+                    z-index: 30000;
                 }
     
                 li{
@@ -416,15 +441,42 @@
         justify-content: space-between;
         align-content: center;
         overflow-x: hidden;
+        overflow-y: hidden;
 
         #title{
-            @media screen and (max-width:500px){
+
+            .logo-index{
+                position: relative;
+                top: 10%;
+            }
+    
+            .linkin-index{
+                position: relative;
+                top: 5%;
+            }
+    
+            img{
+                display: none;
+    
+                @media screen and (max-width:500px){
+                    display: block;
+                    width: 70%;
+                    margin: 0 auto;
+                }
+            }
+    
+            h1{
+    
+                @media screen and (max-width:500px){
                 display: none;
             }
+    
+            }
+            
         }
 
         @media screen and (max-width:500px){
-            background-image: url(../Imagenes/history.jpg);
+            background-image: url(../Imagenes/fondorespo.jpg);
         }
     
         #header{
@@ -776,15 +828,43 @@
             justify-content: space-between;
             align-content: center;
             overflow-x: hidden;
+            overflow-y: hidden;
 
             #title{
-                @media screen and (max-width:500px){
+
+                .logo-index{
+                    position: relative;
+                    top: 10%;
+                }
+        
+                .linkin-index{
+                    position: relative;
+                    top: 5%;
+                    left: 2%;
+                }
+        
+                img{
+                    display: none;
+        
+                    @media screen and (max-width:500px){
+                        display: block;
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+                }
+        
+                h1{
+        
+                    @media screen and (max-width:500px){
                     display: none;
                 }
+        
+                }
+                
             }
 
             @media screen and (max-width:500px){
-                background-image: url(../Imagenes/members.jpg);
+                background-image: url(../Imagenes/fondorespo.jpg);
             }   
         
             #header{
@@ -1133,11 +1213,38 @@
     justify-content: space-between;
     align-content: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 
     #title{
-        @media screen and (max-width:500px){
+
+        .logo-index{
+            position: relative;
+            top: 10%;
+        }
+
+        .linkin-index{
+            position: relative;
+            top: 5%;
+        }
+
+        img{
+            display: none;
+
+            @media screen and (max-width:500px){
+                display: block;
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+
+        h1{
+
+            @media screen and (max-width:500px){
             display: none;
         }
+
+        }
+        
     }
 
     .discography{
@@ -1168,7 +1275,7 @@
     }
 
     @media screen and (max-width:500px){
-        background-image: url(../Imagenes/discography.jpg);
+        background-image: url(../Imagenes/fondorespo.jpg);
     }
 
     #header{
@@ -1857,11 +1964,44 @@
         flex-direction: column;
         justify-content: space-between;
         overflow-x: hidden;
+        overflow-y: hidden;
+
+        #title{
+
+            .logo-index{
+                position: relative;
+                top: 10%;
+            }
+    
+            .linkin-index{
+                position: relative;
+                top: 5%;
+                left: 1%;
+            }
+    
+            img{
+                display: none;
+    
+                @media screen and (max-width:500px){
+                    display: block;
+                    width: 70%;
+                    margin: 0 auto;
+                }
+            }
+    
+            h1{
+    
+                @media screen and (max-width:500px){
+                display: none;
+            }
+    
+            }
+            
+        }
 
         @media screen and (max-width:500px){
-            background-image: url(../Imagenes/shopresp.jpg);
-            background-blend-mode: darken;
-            background-color: #14161a70;
+            background-image: url(../Imagenes/fondorespo.jpg);
+            background-color: rgba(0, 0, 0, 0.017);
         }
 
         #header{
