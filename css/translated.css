@@ -17,7 +17,7 @@ color-principal {
 #background-header-index {
   background-image: url(../Imagenes/linkin-park-fondo-4.jpg);
   background-position: center;
-  background-color: #2D3140;
+  background-color: #252525;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -31,7 +31,7 @@ color-principal {
       display: none; } }
   @media screen and (max-width: 500px) {
     #background-header-index {
-      background-image: url(../Imagenes/fondopararesponsive3.jpg);
+      background-image: url(../Imagenes/fondoletras.jpg);
       background-color: rgba(0, 0, 0, 0.247);
       background-blend-mode: darken; } }
   #background-header-index #header {
@@ -296,7 +296,7 @@ color-principal {
 /*HEADER HISTORY*/
 #background-header-history {
   background-image: url(../Imagenes/fondo-history3.jpg);
-  background-color: #1B1415;
+  background-color: #252525;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,10 +307,11 @@ color-principal {
   align-content: center;
   overflow-x: hidden; }
   @media screen and (max-width: 500px) {
+    #background-header-history #title {
+      display: none; } }
+  @media screen and (max-width: 500px) {
     #background-header-history {
-      background-image: url(../Imagenes/fondopararesponsive2.jpg);
-      background-blend-mode: darken;
-      background-color: #14161a70; } }
+      background-image: url(../Imagenes/history.jpg); } }
   #background-header-history #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -544,7 +545,7 @@ color-principal {
 /*HEADER MEMBERS*/
 #background-header-members {
   background-image: url(../Imagenes/ws_The_Linkin_Park_1600x12002.jpg);
-  background-color: #BFE9EE;
+  background-color: #252525;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -555,8 +556,11 @@ color-principal {
   align-content: center;
   overflow-x: hidden; }
   @media screen and (max-width: 500px) {
+    #background-header-members #title {
+      display: none; } }
+  @media screen and (max-width: 500px) {
     #background-header-members {
-      background-image: url(../Imagenes/membersresp.jpg); } }
+      background-image: url(../Imagenes/members.jpg); } }
   #background-header-members #header {
     padding: 12px 5px 12px 5px;
     text-align: center;
@@ -790,7 +794,7 @@ color-principal {
 /*HEADER DISCOGRAPHY*/
 #background-header-discography {
   background-image: url(../Imagenes/linkinpark-meteora2.jpg);
-  background-color: #B29173;
+  background-color: #252525;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -800,6 +804,9 @@ color-principal {
   justify-content: space-between;
   align-content: center;
   overflow-x: hidden; }
+  @media screen and (max-width: 500px) {
+    #background-header-discography #title {
+      display: none; } }
   @media screen and (max-width: 1255px) {
     #background-header-discography .discography {
       font-size: 80px;
@@ -820,9 +827,7 @@ color-principal {
       font-size: 45px; } }
   @media screen and (max-width: 500px) {
     #background-header-discography {
-      background-image: url(../Imagenes/discographyresp.jpg);
-      background-blend-mode: darken;
-      background-color: #14161a70; } }
+      background-image: url(../Imagenes/discography.jpg); } }
   #background-header-discography #header {
     padding: 12px 5px 12px 5px;
     text-align: center;

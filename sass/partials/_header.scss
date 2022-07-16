@@ -3,7 +3,7 @@
 #background-header-index{
     background-image: url(../Imagenes/linkin-park-fondo-4.jpg);
     background-position: center;
-    background-color: #2D3140;
+    background-color: #252525;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -20,7 +20,7 @@
     }
 
     @media screen and (max-width:500px){
-        background-image: url(../Imagenes/fondopararesponsive3.jpg);
+        background-image: url(../Imagenes/fondoletras.jpg);
         background-color: rgba(0, 0, 0, 0.247);
         background-blend-mode: darken;
     }
@@ -406,7 +406,7 @@
 
     #background-header-history{
         background-image: url(../Imagenes/fondo-history3.jpg);
-        background-color: #1B1415;
+        background-color: #252525;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -417,10 +417,14 @@
         align-content: center;
         overflow-x: hidden;
 
+        #title{
+            @media screen and (max-width:500px){
+                display: none;
+            }
+        }
+
         @media screen and (max-width:500px){
-            background-image: url(../Imagenes/fondopararesponsive2.jpg);
-            background-blend-mode: darken;
-            background-color: #14161a70;
+            background-image: url(../Imagenes/history.jpg);
         }
     
         #header{
@@ -762,7 +766,7 @@
 
         #background-header-members{
             background-image: url(../Imagenes/ws_The_Linkin_Park_1600x12002.jpg);
-            background-color: #BFE9EE;
+            background-color: #252525;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -773,8 +777,14 @@
             align-content: center;
             overflow-x: hidden;
 
+            #title{
+                @media screen and (max-width:500px){
+                    display: none;
+                }
+            }
+
             @media screen and (max-width:500px){
-                background-image: url(../Imagenes/membersresp.jpg);
+                background-image: url(../Imagenes/members.jpg);
             }   
         
             #header{
@@ -1113,7 +1123,7 @@
 
 #background-header-discography{
     background-image: url(../Imagenes/linkinpark-meteora2.jpg);
-    background-color: #B29173;
+    background-color: #252525;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1123,6 +1133,12 @@
     justify-content: space-between;
     align-content: center;
     overflow-x: hidden;
+
+    #title{
+        @media screen and (max-width:500px){
+            display: none;
+        }
+    }
 
     .discography{
 
@@ -1152,9 +1168,7 @@
     }
 
     @media screen and (max-width:500px){
-        background-image: url(../Imagenes/discographyresp.jpg);
-        background-blend-mode: darken;
-        background-color: #14161a70;
+        background-image: url(../Imagenes/discography.jpg);
     }
 
     #header{
