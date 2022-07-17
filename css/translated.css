@@ -1730,19 +1730,19 @@ color-principal {
     gap: 50px; }
     @media screen and (max-width: 800px) {
       #main-index .biography {
-        gap: 5px; } }
+        gap: 20px; } }
     #main-index .biography img {
       width: 540px;
       box-shadow: 5px 5px 5px black; }
       @media screen and (max-width: 1100px) {
         #main-index .biography img {
-          width: 85%; } }
+          width: 70%; } }
       @media screen and (max-width: 500px) {
         #main-index .biography img {
           width: 85%; } }
       @media screen and (max-width: 400px) {
         #main-index .biography img {
-          width: 80%; } }
+          width: 90%; } }
     #main-index .biography article {
       color: white;
       font-size: 18px;
@@ -1750,12 +1750,10 @@ color-principal {
       font-weight: 300;
       line-height: 30px;
       width: 500px;
-      font-family: 'Poppins', sans-serif;
-      padding: 10px 20px 20px 20px; }
+      font-family: 'Poppins', sans-serif; }
       @media screen and (max-width: 1255px) {
         #main-index .biography article {
           width: 90%;
-          margin: 5px;
           text-align: justify; } }
       @media screen and (max-width: 400px) {
         #main-index .biography article {
@@ -2363,11 +2361,12 @@ body {
   padding-top: 100px; }
   #main-videos h2 {
     text-align: center;
-    color: white; }
+    color: white;
+    margin-bottom: 40px; }
   #main-videos .more-videos {
     text-align: center;
-    padding: 30px 60px 40px 30px;
-    margin-top: 120px; }
+    margin-top: 120px;
+    padding-bottom: 100px; }
     #main-videos .more-videos a {
       color: whitesmoke;
       text-decoration: none;
@@ -2392,7 +2391,10 @@ body {
     align-content: center;
     background-color: rgba(82, 82, 82, 0.11);
     border-bottom-left-radius: 1px;
-    border-bottom-right-radius: 1px; }
+    border-bottom-right-radius: 1px;
+    padding-top: 10px; }
+    #main-videos .container .flex-iframe .title-video {
+      font-weight: 500; }
     #main-videos .container .flex-iframe p {
       font-size: 18px;
       color: white;
@@ -2421,7 +2423,7 @@ body {
             font-size: 17px; } }
       #main-videos .container .flex-iframe .flex-intern-album img {
         width: 18px;
-        padding-bottom: 9px; }
+        padding-bottom: 12px; }
         @media screen and (max-width: 500px) {
           #main-videos .container .flex-iframe .flex-intern-album img {
             width: 17px; } }
@@ -2441,7 +2443,7 @@ body {
             font-size: 17px; } }
       #main-videos .container .flex-iframe .flex-intern-time img {
         width: 18px;
-        padding-bottom: 9px; }
+        padding-bottom: 12px; }
         @media screen and (max-width: 500px) {
           #main-videos .container .flex-iframe .flex-intern-time img {
             width: 17px; } }
