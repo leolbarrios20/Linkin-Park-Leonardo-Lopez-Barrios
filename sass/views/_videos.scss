@@ -43,9 +43,10 @@ body{
                 max-width: 600px;
                 margin: 0 auto;
 
-                iframe{
-                    padding-top: 50px;
-                }
+            }
+
+            #margin{
+                margin-bottom: 100px;
             }
 
             .flex-iframe{
@@ -67,25 +68,73 @@ body{
                     text-align: left;
                     font-weight: 300;
                     margin-top: 5px;
+
+                    @media screen and (max-width:500px){
+                        font-size: 17px;
+                    }
                 }
 
-                .flex-intern{
+                .flex-intern-album{
+                    
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     align-content: center;
                     gap: 15px;
 
+                    @media screen and (max-width:470px){
+                        display: none;
+                    }
+
                     p{
                         font-size: 18px;
                         color: $color-principal;
                         text-align: left;
                         font-weight: 300;
+
+                        @media screen and (max-width:500px){
+                            font-size: 17px;
+                        }
+                    }
+
+                    img{
+                        width: 18px;
+                        padding-bottom: 9px;
+
+                        @media screen and (max-width:500px){
+                        width: 17px;
+                    }
+                    }
+
+                    
+                }
+
+                .flex-intern-time{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    align-content: center;
+                    gap: 15px;
+
+
+                    p{
+                        font-size: 18px;
+                        color: $color-principal;
+                        text-align: left;
+                        font-weight: 300;
+
+                        @media screen and (max-width:500px){
+                            font-size: 17px;
+                        }
                     }
                     
                     img{
                         width: 18px;
                         padding-bottom: 9px;
+
+                        @media screen and (max-width:500px){
+                        width: 17px;
+                    }
                     }
                 }
 

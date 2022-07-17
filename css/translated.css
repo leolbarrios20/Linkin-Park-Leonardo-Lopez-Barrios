@@ -2380,8 +2380,8 @@ body {
   #main-videos .container .ratio {
     max-width: 600px;
     margin: 0 auto; }
-    #main-videos .container .ratio iframe {
-      padding-top: 50px; }
+  #main-videos .container #margin {
+    margin-bottom: 100px; }
   #main-videos .container .flex-iframe {
     max-width: 600px;
     margin: 0 auto;
@@ -2399,20 +2399,52 @@ body {
       text-align: left;
       font-weight: 300;
       margin-top: 5px; }
-    #main-videos .container .flex-iframe .flex-intern {
+      @media screen and (max-width: 500px) {
+        #main-videos .container .flex-iframe p {
+          font-size: 17px; } }
+    #main-videos .container .flex-iframe .flex-intern-album {
       display: flex;
       justify-content: space-between;
       align-items: center;
       align-content: center;
       gap: 15px; }
-      #main-videos .container .flex-iframe .flex-intern p {
+      @media screen and (max-width: 470px) {
+        #main-videos .container .flex-iframe .flex-intern-album {
+          display: none; } }
+      #main-videos .container .flex-iframe .flex-intern-album p {
         font-size: 18px;
         color: white;
         text-align: left;
         font-weight: 300; }
-      #main-videos .container .flex-iframe .flex-intern img {
+        @media screen and (max-width: 500px) {
+          #main-videos .container .flex-iframe .flex-intern-album p {
+            font-size: 17px; } }
+      #main-videos .container .flex-iframe .flex-intern-album img {
         width: 18px;
         padding-bottom: 9px; }
+        @media screen and (max-width: 500px) {
+          #main-videos .container .flex-iframe .flex-intern-album img {
+            width: 17px; } }
+    #main-videos .container .flex-iframe .flex-intern-time {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      gap: 15px; }
+      #main-videos .container .flex-iframe .flex-intern-time p {
+        font-size: 18px;
+        color: white;
+        text-align: left;
+        font-weight: 300; }
+        @media screen and (max-width: 500px) {
+          #main-videos .container .flex-iframe .flex-intern-time p {
+            font-size: 17px; } }
+      #main-videos .container .flex-iframe .flex-intern-time img {
+        width: 18px;
+        padding-bottom: 9px; }
+        @media screen and (max-width: 500px) {
+          #main-videos .container .flex-iframe .flex-intern-time img {
+            width: 17px; } }
 
 video {
   z-index: -1000;
