@@ -94,16 +94,24 @@ body{
                         display: none;
                     }
 
-                    p{
-                        font-size: 18px;
-                        color: $color-principal;
-                        text-align: left;
-                        font-weight: 300;
+                    a{
 
-                        @media screen and (max-width:500px){
-                            font-size: 17px;
+                        text-decoration: none;
+
+                        p{
+                            font-size: 18px;
+                            color: $color-principal;
+                            text-align: left;
+                            font-weight: 300;
+    
+                            @media screen and (max-width:500px){
+                                font-size: 17px;
+                            }
                         }
+
                     }
+
+                    
 
                     img{
                         width: 18px;

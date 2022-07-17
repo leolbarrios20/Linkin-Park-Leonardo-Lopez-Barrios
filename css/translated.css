@@ -2413,14 +2413,16 @@ body {
       @media screen and (max-width: 470px) {
         #main-videos .container .flex-iframe .flex-intern-album {
           display: none; } }
-      #main-videos .container .flex-iframe .flex-intern-album p {
-        font-size: 18px;
-        color: white;
-        text-align: left;
-        font-weight: 300; }
-        @media screen and (max-width: 500px) {
-          #main-videos .container .flex-iframe .flex-intern-album p {
-            font-size: 17px; } }
+      #main-videos .container .flex-iframe .flex-intern-album a {
+        text-decoration: none; }
+        #main-videos .container .flex-iframe .flex-intern-album a p {
+          font-size: 18px;
+          color: white;
+          text-align: left;
+          font-weight: 300; }
+          @media screen and (max-width: 500px) {
+            #main-videos .container .flex-iframe .flex-intern-album a p {
+              font-size: 17px; } }
       #main-videos .container .flex-iframe .flex-intern-album img {
         width: 18px;
         padding-bottom: 12px; }
