@@ -1,5 +1,13 @@
+body{
+    background-image: url(../Imagenes/fondo-para-responsive.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
 .back-link img{
     width: 80px;
+    filter: invert(100%);
 }
 
 #form{
@@ -14,6 +22,15 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+
+                a{
+                    text-decoration: none;
+                    text-align: center;
+                }
+
+                label{
+                    font-size: 19px;
+                }
             }
 
             .logo-form{
@@ -21,16 +38,19 @@
 
                 img{
                     width: 100px;
+                    filter: invert(100%);
                 }
             }
 
             h1{
                 text-align: center;
                 font-size: 30px;
+                color: $color-principal;
             }
 
             label{
                 padding: 10px 0 10px 0;
+                color: $color-principal;
 
                 .size{
                     width: 100%;
