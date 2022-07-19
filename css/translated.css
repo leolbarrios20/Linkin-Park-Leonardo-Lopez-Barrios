@@ -324,7 +324,9 @@ color-principal {
     top: 10%; }
   #background-header-history #title .linkin-index {
     position: relative;
-    top: 5%; }
+    top: 5%;
+    left: 1%;
+    width: 60%; }
   #background-header-history #title img {
     display: none; }
     @media screen and (max-width: 500px) {
@@ -851,7 +853,8 @@ color-principal {
     top: 10%; }
   #background-header-discography #title .linkin-index {
     position: relative;
-    top: 5%; }
+    top: 5%;
+    left: 2%; }
   #background-header-discography #title img {
     display: none; }
     @media screen and (max-width: 500px) {
