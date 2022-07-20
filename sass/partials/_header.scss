@@ -253,7 +253,7 @@
                     a{
                         padding: 5px 8px 5px 13px;
                         margin: 12px;
-                        color: white;
+                        color: $color-principal;
                         font-size: 14px;
                         text-decoration: none;
                         font-family: 'Koulen', cursive;
@@ -275,6 +275,7 @@
                         &:hover{
                             -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
                             box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
+                            border-radius: 5px;
                         }
                     }
                     
@@ -320,6 +321,11 @@
                 border-style: solid;
                 border-color: white;
                 border-width: 2px;
+
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.247);
+                }
+
     
                 a{
                     display: flex;
@@ -453,7 +459,7 @@
             .linkin-index{
                 position: relative;
                 top: 5%;
-                left: 1%;
+                left: 0.7%;
                 width: 60%;
             }
     
@@ -704,6 +710,7 @@
                             &:hover{
                                 -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
                                 box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
+                                border-radius: 5px;
                             }
                         }
                         
@@ -749,6 +756,10 @@
                     border-style: solid;
                     border-color: white;
                     border-width: 2px;
+
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.247);
+                    }
         
                     a{
                         display: flex;
@@ -842,7 +853,7 @@
                 .linkin-index{
                     position: relative;
                     top: 5%;
-                    left: 2%;
+                    left: 1.8%;
                 }
         
                 img{
@@ -1091,6 +1102,7 @@
                                 &:hover{
                                     -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
                                     box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
+                                    border-radius: 5px;
                                 }
                             }
                             
@@ -1136,6 +1148,10 @@
                         border-style: solid;
                         border-color: white;
                         border-width: 2px;
+
+                        &:hover{
+                            background-color: rgba(255, 255, 255, 0.247);
+                        }
             
                         a{
                             display: flex;
@@ -1227,7 +1243,7 @@
         .linkin-index{
             position: relative;
             top: 5%;
-            left: 2%;
+            left: 1%;
         }
 
         img{
@@ -1504,6 +1520,7 @@
                         &:hover{
                             -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
                             box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
+                            border-radius: 5px;
                         }
                     }
                     
@@ -1549,6 +1566,10 @@
                 border-style: solid;
                 border-color: white;
                 border-width: 2px;
+
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.247);
+                }
     
                 a{
                     display: flex;
@@ -1842,6 +1863,7 @@
                         &:hover{
                             -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
                             box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
+                            border-radius: 5px;
                         }
                     }
                     
@@ -1887,6 +1909,10 @@
                 border-style: solid;
                 border-color: white;
                 border-width: 2px;
+
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.247);
+                }
     
                 a{
                     display: flex;
@@ -2230,7 +2256,9 @@
                             }
             
                             &:hover{
-                                background-color: rgba(0, 0, 0, 0.514);
+                                -webkit-box-shadow: 0px 0 10px -2px rgb(255, 255, 255); 
+                                box-shadow: 0px 0 10px -2px rgb(255, 255, 255);
+                                border-radius: 5px;
                             }
                         }
                         
@@ -2276,6 +2304,10 @@
                     border-style: solid;
                     border-color: white;
                     border-width: 2px;
+
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.247);
+                    }
         
                     a{
                         display: flex;

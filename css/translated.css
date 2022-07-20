@@ -207,7 +207,8 @@ color-principal {
             margin-right: 25px; } }
         #background-header-index .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
-          box-shadow: 0px 0 10px -2px white; }
+          box-shadow: 0px 0 10px -2px white;
+          border-radius: 5px; }
   #background-header-index .shop-logos-flex {
     display: flex;
     justify-content: center;
@@ -236,6 +237,8 @@ color-principal {
       border-style: solid;
       border-color: white;
       border-width: 2px; }
+      #background-header-index .shop-logos-flex .shop-div:hover {
+        background-color: rgba(255, 255, 255, 0.247); }
       #background-header-index .shop-logos-flex .shop-div a {
         display: flex;
         align-content: center;
@@ -325,7 +328,7 @@ color-principal {
   #background-header-history #title .linkin-index {
     position: relative;
     top: 5%;
-    left: 1%;
+    left: 0.7%;
     width: 60%; }
   #background-header-history #title img {
     display: none; }
@@ -501,7 +504,8 @@ color-principal {
             margin-right: 25px; } }
         #background-header-history .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
-          box-shadow: 0px 0 10px -2px white; }
+          box-shadow: 0px 0 10px -2px white;
+          border-radius: 5px; }
   #background-header-history .shop-logos-flex {
     display: flex;
     justify-content: center;
@@ -530,6 +534,8 @@ color-principal {
       border-style: solid;
       border-color: white;
       border-width: 2px; }
+      #background-header-history .shop-logos-flex .shop-div:hover {
+        background-color: rgba(255, 255, 255, 0.247); }
       #background-header-history .shop-logos-flex .shop-div a {
         display: flex;
         align-content: center;
@@ -590,7 +596,7 @@ color-principal {
   #background-header-members #title .linkin-index {
     position: relative;
     top: 5%;
-    left: 2%; }
+    left: 1.8%; }
   #background-header-members #title img {
     display: none; }
     @media screen and (max-width: 500px) {
@@ -765,7 +771,8 @@ color-principal {
             margin-right: 25px; } }
         #background-header-members .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
-          box-shadow: 0px 0 10px -2px white; }
+          box-shadow: 0px 0 10px -2px white;
+          border-radius: 5px; }
   #background-header-members .shop-logos-flex {
     display: flex;
     justify-content: center;
@@ -794,6 +801,8 @@ color-principal {
       border-style: solid;
       border-color: white;
       border-width: 2px; }
+      #background-header-members .shop-logos-flex .shop-div:hover {
+        background-color: rgba(255, 255, 255, 0.247); }
       #background-header-members .shop-logos-flex .shop-div a {
         display: flex;
         align-content: center;
@@ -854,7 +863,7 @@ color-principal {
   #background-header-discography #title .linkin-index {
     position: relative;
     top: 5%;
-    left: 2%; }
+    left: 1%; }
   #background-header-discography #title img {
     display: none; }
     @media screen and (max-width: 500px) {
@@ -1047,7 +1056,8 @@ color-principal {
             margin-right: 25px; } }
         #background-header-discography .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
-          box-shadow: 0px 0 10px -2px white; }
+          box-shadow: 0px 0 10px -2px white;
+          border-radius: 5px; }
   #background-header-discography .shop-logos-flex {
     display: flex;
     justify-content: center;
@@ -1076,6 +1086,8 @@ color-principal {
       border-style: solid;
       border-color: white;
       border-width: 2px; }
+      #background-header-discography .shop-logos-flex .shop-div:hover {
+        background-color: rgba(255, 255, 255, 0.247); }
       #background-header-discography .shop-logos-flex .shop-div a {
         display: flex;
         align-content: center;
@@ -1281,7 +1293,8 @@ color-principal {
             margin-right: 25px; } }
         #background-header-videos .nav-principal ul li a:hover {
           -webkit-box-shadow: 0px 0 10px -2px white;
-          box-shadow: 0px 0 10px -2px white; }
+          box-shadow: 0px 0 10px -2px white;
+          border-radius: 5px; }
   #background-header-videos .shop-logos-flex {
     display: flex;
     justify-content: center;
@@ -1310,6 +1323,8 @@ color-principal {
       border-style: solid;
       border-color: white;
       border-width: 2px; }
+      #background-header-videos .shop-logos-flex .shop-div:hover {
+        background-color: rgba(255, 255, 255, 0.247); }
       #background-header-videos .shop-logos-flex .shop-div a {
         display: flex;
         align-content: center;
@@ -1545,7 +1560,9 @@ color-principal {
             padding: 20px;
             margin-right: 25px; } }
         #background-header-shop .nav-principal ul li a:hover {
-          background-color: rgba(0, 0, 0, 0.514); }
+          -webkit-box-shadow: 0px 0 10px -2px white;
+          box-shadow: 0px 0 10px -2px white;
+          border-radius: 5px; }
   #background-header-shop .shop-logos-flex {
     display: flex;
     justify-content: center;
@@ -1574,6 +1591,8 @@ color-principal {
       border-style: solid;
       border-color: white;
       border-width: 2px; }
+      #background-header-shop .shop-logos-flex .shop-div:hover {
+        background-color: rgba(255, 255, 255, 0.247); }
       #background-header-shop .shop-logos-flex .shop-div a {
         display: flex;
         align-content: center;
@@ -1899,7 +1918,7 @@ color-principal {
     max-width: 650px;
     padding: 5% 0 6% 0; }
 
-body {
+.body {
   background-image: url(../Imagenes/fondo-para-responsive.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -2316,7 +2335,7 @@ body {
       #main-members #joe h2 {
         font-size: 25px; } }
 
-body {
+.body {
   background-image: url(../Imagenes/fondo-para-responsive.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -2342,7 +2361,7 @@ body {
 
 #form article form label {
   padding: 5px 0 5px 0;
-  font-size: 19px; }
+  font-size: 18px; }
   #form article form label .size-register {
     width: 100%;
     height: 40px; }
