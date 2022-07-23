@@ -13,6 +13,24 @@
         font-size: $font-text-normal;
         overflow-x: hidden;
 
+        .top{
+
+            text-align: right;
+    
+            a{
+    
+                img{
+    
+                    width: 70px;
+                    padding-bottom: 30px;
+                }
+            }
+
+            @media screen and (max-width:800px){
+                text-align: center;
+            }
+        }
+
         @media screen and (min-width:1500px){
             font-size: $font-text-medium;
             margin: 0 auto;
@@ -24,8 +42,9 @@
         }
 
         p{
-            line-height: 35px;
+            line-height: 30px;
         }
+   
         }
 
         .center{

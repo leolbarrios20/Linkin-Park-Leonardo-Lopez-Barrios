@@ -4,6 +4,24 @@
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 
+    .top{
+
+        text-align: right;
+
+        a{
+
+            img{
+
+                width: 70px;
+                padding-bottom: 30px;
+            }
+        }
+
+        @media screen and (max-width:800px){
+            text-align: center;
+        }
+    }
+
     .albums{
 
         p {
